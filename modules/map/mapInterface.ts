@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 import Player from "../resources/player";
-import { PlayersFetchReturn } from "../resources/types";
+import { PlayersFetchReturn, WorldLocation } from "../resources/types";
 import { Marker, MarkerFile } from "./markerTypes";
 export default class MapInterface {
   public static getPlayers(): Promise<Player[]> {
@@ -20,5 +20,9 @@ export default class MapInterface {
     return fetch("https://map.craftyourtown.com/tiles/earth/markers.json")
       .then((res) => res.json())
       .then((res: MarkerFile) => res);
+  }
+
+  public static generateMapLink(location: WorldLocation, zoom: number): string {
+    return `https://map.craftyourtown.com/#${location.world};${location.x};0;${location.z};${zoom}`;
   }
 }

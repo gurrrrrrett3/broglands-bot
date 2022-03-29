@@ -1,4 +1,5 @@
 import Discord from "discord.js";
+import MapInterface from "../map/mapInterface";
 import Town from "../resources/town";
 
 export default class UpdateEmbed {
@@ -21,7 +22,7 @@ export default class UpdateEmbed {
             .setColor("#00ff00")
             .setTitle("New Town")
             .setDescription(`${town.name} has been founded by ${town.mayor}`)
-            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\``, true)
+            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`, true)
             .setTimestamp();
 
         this.townInfoChannel.send({embeds: [embed]});
@@ -33,7 +34,7 @@ export default class UpdateEmbed {
             .setColor("#ffff00")
             .setTitle(title)
             .setDescription(desc)
-            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\``, true)
+            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`, true)
             .setTimestamp();
 
         this.townInfoChannel.send({embeds: [embed]});
@@ -44,7 +45,7 @@ export default class UpdateEmbed {
             .setColor("#ff0000")
             .setTitle("Town Removed")
             .setDescription(`${town.name} has been removed`)
-            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\``, true)
+            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`, true)
             .setTimestamp();
 
         this.townInfoChannel.send({embeds: [embed]});
