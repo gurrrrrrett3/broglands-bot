@@ -1,0 +1,26 @@
+{
+  "name": "broglands-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurrrrrrett3/broglands-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurrrrrrett3/broglands-bot/issues"
+  },
+  "homepage": "https://github.com/gurrrrrrett3/broglands-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord.js": "^13.6.0",
+    "node-html-parser": "^5.3.3"
+  }
+}
