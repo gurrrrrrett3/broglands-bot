@@ -18,4 +18,8 @@ export default class Util {
   public static getPlayerFile(): Player[] {
     return JSON.parse(fs.readFileSync("./data/players.json", "utf8")) as Player[];
   }
+
+  public static formatPlayer(player: string): string {
+    return player.replace(/\s/g, "_");
+  }
 }
