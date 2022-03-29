@@ -31,3 +31,14 @@ export interface EmbedClass {
     messages: Message[];
     update(): void;
 }
+
+export interface TownDataFile {
+  world: string;
+  nation: string;
+  name: string;
+  mayor: string;
+  pvp: boolean;
+  residents: string[];
+  assistants: any[];
+  coords: Coords;
+}

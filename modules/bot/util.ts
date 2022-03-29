@@ -1,7 +1,8 @@
 import Discord from "discord.js";
 import fs from "fs";
 import Player from "../resources/player";
-import Town from "../resources/town";
+import Town, { TownData } from "../resources/town";
+import { TownDataFile } from "../resources/types";
 export default class Util {
   public static async purgeChannel(channel: Discord.TextChannel, limit: number) {
     const messages = await channel.messages.fetch({ limit: limit });
@@ -10,7 +11,8 @@ export default class Util {
   }
 
   public static getTownFile(): Town[] {
-    return JSON.parse(fs.readFileSync("./data/towns.json", "utf8")) as Town[];
+    const towns = JSON.parse(fs.readFileSync("./data/towns.json", "utf8")) as TownDataFile[];
+    return towns.map((t) => new Town(t.world, t as TownData));
   }
 
   public static getPlayerFile(): Player[] {

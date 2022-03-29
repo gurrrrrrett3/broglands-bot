@@ -64,7 +64,7 @@ const Command = {
 
     switch (subcommand) {
       case "flat":
-        embed.setImage(`https://mc-heads.net/avatar/${name}${helm ?? "/nohelm"}`).setTitle(`${name}'s head`)
+        embed.setImage(`https://mc-heads.net/avatar/${name}${helm ? "" : "/nohelm"}`).setTitle(`${name}'s head`)
         break;
       case "3d":
         embed.setImage(`https://mc-heads.net/head/${name}/${facing}`).setTitle(`${name}'s head`)

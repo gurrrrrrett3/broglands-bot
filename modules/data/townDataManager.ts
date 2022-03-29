@@ -209,26 +209,28 @@ export default class TownDataManager {
 
     this.towns.forEach((t) => {
       const oldTown = this.oldTowns.find((oldT) => oldT.name === t.name);
+      const townOut: {
+        town: Town;
+        added: string[];
+        removed: string[];
+        } = {
+        town: t,
+        added: [],
+        removed: [],
+        };
       if (oldTown) {
         t.residents.forEach((r) => {
           if (!oldTown.residents.find((oldR) => oldR === r)) {
-            out.push({
-              town: t,
-              added: [r],
-              removed: [],
-            });
+            townOut.added.push(r);
           }
         });
         oldTown.residents.forEach((r) => {
           if (!t.residents.find((oldR) => oldR === r)) {
-            out.push({
-              town: t,
-              added: [],
-              removed: [r],
-            });
+            townOut.removed.push(r);
           }
         });
       }
+        out.push(townOut);
     });
 
     return out;

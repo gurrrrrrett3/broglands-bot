@@ -6,6 +6,7 @@ import { isIconMarker, Marker, MarkerFile } from "./markerTypes";
 export default class MarkerParser {
   public static parse(data: Marker, world: string): Town | null {
     if (!isIconMarker(data)) return null;
+    if (data.icon != "towny_town_icon") return null;
 
     let townData: TownData = {
       name: "",
