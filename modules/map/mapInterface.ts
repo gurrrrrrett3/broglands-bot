@@ -1,5 +1,6 @@
 import fetch from "node-fetch";
 import Player from "../resources/player";
+import fs from "fs";
 import { PlayersFetchReturn, WorldLocation } from "../resources/types";
 import { Marker, MarkerFile } from "./markerTypes";
 export default class MapInterface {
@@ -7,7 +8,9 @@ export default class MapInterface {
     return fetch("https://map.craftyourtown.com/tiles/players.json")
       .then((res) => res.json())
       .then((res: PlayersFetchReturn) => {
-        return res.players.map(p => new Player(p));
+        const playerList = res.players.map(p => new Player(p));
+        fs.writeFileSync("./data/players.json", JSON.stringify(playerList, null, 4));
+        return playerList;
       });
   }
   public static async getWorldMarkers(): Promise<MarkerFile> {

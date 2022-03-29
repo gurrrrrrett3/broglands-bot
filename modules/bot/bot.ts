@@ -45,7 +45,7 @@ export default class Bot {
 
       if (message.author.bot) return;
 
-      if (message.content.toLowerCase().includes("broglands") {
+      if (message.content.toLowerCase().includes("broglands")) {
         message.reply("Broglands")
       }
 
