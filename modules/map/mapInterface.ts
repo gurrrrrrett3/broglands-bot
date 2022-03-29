@@ -26,6 +26,6 @@ export default class MapInterface {
   }
 
   public static generateMapLink(location: WorldLocation, zoom: number): string {
-    return `https://map.craftyourtown.com/#${location.world};${location.x};0;${location.z};${zoom}`;
+    return `https://map.craftyourtown.com/#${location.world};flat;${location.x},0,${location.z};${zoom}`;
   }
 }

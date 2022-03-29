@@ -1,6 +1,7 @@
 import { SlashCommandBuilder, SlashCommandStringOption } from "@discordjs/builders";
 import Discord from "discord.js";
 import GetPlayerInfo from "../data/getPlayerInfo";
+import MapInterface from "../map/mapInterface";
 
 const Command = {
   data: new SlashCommandBuilder()
@@ -22,6 +23,11 @@ const Command = {
     
     if (data.mayor) embed.addField("Roles", `Mayor of ${data.town}`, true)
     if (data.assistant) embed.addField("Roles", `Assistant for ${data.town}`, true)
+    if (data.online) {
+        embed.setURL(MapInterface.generateMapLink(data.online, 5))
+        embed.setFooter({text: "You can click the title of this embed to open the map"})
+    }
+
     
     interaction.reply({embeds: [embed]})
   },

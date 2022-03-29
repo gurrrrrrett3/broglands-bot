@@ -19,6 +19,8 @@ const Command = {
         .setTitle(`${user.tag}'s avatar`)
         .setColor("#0099ff")
         .setImage(user.displayAvatarURL({ format: "png", size: 1024 }))
+
+    interaction.reply({ embeds: [embed] });
   },
 };
 module.exports = Command;

@@ -324,7 +324,6 @@
             "T0x1cBeing",
             "BoBBB1237",
             "boomoose",
-            "galaxyki",
             "The_Teller",
             "InSightGamz",
             "Gold_Socks64",
@@ -617,13 +616,11 @@
             "TheRealAkiNeko",
             "Leaskid",
             "Ginkeo",
-            "Thiccboii69420",
             "Meekom12",
             "Ajhavok",
             "datenwal",
             "KAIZEK",
-            "BR__SuctionPlain",
-            "NickMC_16"
+            "BR__SuctionPlain"
         ],
         "assistants": [
             "None"
@@ -816,8 +813,7 @@
         "mayor": "BreezeMinecraft",
         "pvp": false,
         "residents": [
-            "BreezeMinecraft",
-            "Itsissie18"
+            "BreezeMinecraft"
         ],
         "assistants": [
             "None"
@@ -1561,7 +1557,6 @@
             "BillyBroPlayz",
             "BIJJDOE",
             "soulbeann",
-            "HilaryGoz",
             "King_Elderado",
             "gamerxellie",
             "TrevGeb",
@@ -2186,22 +2181,6 @@
     },
     {
         "world": "world",
-        "name": "Harpocratess_house",
-        "mayor": "GAm3rz3r0",
-        "pvp": false,
-        "residents": [
-            "GAm3rz3r0"
-        ],
-        "assistants": [
-            "None"
-        ],
-        "coords": {
-            "z": -1032,
-            "x": -6376
-        }
-    },
-    {
-        "world": "world",
         "name": "TacoBahia",
         "nation": "Hot_Boy_Nation",
         "mayor": "TacoMamaFae",
@@ -2645,8 +2624,7 @@
         "mayor": "RedAnger",
         "pvp": false,
         "residents": [
-            "RedAnger",
-            "WesternWinds"
+            "RedAnger"
         ],
         "assistants": [
             "None"
@@ -2714,7 +2692,6 @@
             "GarMaxz",
             "CamTheMan4714",
             "maddiem18",
-            "goth__",
             "Cuddles38321",
             "Sweettay105",
             "GhostCodey",
@@ -2741,18 +2718,13 @@
             "YukiBuhb",
             "Ace_Lockheart",
             "BedLessGamer",
-            "PinkAmiCorn",
             "slayed__",
-            "spideyfan",
             "weezing_away",
-            "jorja222",
             "akolh",
             "gamerrf",
-            "Wemmcu",
             "BrownieMan200",
             "Butterflyeyes",
             "masterpete",
-            "Fr3ddyFazBalls",
             "JamesFRFX_TTV",
             "Wiesenschnitzel",
             "gumball1308",
@@ -3417,22 +3389,6 @@
         "coords": {
             "z": -3096,
             "x": -7448
-        }
-    },
-    {
-        "world": "world",
-        "name": "Weeb_Hunters",
-        "mayor": "FREAKYWAFFLES",
-        "pvp": false,
-        "residents": [
-            "FREAKYWAFFLES"
-        ],
-        "assistants": [
-            "None"
-        ],
-        "coords": {
-            "z": 9768,
-            "x": 5176
         }
     },
     {
@@ -5162,7 +5118,6 @@
             "BillyBroPlayz",
             "BIJJDOE",
             "soulbeann",
-            "HilaryGoz",
             "King_Elderado",
             "gamerxellie",
             "TrevGeb",
@@ -5248,7 +5203,6 @@
             "GarMaxz",
             "CamTheMan4714",
             "maddiem18",
-            "goth__",
             "Cuddles38321",
             "Sweettay105",
             "GhostCodey",
@@ -5275,18 +5229,13 @@
             "YukiBuhb",
             "Ace_Lockheart",
             "BedLessGamer",
-            "PinkAmiCorn",
             "slayed__",
-            "spideyfan",
             "weezing_away",
-            "jorja222",
             "akolh",
             "gamerrf",
-            "Wemmcu",
             "BrownieMan200",
             "Butterflyeyes",
             "masterpete",
-            "Fr3ddyFazBalls",
             "JamesFRFX_TTV",
             "Wiesenschnitzel",
             "gumball1308",
@@ -5814,7 +5763,6 @@
             "Music_Reed",
             "BR__Shonengump",
             "GayCalico",
-            "Bloubo",
             "GayFroggs"
         ],
         "assistants": [
@@ -5886,8 +5834,7 @@
         "mayor": "RedAnger",
         "pvp": false,
         "residents": [
-            "RedAnger",
-            "WesternWinds"
+            "RedAnger"
         ],
         "assistants": [
             "None"
@@ -6274,7 +6221,6 @@
             "Music_Reed",
             "BR__Shonengump",
             "GayCalico",
-            "Bloubo",
             "GayFroggs"
         ],
         "assistants": [
@@ -6512,23 +6458,6 @@
     },
     {
         "world": "world",
-        "name": "Slimes",
-        "mayor": "MiladNL",
-        "pvp": false,
-        "residents": [
-            "MiladNL",
-            "genfall"
-        ],
-        "assistants": [
-            "None"
-        ],
-        "coords": {
-            "z": 1496,
-            "x": 8040
-        }
-    },
-    {
-        "world": "world",
         "name": "Hot_Boy_Nation",
         "nation": "Hot_Boy_Nation",
         "mayor": "pandacat666",
@@ -6677,22 +6606,6 @@
         "coords": {
             "z": -7304,
             "x": -6056
-        }
-    },
-    {
-        "world": "world",
-        "name": "Skylandis",
-        "mayor": "KuronoKira",
-        "pvp": false,
-        "residents": [
-            "KuronoKira"
-        ],
-        "assistants": [
-            "None"
-        ],
-        "coords": {
-            "z": -13224,
-            "x": -6904
         }
     },
     {
@@ -8204,7 +8117,6 @@
             "T0x1cBeing",
             "BoBBB1237",
             "boomoose",
-            "galaxyki",
             "The_Teller",
             "InSightGamz",
             "Gold_Socks64",
@@ -8724,8 +8636,7 @@
         "mayor": "BoyBean2",
         "pvp": false,
         "residents": [
-            "BoyBean2",
-            "TheWizardFizzy"
+            "BoyBean2"
         ],
         "assistants": [
             "None"
@@ -8796,7 +8707,6 @@
             "T0x1cBeing",
             "BoBBB1237",
             "boomoose",
-            "galaxyki",
             "The_Teller",
             "InSightGamz",
             "Gold_Socks64",
@@ -9489,23 +9399,6 @@
         "coords": {
             "z": 8,
             "x": -6168
-        }
-    },
-    {
-        "world": "earth",
-        "name": "CKC",
-        "mayor": "Palthor",
-        "pvp": false,
-        "residents": [
-            "Palthor",
-            "Breathoffire64"
-        ],
-        "assistants": [
-            "None"
-        ],
-        "coords": {
-            "z": 1304,
-            "x": -4568
         }
     },
     {

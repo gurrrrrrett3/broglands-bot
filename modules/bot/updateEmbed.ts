@@ -45,7 +45,7 @@ export default class UpdateEmbed {
             .setColor("#ff0000")
             .setTitle("Town Removed")
             .setDescription(`${town.name} has been removed`)
-            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`, true)
+            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\``, true)
             .setTimestamp();
 
         this.townInfoChannel.send({embeds: [embed]});
