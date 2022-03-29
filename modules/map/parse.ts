@@ -41,7 +41,7 @@ export default class MarkerParser {
       .split(",")
       .map((r) => r.trim());
 
-    if (townData.assistants == ["None"]) {
+    if (townData.assistants[0] == "None") {
       townData.assistants = [];
     }
 
