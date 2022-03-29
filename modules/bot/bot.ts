@@ -40,5 +40,15 @@ export default class Bot {
         }
       );
     });
+
+    this.Client.on("messageCreate", (message) => {
+
+      if (message.author.bot) return;
+
+      if (message.content.toLowerCase().includes("broglands") {
+        message.reply("Broglands")
+      }
+
+    })
   }
 }
