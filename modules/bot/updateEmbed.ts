@@ -1,19 +1,23 @@
 import Discord from "discord.js";
 import MapInterface from "../map/mapInterface";
+import Player from "../resources/player";
 import Town from "../resources/town";
 
 export default class UpdateEmbed {
 
     public static readonly townInfoChannelId = "953652115094519898";
     public static readonly nationInfoChannelId = "958108424913174528";
+    public static readonly joinLeaveChannelId = "958761308453474304";
 
     public townInfoChannel: Discord.TextChannel;
     public nationInfoChannel: Discord.TextChannel;
+    public joinLeaveChannel: Discord.TextChannel;
 
     constructor (public client: Discord.Client) {
 
         this.townInfoChannel = this.client.channels.cache.get(UpdateEmbed.townInfoChannelId) as Discord.TextChannel;
         this.nationInfoChannel = this.client.channels.cache.get(UpdateEmbed.nationInfoChannelId) as Discord.TextChannel;
+        this.joinLeaveChannel = this.client.channels.cache.get(UpdateEmbed.joinLeaveChannelId) as Discord.TextChannel;
 
     }
 
@@ -49,6 +53,30 @@ export default class UpdateEmbed {
             .setTimestamp();
 
         this.townInfoChannel.send({embeds: [embed]});
+    }
+
+    public playerJoin(player: Player): void {
+        const embed = new Discord.MessageEmbed()
+            .setColor("#00ff00")
+            .setTitle("Player Joined")
+            .setDescription(`${player.name} has joined the server`)
+            .setThumbnail(`https://mc-heads.net/head/${player.name}`)
+            .addField("Location", `x: \`${player.x}\`\nz: \`${player.z}\`\nWorld: \`${player.world}\`\n[View on map](${MapInterface.generateMapLink(player.getLocation(), 3)})`, true)
+            .setTimestamp();
+
+        this.joinLeaveChannel.send({embeds: [embed]});
+    }
+
+    public playerLeave(player: Player): void {
+        const embed = new Discord.MessageEmbed()
+            .setColor("#ff0000")
+            .setTitle("Player Left")
+            .setDescription(`${player.name} has left the server`)
+            .setThumbnail(`https://mc-heads.net/head/${player.name}`)
+            .addField("Location", `x: \`${player.x}\`\nz: \`${player.z}\`\nWorld: \`${player.world}\`\n[View on map](${MapInterface.generateMapLink(player.getLocation(), 3)})`, true)
+            .setTimestamp();
+
+        this.joinLeaveChannel.send({embeds: [embed]});
     }
 
 }

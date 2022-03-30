@@ -1,6 +1,6 @@
 import Discord from "discord.js";
 import fs from "fs";
-import Player from "../resources/player";
+import Player, { PlayerOptions } from "../resources/player";
 import Town, { TownData } from "../resources/town";
 import { TownDataFile } from "../resources/types";
 export default class Util {
@@ -16,7 +16,8 @@ export default class Util {
   }
 
   public static getPlayerFile(): Player[] {
-    return JSON.parse(fs.readFileSync("./data/players.json", "utf8")) as Player[];
+    const players = JSON.parse(fs.readFileSync("./data/players.json", "utf8")) as PlayerOptions[];
+    return players.map((p) => new Player(p));
   }
 
   public static formatPlayer(player: string): string {

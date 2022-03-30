@@ -6,6 +6,8 @@ import EmbedManager from "./embedManager";
 import KickManager from "./kickmanager";
 import LinkManager from "./linkManager";
 import UpdateEmbed from "./updateEmbed";
+import playerUpdate from "../map/playerUpdate";
+import Util from "./util";
 
 let channels = new Map<string, Dicord.TextChannel>();
 export default class Bot {
@@ -19,9 +21,11 @@ export default class Bot {
   //@ts-ignore
   public updateEmbedManager: UpdateEmbed;
   public linkManager: LinkManager;
+  public playerUpdate: playerUpdate;
 
   public updateInterval = setInterval(() => {
     this.embedManager.updateEmbeds();
+    this.playerUpdate.update(Util.getPlayerFile());
   }, 3000);
 
   constructor(client: Dicord.Client) {
@@ -31,6 +35,7 @@ export default class Bot {
     this.embedManager = new EmbedManager(client);
     this.mapUpdate = new MapUpdate();
     this.linkManager = new LinkManager(client);
+    this.playerUpdate = new playerUpdate();
 
     this.Client.on("ready", () => {
       console.log(`Logged in as ${this.Client.user?.tag}`);

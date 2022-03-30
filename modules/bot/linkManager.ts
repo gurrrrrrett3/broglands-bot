@@ -63,8 +63,12 @@ export default class LinkManager {
     clearTimeout(link.expire)
     this.codes = this.codes.filter((code) => code.id !== link.id)
     const member = interaction.guild?.members.cache.get(link.id)
-    member?.setNickname(ign)
-    member?.roles.add(interaction.guild?.roles.cache.find((r) => r.name === "Linked")!)
+    member?.setNickname(ign).catch(() => {
+        interaction.reply(`Failed to set nickname for ${ign}`)
+    })
+    member?.roles.add(interaction.guild?.roles.cache.find((r) => r.name === "Linked")!).catch(() => {
+        interaction.reply(`Failed to add role for ${ign}`)
+    })
   }
 
   private getCheck(ign: string, block: Block, interaction: CommandInteraction): NodeJS.Timer {
