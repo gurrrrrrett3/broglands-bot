@@ -3,7 +3,7 @@ import Bot from "./modules/bot/bot";
 import auth from "./auth.json";
 
 const Client = new Discord.Client({
-    intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES"]
+    intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILD_VOICE_STATES"]
 });
 
 export const bot = new Bot(Client);

@@ -6,6 +6,8 @@ import EmbedManager from "./embedManager";
 import KickManager from "./kickmanager";
 import LinkManager from "./linkManager";
 import UpdateEmbed from "./updateEmbed";
+
+let channels = new Map<string, Dicord.TextChannel>();
 export default class Bot {
   public Client: Dicord.Client;
   public CommandHandler: CommandHandler;
@@ -20,7 +22,7 @@ export default class Bot {
 
   public updateInterval = setInterval(() => {
     this.embedManager.updateEmbeds();
-  }, 10000);
+  }, 2000);
 
   constructor(client: Dicord.Client) {
     this.Client = client;
@@ -42,16 +44,59 @@ export default class Bot {
           this.townDataManager = new TownDataManager();
         }
       );
+
+      //Register Channels
+      Promise.all([
+        channels.set("voiceLog", this.Client.channels.cache.get("958551703966339092") as Dicord.TextChannel),
+        channels.set("welcome", this.Client.channels.cache.get("953651821673582662") as Dicord.TextChannel),
+      ]).then(() => {
+        console.log("Channels Registered");
+      });
     });
 
     this.Client.on("messageCreate", (message) => {
-
       if (message.author.bot) return;
 
       if (message.content.toLowerCase().includes("broglands")) {
-        message.reply("Broglands")
+        message.reply("Broglands");
       }
+    });
 
-    })
+    this.Client.on("voiceStateUpdate", (os, ns) => {
+      if (!os.member || !ns.member) {
+        console.log("No member");
+        return;
+      }
+      if (ns.channel && !os.channel) {
+        const channel = channels.get("voiceLog");
+        if (channel) {
+          channel.send(`${ns.member.displayName} has joined ${ns.channel.name}`);
+        }
+      } else if (os.channel && !ns.channel) {
+        const channel = channels.get("voiceLog");
+        if (channel) {
+          channel.send(`${os.member.displayName} has left ${os.channel.name}`);
+        }
+      } else if (os.channel && ns.channel) {
+        const channel = channels.get("voiceLog");
+        if (channel) {
+          channel.send(`${os.member.displayName} has moved from ${os.channel.name} to ${ns.channel.name}`);
+        }
+      }
+    });
+
+    this.Client.on("guildMemberAdd", (member) => {
+      if (this.kickmanager.kicklist.includes(member.id)) return;
+      const embed = new Dicord.MessageEmbed()
+        .setColor("#00ff00")
+        .setTitle("Welcome to the server!")
+        .setDescription(
+          `Welcome to the server, ${member.displayName}!\n\nIf you have any questions, feel free to ask!`
+        )
+        .setThumbnail(member.user.displayAvatarURL({ dynamic: true }))
+
+      const channel = channels.get("welcome");
+      channel?.send({ embeds: [embed] });
+    });
   }
 }

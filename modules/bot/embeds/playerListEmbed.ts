@@ -1,5 +1,6 @@
 import Discord = require("discord.js");
 import { bot } from "../../..";
+import ParkourAdvancedPresence from "../../map/advancedPresence/parkour";
 import MapInterface from "../../map/mapInterface";
 import { EmbedClass } from "../../resources/types";
 import Util from "../util";
@@ -16,7 +17,7 @@ export default class PlayerListEmbed implements EmbedClass {
   public update(): void {
     MapInterface.getPlayers().then((players) => {
       const playerList = players.map(
-        (p) => `**${p.world.replace(/_/, "\\_")}** ${p.name.replace(/_/, "\\_")} ${p.isAfk() ? "[AFK]" : ""}`
+        (p) => `**${p.world.replace(/_/, "\\_")}** ${p.name.replace(/_/, "\\_")} ${p.isAfk() ? "[AFK]" : ParkourAdvancedPresence(p.getLocation())}`
       );
       const embed = new Discord.MessageEmbed()
         .setTitle("Players")

@@ -22,4 +22,10 @@ export default class Util {
   public static formatPlayer(player: string): string {
     return player.replace(/\s/g, "_");
   }
+
+  public static bound(value: number, min: number, max: number) {
+    return Math.min(Math.max(value, min), max);
+  }
+
+  
 }
