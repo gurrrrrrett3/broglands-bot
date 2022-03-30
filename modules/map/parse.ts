@@ -1,6 +1,6 @@
 import { parse } from "node-html-parser";
 import Town, { TownData } from "../resources/town";
-import { Coords } from "../resources/types";
+import { Coords, PolygonMarker } from "../resources/types";
 import { isIconMarker, Marker, MarkerFile } from "./markerTypes";
 
 export default class MarkerParser {
@@ -47,6 +47,11 @@ export default class MarkerParser {
     }
 
     return new Town(world, townData);
+  }
+
+  public static parsePolygonTownName(data: PolygonMarker) {
+    const popupData = parse(data.popup).rawText.split("\n");
+    return popupData[2].trim().replace(/ \(.+\)/g, "");
   }
 
   public static parseMarkerFile(world: string, data: MarkerFile): Town[] {

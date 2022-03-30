@@ -1,4 +1,5 @@
 import { Message, TextChannel } from "discord.js";
+import { Point } from "../map/markerTypes";
 import Player from "./player";
 
 export interface Coords {
@@ -41,4 +42,13 @@ export interface TownDataFile {
   residents: string[];
   assistants: any[];
   coords: Coords;
+}
+
+export interface PolygonMarker {
+  fillColor: string;
+  popup: string;
+  color: string;
+  tooltip: string;
+  type: "polygon";
+  points: Point[][][];
 }

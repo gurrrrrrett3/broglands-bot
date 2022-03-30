@@ -102,6 +102,8 @@ export default class Bot {
 
       const channel = channels.get("welcome");
       channel?.send({ embeds: [embed] });
+
+      member.roles.add(member.guild.roles.cache.find((r) => r.name === "Nation Member")!);
     });
   }
 }

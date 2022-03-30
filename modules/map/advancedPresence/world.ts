@@ -45,6 +45,11 @@ const groups: Group[] = [
         corner2: { x: 52, z: 24 },
     },
     {
+        name: "Looking at the community chest",
+        corner1: { x: 52, z: 5 },
+        corner2: { x: 52, z: 10 },
+    },
+    {
         name: "In Spawn",
           corner1: { x: -52, z: 77 },
           corner2: { x: 98, z: -73 },
