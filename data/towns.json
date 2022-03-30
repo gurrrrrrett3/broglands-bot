@@ -1620,6 +1620,21 @@
     },
     {
         "world": "world",
+        "name": "HardStuck",
+        "mayor": "NadaJoshua",
+        "pvp": false,
+        "residents": [
+            "NadaJoshua",
+            "precheater"
+        ],
+        "assistants": [],
+        "coords": {
+            "z": 6488,
+            "x": 3368
+        }
+    },
+    {
+        "world": "world",
         "name": "Askamedius_Prime",
         "mayor": "Thorzcun",
         "pvp": false,
@@ -5172,7 +5187,8 @@
             "Ashley_01",
             "omgarisgozirra",
             "ImPhoenixx",
-            "Kirsuberid"
+            "Kirsuberid",
+            "CelloMetalMTG33"
         ],
         "assistants": [
             "TheTwistedKitty",

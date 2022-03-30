@@ -21,8 +21,9 @@ const Command = {
         .addField("Town", data.town, true)
         .addField("Online", online, true)
     
-    if (data.mayor) embed.addField("Roles", `Mayor of ${data.town}`, true)
-    if (data.assistant) embed.addField("Roles", `Assistant for ${data.town}`, true)
+    if (data.mayor) embed.addField("Role", `Mayor`, true)
+    if (data.assistant) embed.addField("Role", `Assistant`, true)
+    if (!data.mayor && !data.assistant) embed.addField("Role", `Resident`, true)
     if (data.online) {
         embed.setURL(MapInterface.generateMapLink(data.online, 5))
         embed.setFooter({text: "You can click the title of this embed to open the map"})

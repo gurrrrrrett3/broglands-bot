@@ -4,6 +4,7 @@ import MapUpdate from "../map/mapUpdate";
 import CommandHandler from "./commandHandler";
 import EmbedManager from "./embedManager";
 import KickManager from "./kickmanager";
+import LinkManager from "./linkManager";
 import UpdateEmbed from "./updateEmbed";
 export default class Bot {
   public Client: Dicord.Client;
@@ -15,6 +16,7 @@ export default class Bot {
   public townDataManager: TownDataManager;
   //@ts-ignore
   public updateEmbedManager: UpdateEmbed;
+  public linkManager: LinkManager;
 
   public updateInterval = setInterval(() => {
     this.embedManager.updateEmbeds();
@@ -26,6 +28,7 @@ export default class Bot {
     this.kickmanager = new KickManager(client);
     this.embedManager = new EmbedManager(client);
     this.mapUpdate = new MapUpdate();
+    this.linkManager = new LinkManager(client);
 
     this.Client.on("ready", () => {
       console.log(`Logged in as ${this.Client.user?.tag}`);
