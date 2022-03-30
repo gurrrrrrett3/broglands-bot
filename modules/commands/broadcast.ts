@@ -10,19 +10,26 @@ const Command = {
         .setName("message")
         .setDescription("The message to broadcast")
         .setRequired(true)
+    )
+    .addStringOption(
+      new SlashCommandStringOption()
+        .setName("title")
+        .setDescription("The title of the embed")
+        .setRequired(false)
     ),
 
   async execute(interaction: Discord.CommandInteraction, ...args: any[]) {
     if (!interaction.memberPermissions?.has("ADMINISTRATOR")) return;
 
     const message = interaction.options.getString("message", true);
+    const title = interaction.options.getString("title", false) ?? "Announcement";
     const channel = interaction.guild?.channels.cache.find(
       (c) => c.name === "nation-announcements"
     ) as Discord.TextChannel;
     if (channel.type != "GUILD_TEXT") return;
 
     const embed = new Discord.MessageEmbed()
-      .setTitle("Announcement")
+      .setTitle(title)
       .setColor("#0099ff")
       .setDescription(message);
 

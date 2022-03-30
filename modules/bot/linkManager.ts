@@ -29,7 +29,7 @@ export default class LinkManager {
       id,
       ign,
       block,
-      check: this.getCheck(ign, block),
+      check: this.getCheck(ign, block, interaction),
       expire: this.getExpire(id),
     });
 
@@ -41,7 +41,7 @@ export default class LinkManager {
     interaction.reply({embeds: [embed]})
   }
 
-  private triggerLink(ign: string) {
+  private triggerLink(ign: string, interaction: CommandInteraction) {
 
    const link = this.codes.find((code) => code.ign === ign)
     if (!link) return
@@ -62,10 +62,12 @@ export default class LinkManager {
     clearInterval(link.check)
     clearTimeout(link.expire)
     this.codes = this.codes.filter((code) => code.id !== link.id)
-
+    const member = interaction.guild?.members.cache.get(link.id)
+    member?.setNickname(ign)
+    member?.roles.add(interaction.guild?.roles.cache.find((r) => r.name === "Linked")!)
   }
 
-  private getCheck(ign: string, block: Block): NodeJS.Timer {
+  private getCheck(ign: string, block: Block, interaction: CommandInteraction): NodeJS.Timer {
     //checks every 5 seconds
     return setInterval(async () => {
       MapInterface.getPlayers().then((players) => {
@@ -73,7 +75,7 @@ export default class LinkManager {
         if (player) {
           const coords = player.getLocation();
           if (coords.x === block.x && coords.z === block.z) {
-            this.triggerLink(ign);
+            this.triggerLink(ign, interaction);
           }
         }
       });

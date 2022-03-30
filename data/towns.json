@@ -965,7 +965,10 @@
             "MysticalFelineOG",
             "SenzySez",
             "Bulletz4Life",
-            "PeacDragons"
+            "PeacDragons",
+            "SennaM",
+            "ByllaBoo4442",
+            "Cknkbab"
         ],
         "assistants": [
             "SuoxenZ"
@@ -1028,7 +1031,9 @@
             "morriemoor21",
             "Mason0221"
         ],
-        "assistants": [],
+        "assistants": [
+            "Mason0221"
+        ],
         "coords": {
             "z": -6408,
             "x": 8360
@@ -4544,7 +4549,8 @@
         "residents": [
             "Xiuhcoutl",
             "Keviyto",
-            "Yasett"
+            "Yasett",
+            "HiATiS"
         ],
         "assistants": [],
         "coords": {
@@ -4586,7 +4592,8 @@
             "LUCHASAZ",
             "beanmanthegr8",
             "LocklandLLama",
-            "noah_flrscclnt"
+            "noah_flrscclnt",
+            "BLTRover"
         ],
         "assistants": [
             "luukvanloo"
@@ -5093,7 +5100,8 @@
             "Pookstir",
             "axilleas252",
             "iAedz",
-            "GryffindorBean"
+            "GryffindorBean",
+            "No_Refills"
         ],
         "assistants": [
             "Rekiso102"
@@ -5300,7 +5308,8 @@
         "pvp": false,
         "residents": [
             "oRevert51",
-            "Pinkwaffles01"
+            "Pinkwaffles01",
+            "Lachrox"
         ],
         "assistants": [
             "Pinkwaffles01"
@@ -5724,8 +5733,7 @@
     },
     {
         "world": "earth",
-        "name": "Broglandia",
-        "nation": "Hot_Boy_Nation",
+        "name": "Sailoria",
         "mayor": "Siilinki",
         "pvp": false,
         "residents": [

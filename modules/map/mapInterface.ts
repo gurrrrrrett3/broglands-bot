@@ -14,16 +14,24 @@ export default class MapInterface {
       });
   }
   public static async getWorldMarkers(): Promise<MarkerFile> {
-    return fetch("https://map.craftyourtown.com/tiles/world/markers.json")
+    return new Promise((resolve, reject) => { 
+    fetch("https://map.craftyourtown.com/tiles/world/markers.json")
       .then((res) => res.json())
-      .then((res: MarkerFile) => res);
+      .then((res: MarkerFile) => resolve(res))
+      .catch((err) => reject(err));
+    });
   }
 
   public static async getEarthMarkers(): Promise<MarkerFile> {
-    return fetch("https://map.craftyourtown.com/tiles/earth/markers.json")
+    return new Promise((resolve, reject) => {
+    fetch("https://map.craftyourtown.com/tiles/earth/markers.json")
       .then((res) => res.json())
-      .then((res: MarkerFile) => res);
-  }
+      .then((res: MarkerFile) => resolve(res)).
+      catch((err) => {
+        reject(err);
+      })
+  })
+}
 
   public static generateMapLink(location: WorldLocation, zoom: number): string {
     return `https://map.craftyourtown.com/#${location.world};flat;${location.x},0,${location.z};${zoom}`;

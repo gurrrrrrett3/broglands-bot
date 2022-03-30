@@ -22,7 +22,7 @@ export default class Bot {
 
   public updateInterval = setInterval(() => {
     this.embedManager.updateEmbeds();
-  }, 2000);
+  }, 3000);
 
   constructor(client: Dicord.Client) {
     this.Client = client;
