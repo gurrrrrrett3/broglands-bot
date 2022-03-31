@@ -6,7 +6,7 @@ import { isIconMarker, Marker, MarkerFile } from "./markerTypes";
 export default class MarkerParser {
   public static parse(data: Marker, world: string): Town | null {
     if (!isIconMarker(data)) return null;
-    if (data.icon != "towny_town_icon") return null;
+    if (data.icon == "towny_outpost_icon") return null;
 
     let townData: TownData = {
       name: "",
@@ -15,11 +15,15 @@ export default class MarkerParser {
       pvp: false,
       residents: [],
       assistants: [],
+      capital: false,
+      outpost: false,
       coords: {
         x: 0,
         z: 0,
       },
     };
+
+    townData.capital = data.icon == "towny_capital_icon";
 
     townData.coords = data.point as Coords;
 

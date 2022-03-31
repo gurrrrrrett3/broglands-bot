@@ -39,6 +39,8 @@ export interface TownDataFile {
   name: string;
   mayor: string;
   pvp: boolean;
+  capital: boolean;
+  outpost: boolean;
   residents: string[];
   assistants: any[];
   coords: Coords;

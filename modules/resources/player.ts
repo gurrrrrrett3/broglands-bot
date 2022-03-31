@@ -1,3 +1,4 @@
+import Util from "../bot/util";
 import { Coords, WorldLocation } from "./types";
 
 export interface PlayerOptions {
@@ -52,5 +53,9 @@ export default class Player {
       (this.x == 0 && this.z == 0 && this.world == "world") ||
       (this.x == 25 && this.z == 42 && this.world == "world")
     );
+  }
+
+  public getName(): string {
+    return Util.formatPlayer(this.name)
   }
 }

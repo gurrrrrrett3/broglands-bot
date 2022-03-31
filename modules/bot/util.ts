@@ -78,4 +78,20 @@ export default class Util {
     }
     return "none";
   }
+
+  public static getWorldLevel(world: string) {
+    const worlds = [
+      "world",
+      "earth",
+      "parkour",
+      "extras",
+      "hotel",
+      "world_nether",
+      "world_the_end",
+      "resource",
+      "nether_resource",
+    ]
+
+    return worlds.indexOf(world);
+  }
 }

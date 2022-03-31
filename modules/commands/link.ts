@@ -20,9 +20,10 @@ const Command = {
     if (links.find((l) => l.id === interaction.user.id)) {
       interaction.reply("You are already linked to a minecraft account. Use /unlink to unlink your account.");
       return;
+    } else {
+    bot.linkManager.newLink(interaction, username);
     }
 
-    bot.linkManager.newLink(interaction, username);
   },
 };
 module.exports = Command;

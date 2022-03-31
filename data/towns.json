@@ -22,6 +22,8 @@
         "assistants": [
             "Lizzie777"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4184,
             "x": 9784
@@ -45,6 +47,8 @@
             "BR__AirJames_225",
             "Skelcy123"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8808,
             "x": 1880
@@ -61,6 +65,8 @@
             "EdgeySmurf"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2328,
             "x": 1592
@@ -78,6 +84,8 @@
             "jimmieboy999"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9992,
             "x": -4088
@@ -93,6 +101,8 @@
             "ThePiggyPerson"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -12376,
             "x": 1288
@@ -108,6 +118,8 @@
             "Magicthecatlmy"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1704,
             "x": -5416
@@ -123,6 +135,8 @@
             "uberharm"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5304,
             "x": -5480
@@ -138,6 +152,8 @@
             "garmanana"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6536,
             "x": 7000
@@ -153,6 +169,8 @@
             "lilyinthevalley7"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8536,
             "x": 8904
@@ -168,6 +186,8 @@
             "ParalyzedToddler"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6152,
             "x": -2920
@@ -186,6 +206,8 @@
             "tackyvanilla"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 11000,
             "x": -6088
@@ -200,6 +222,8 @@
             "PaladinSupremecy"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -14968,
             "x": 14984
@@ -215,6 +239,8 @@
             "MoonJellyNoka"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -13752,
             "x": -2216
@@ -235,6 +261,8 @@
             "BR__Feerrugem"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8472,
             "x": 7688
@@ -249,6 +277,8 @@
             "Evil5Lem0n"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 7704,
             "x": -5320
@@ -264,6 +294,8 @@
             "Buggart"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9992,
             "x": -9304
@@ -278,6 +310,8 @@
             "Thijs226"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9880,
             "x": 2408
@@ -308,6 +342,8 @@
             "BonnieTheBunnyy"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4920,
             "x": 4952
@@ -323,6 +359,8 @@
             "RevengeHer0"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 12376,
             "x": -504
@@ -338,6 +376,8 @@
             "RubyDragon2"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 11336,
             "x": -12680
@@ -352,6 +392,8 @@
             "Maintizer"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7976,
             "x": -4744
@@ -368,6 +410,8 @@
             "Strollin"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1016,
             "x": 9016
@@ -382,6 +426,8 @@
             "Brnull_"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 10760,
             "x": -3848
@@ -408,6 +454,8 @@
             "sotos199"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -840,
             "x": -2296
@@ -424,6 +472,8 @@
             "ChadTheCountry"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2232,
             "x": 3720
@@ -439,6 +489,8 @@
             "carykabbage"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5288,
             "x": -7384
@@ -453,6 +505,8 @@
             "BreezeMinecraft"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4648,
             "x": 3480
@@ -469,6 +523,8 @@
             "Pinicolada"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1464,
             "x": 8952
@@ -483,6 +539,8 @@
             "charzmander"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6504,
             "x": 3464
@@ -502,6 +560,8 @@
             "Bamikins"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -296,
             "x": -200
@@ -517,6 +577,8 @@
             "BR__MeridianPizz"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8536,
             "x": -920
@@ -535,6 +597,8 @@
         "assistants": [
             "Dannwordd"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3848,
             "x": -6424
@@ -550,6 +614,8 @@
             "Brittania"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3048,
             "x": 9976
@@ -564,6 +630,8 @@
             "Twilight_Scarlet"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8008,
             "x": -7656
@@ -579,6 +647,8 @@
             "Vulpes2000"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -488,
             "x": 7704
@@ -593,6 +663,8 @@
             "WhiskeyTFox"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1592,
             "x": 3992
@@ -607,6 +679,8 @@
             "WinterWolf19575"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5656,
             "x": -7496
@@ -625,6 +699,8 @@
         "assistants": [
             "rolster3"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5544,
             "x": 4024
@@ -640,6 +716,8 @@
             "namreg1"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6392,
             "x": 8056
@@ -654,6 +732,8 @@
             "Stoopid_nooob"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1832,
             "x": 2440
@@ -668,6 +748,8 @@
             "K1ngslayerr"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 12312,
             "x": 6648
@@ -684,6 +766,8 @@
             "n1k0b0bu"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5912,
             "x": -7368
@@ -698,6 +782,8 @@
             "Kazuki_Aoyama"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3688,
             "x": 1144
@@ -712,6 +798,8 @@
             "SammyDeee"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4824,
             "x": -8392
@@ -726,6 +814,8 @@
             "doofboofs"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3368,
             "x": -5800
@@ -741,6 +831,8 @@
             "AbsoluteDominion"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -10952,
             "x": -13032
@@ -756,6 +848,8 @@
             "Tovster_"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2248,
             "x": 4440
@@ -770,6 +864,8 @@
             "PerfectPritsch"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -12888,
             "x": -12696
@@ -788,6 +884,8 @@
         "assistants": [
             "Fireclaw502"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5224,
             "x": 8744
@@ -802,6 +900,8 @@
             "Falcor71"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 10664,
             "x": -4760
@@ -816,6 +916,8 @@
             "mikmakmukmok"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 7496,
             "x": -9336
@@ -830,6 +932,8 @@
             "cantsavesome"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -11592,
             "x": 5880
@@ -847,6 +951,8 @@
             "FluffyBear_"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8904,
             "x": 9672
@@ -862,6 +968,8 @@
             "Acephoenix1"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 13640,
             "x": 14648
@@ -876,6 +984,8 @@
             "CitrineCollins24"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1848,
             "x": 6552
@@ -897,6 +1007,8 @@
             "xtremegamer25",
             "GlitzyOwl"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3064,
             "x": 6584
@@ -943,6 +1055,8 @@
         "assistants": [
             "SuoxenZ"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3016,
             "x": 12984
@@ -957,6 +1071,8 @@
             "duckybee1993"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4296,
             "x": 4584
@@ -971,6 +1087,8 @@
             "citruli"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2664,
             "x": 8184
@@ -986,6 +1104,8 @@
             "NicoSherbet"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4760,
             "x": -11928
@@ -1004,6 +1124,8 @@
         "assistants": [
             "Mason0221"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6408,
             "x": 8360
@@ -1019,6 +1141,8 @@
             "BR__Abdouredx135"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2504,
             "x": 6152
@@ -1033,6 +1157,8 @@
             "BR__vernonmason1"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -424,
             "x": -2664
@@ -1048,6 +1174,8 @@
             "Sir_klownith"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5064,
             "x": -7368
@@ -1065,14 +1193,14 @@
             "JemLotelia",
             "Thornagator",
             "bradfa",
-            "Texilated",
-            "StormBolio"
+            "Texilated"
         ],
         "assistants": [
             "Katchow",
-            "Thornagator",
-            "StormBolio"
+            "Thornagator"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4840,
             "x": 6904
@@ -1093,6 +1221,8 @@
         "assistants": [
             "Nytrxn"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8920,
             "x": 10296
@@ -1107,6 +1237,8 @@
             "BitterNerdette"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5192,
             "x": -2536
@@ -1121,6 +1253,8 @@
             "Xperianthrax"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4104,
             "x": -10344
@@ -1135,6 +1269,8 @@
             "Lumina_Luminesce"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8184,
             "x": -4968
@@ -1149,6 +1285,8 @@
             "QopsterNoDice"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5928,
             "x": 2520
@@ -1164,6 +1302,8 @@
             "fetafoppen1"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3784,
             "x": -5560
@@ -1178,6 +1318,8 @@
             "Xodius94"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1016,
             "x": 5912
@@ -1192,6 +1334,8 @@
             "Ezicked"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2328,
             "x": 14392
@@ -1208,6 +1352,8 @@
             "Marjo16"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9384,
             "x": -2472
@@ -1223,6 +1369,8 @@
             "FeralFemdrogyny"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4248,
             "x": -10136
@@ -1240,6 +1388,8 @@
             "34kl_"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5288,
             "x": 11864
@@ -1261,6 +1411,8 @@
             "zVinizor"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2808,
             "x": -2104
@@ -1275,6 +1427,8 @@
             "Ryean"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9976,
             "x": 14248
@@ -1289,6 +1443,8 @@
             "zes0460"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -568,
             "x": 1672
@@ -1304,6 +1460,8 @@
             "TacoMamaFae"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2792,
             "x": -9144
@@ -1318,6 +1476,8 @@
             "Bellatriixx"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 10376,
             "x": 8616
@@ -1337,6 +1497,8 @@
         "assistants": [
             "Houndnfld"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1688,
             "x": 6072
@@ -1373,6 +1535,8 @@
             "CypherRDG",
             "Sadbri"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1544,
             "x": -8872
@@ -1387,6 +1551,8 @@
             "DemxGGG"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2120,
             "x": -6088
@@ -1402,6 +1568,8 @@
             "Ognenz"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9528,
             "x": 8104
@@ -1425,6 +1593,8 @@
             "ImJustNebby",
             "vixlyn"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3544,
             "x": 5432
@@ -1451,6 +1621,8 @@
             "Xe11o"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4520,
             "x": 10808
@@ -1467,6 +1639,8 @@
             "LoveBry"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7032,
             "x": 4200
@@ -1485,6 +1659,8 @@
             "21ys"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4216,
             "x": 328
@@ -1499,6 +1675,8 @@
             "Superproinf"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6984,
             "x": 1640
@@ -1513,6 +1691,8 @@
             "KipTheEnderbloom"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9704,
             "x": -2280
@@ -1528,6 +1708,8 @@
             "AndroidOrange"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -14552,
             "x": -7480
@@ -1560,6 +1742,8 @@
             "Woollywookiee11",
             "PokiiPon"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2824,
             "x": -5768
@@ -1574,6 +1758,8 @@
             "KushRedders"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -13656,
             "x": 8360
@@ -1589,6 +1775,8 @@
             "precheater"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6488,
             "x": 3368
@@ -1603,6 +1791,8 @@
             "Thorzcun"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 14328,
             "x": 1816
@@ -1618,9 +1808,95 @@
             "sassdassah"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9544,
             "x": 3576
+        }
+    },
+    {
+        "world": "world",
+        "name": "BlissHaven",
+        "nation": "Harmonia",
+        "mayor": "AppleCider9283",
+        "pvp": false,
+        "residents": [
+            "KrisW",
+            "TheBlitzo",
+            "MrGravy1110",
+            "Storm_Singer",
+            "GabrielCait",
+            "MrStauf",
+            "Philipsi008",
+            "Adore_Kay",
+            "ExplodinMaster",
+            "GarMaxz",
+            "CamTheMan4714",
+            "maddiem18",
+            "Cuddles38321",
+            "Sweettay105",
+            "GhostCodey",
+            "AppleCider9283",
+            "PixiePuncher1980",
+            "The_Turtle_Lord",
+            "SputnikII",
+            "ColdDVD",
+            "Eystreem21",
+            "The_Neon_Sloth",
+            "HydrofluoricAcid",
+            "Lukechowdhary1",
+            "Basharbobo1",
+            "BR__Cryper202",
+            "Fallloutgibi",
+            "ArmoredPlate2",
+            "psyloucibin",
+            "TheWhussUpMan",
+            "maksim1192",
+            "Sprinted",
+            "Only_345",
+            "FireDragon2217",
+            "Ancient_Debris10",
+            "Ace_Lockheart",
+            "BedLessGamer",
+            "slayed__",
+            "weezing_away",
+            "akolh",
+            "gamerrf",
+            "BrownieMan200",
+            "Butterflyeyes",
+            "masterpete",
+            "JamesFRFX_TTV",
+            "Wiesenschnitzel",
+            "gumball1308",
+            "King_Aggelos2012",
+            "sboket",
+            "Justforswe",
+            "MarioMastr948",
+            "ghost_morpho",
+            "GiselleMora",
+            "swepso",
+            "itzkuiyne",
+            "NuhBayah",
+            "HappynJoy",
+            "Kyubii_Moon",
+            "Froggy_boba75",
+            "TI6502",
+            "_Mythic___",
+            "Xelloz",
+            "Quist93",
+            "Katsugari",
+            "Yandyyyy"
+        ],
+        "assistants": [
+            "maddiem18",
+            "Lukechowdhary1"
+        ],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": -12776,
+            "x": -3240
         }
     },
     {
@@ -1644,6 +1920,8 @@
         "assistants": [
             "Lil__Bingus"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -24,
             "x": -5816
@@ -1659,6 +1937,8 @@
             "YaBoyR3d"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1448,
             "x": 4024
@@ -1674,6 +1954,8 @@
             "NaturalSpirit89"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -12152,
             "x": 3848
@@ -1688,6 +1970,8 @@
             "KratosGR"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5576,
             "x": 536
@@ -1703,6 +1987,8 @@
             "Hanabi_Yasuraoka"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8184,
             "x": -5400
@@ -1718,9 +2004,41 @@
             "xDarrowx"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3016,
             "x": 2504
+        }
+    },
+    {
+        "world": "world",
+        "name": "Whiterun",
+        "nation": "Skyrim",
+        "mayor": "aeron_noxx",
+        "pvp": false,
+        "residents": [
+            "Grievous52",
+            "__paroxysm",
+            "AR_SV504",
+            "Deep_Seas",
+            "pancakeman199",
+            "TalTBT",
+            "aeron_noxx",
+            "Silly_Monke",
+            "LegendTM3223",
+            "breetherusski__",
+            "crest99",
+            "flthompson21",
+            "xSiilver",
+            "SomberDiamond73"
+        ],
+        "assistants": [],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": 2968,
+            "x": 5944
         }
     },
     {
@@ -1732,6 +2050,8 @@
             "Sam_casey1"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7400,
             "x": 9800
@@ -1746,6 +2066,8 @@
             "Undertale9087"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -200,
             "x": 1816
@@ -1772,6 +2094,8 @@
             "_ingenieur",
             "Dema2014"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -792,
             "x": 9224
@@ -1788,6 +2112,8 @@
             "DK_Lucy"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8456,
             "x": 376
@@ -1803,9 +2129,29 @@
             "Broglands"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -120,
             "x": 344
+        }
+    },
+    {
+        "world": "world",
+        "name": "Catboy_Maidland",
+        "nation": "Cat_Boy_Nation",
+        "mayor": "BaldMaidboy",
+        "pvp": false,
+        "residents": [
+            "BaldMaidboy",
+            "SnowyWoods"
+        ],
+        "assistants": [],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": 10200,
+            "x": -3256
         }
     },
     {
@@ -1817,6 +2163,8 @@
             "Average_Joe_VIII"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4584,
             "x": 1688
@@ -1831,6 +2179,8 @@
             "MacRobin"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -12072,
             "x": -1160
@@ -1847,6 +2197,8 @@
             "I_Get_Bored"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8664,
             "x": -4856
@@ -1877,6 +2229,8 @@
             "PoggersBenny",
             "Lewizzalot"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2824,
             "x": 2584
@@ -1905,6 +2259,8 @@
         "assistants": [
             "MR510"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7128,
             "x": 9464
@@ -1919,6 +2275,8 @@
             "AlexaIV"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -12584,
             "x": -12296
@@ -1934,6 +2292,8 @@
             "Player_54215744"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8824,
             "x": -2712
@@ -1951,6 +2311,8 @@
         "assistants": [
             "Yeeetiamus_Games"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8376,
             "x": 920
@@ -1976,6 +2338,8 @@
             "Alicebbg",
             "Lazarusoverload"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -10920,
             "x": -5176
@@ -1991,6 +2355,8 @@
             "soczol"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -13944,
             "x": 12728
@@ -2006,6 +2372,8 @@
             "bladedsquirrel1"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5592,
             "x": 3992
@@ -2020,6 +2388,8 @@
             "LilFoxyFox"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3096,
             "x": -7448
@@ -2038,6 +2408,8 @@
             "Markos29"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8136,
             "x": -5992
@@ -2052,6 +2424,8 @@
             "loganverminz"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6184,
             "x": -6360
@@ -2066,6 +2440,8 @@
             "tortoisesquid"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3144,
             "x": -5432
@@ -2081,6 +2457,8 @@
             "Powelus"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -13928,
             "x": 11976
@@ -2095,6 +2473,8 @@
             "redevilx"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 11208,
             "x": 2056
@@ -2120,6 +2500,8 @@
         "assistants": [
             "BukeyJew"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4296,
             "x": 1544
@@ -2135,6 +2517,8 @@
             "Zaxcz"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -11672,
             "x": -13848
@@ -2159,6 +2543,8 @@
             "creeperdrool",
             "SSSyn"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -10200,
             "x": -11528
@@ -2174,6 +2560,8 @@
             "sungummie"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2104,
             "x": -3848
@@ -2190,6 +2578,8 @@
             "lunarsunnie"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6424,
             "x": -7656
@@ -2206,6 +2596,8 @@
             "UrbanStory"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8392,
             "x": -9640
@@ -2223,6 +2615,8 @@
             "TGLegacy"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9368,
             "x": 2696
@@ -2242,6 +2636,8 @@
         "assistants": [
             "SophieTheDolphin"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6616,
             "x": 1736
@@ -2256,6 +2652,8 @@
             "RubyScarz"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -568,
             "x": -5496
@@ -2278,6 +2676,8 @@
             "lolitsdillonx"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -13320,
             "x": -8360
@@ -2293,6 +2693,8 @@
             "thelilbooty"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3064,
             "x": -4088
@@ -2308,6 +2710,8 @@
             "BR__DandierCape3"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2200,
             "x": -8648
@@ -2322,6 +2726,8 @@
             "ChromeGoggles"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 13928,
             "x": 14376
@@ -2337,6 +2743,8 @@
             "SteelersBoyZ"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5224,
             "x": -5688
@@ -2355,6 +2763,8 @@
             "Jpsh"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 744,
             "x": -360
@@ -2369,6 +2779,8 @@
             "PhantasticX"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 12248,
             "x": -2344
@@ -2388,6 +2800,8 @@
             "WulfyEH"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 11944,
             "x": 11208
@@ -2404,6 +2818,8 @@
             "zp33zy"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -14056,
             "x": 9304
@@ -2446,6 +2862,8 @@
             "SmilingChicken2",
             "prezm"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5864,
             "x": -9448
@@ -2477,6 +2895,8 @@
             "69MAKS69"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9800,
             "x": -4360
@@ -2491,6 +2911,8 @@
             "Duderfox123"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5656,
             "x": 4744
@@ -2508,6 +2930,8 @@
             "Tigerlilli20"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4456,
             "x": -2632
@@ -2528,6 +2952,8 @@
             "ITz_SkuLLy"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3960,
             "x": -10712
@@ -2543,6 +2969,8 @@
             "Kooollip"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4280,
             "x": 9192
@@ -2557,6 +2985,8 @@
             "frechivi"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6392,
             "x": -600
@@ -2575,6 +3005,8 @@
             "ButlerKino_",
             "EchoTheWiccan"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3992,
             "x": -4712
@@ -2590,6 +3022,8 @@
             "Jomppupomppu"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1336,
             "x": 10504
@@ -2604,6 +3038,8 @@
             "StormBolio"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3912,
             "x": -9192
@@ -2619,6 +3055,8 @@
             "Sk8ybaby"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5128,
             "x": -4088
@@ -2637,6 +3075,8 @@
         "assistants": [
             "MOOMOOMANIA"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7544,
             "x": -8360
@@ -2652,6 +3092,8 @@
             "roesev"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1480,
             "x": 4760
@@ -2668,6 +3110,8 @@
             "CloverlucyMC"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -376,
             "x": 11608
@@ -2682,6 +3126,8 @@
             "DAEMON_DEAN"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3784,
             "x": -8200
@@ -2704,6 +3150,8 @@
             "GlazedDonuts"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2296,
             "x": -6536
@@ -2719,6 +3167,8 @@
             "So_Loooooooooong"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 648,
             "x": 6024
@@ -2736,6 +3186,8 @@
             "Xeiroks"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 13560,
             "x": 13960
@@ -2751,6 +3203,8 @@
             "GamerWolf311"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3960,
             "x": 7416
@@ -2765,6 +3219,8 @@
             "ascottishwinter"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4232,
             "x": -6088
@@ -2782,6 +3238,8 @@
             "_TiMiK_"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7208,
             "x": -4968
@@ -2808,6 +3266,8 @@
             "pjetornavoshki",
             "Indruluc"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1672,
             "x": 2760
@@ -2822,6 +3282,8 @@
             "ItzFuego"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4520,
             "x": -2536
@@ -2838,6 +3300,8 @@
             "VBSBazooka"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9400,
             "x": 2392
@@ -2866,9 +3330,37 @@
             "noraly123"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 11080,
             "x": -14680
+        }
+    },
+    {
+        "world": "world",
+        "name": "WorkersUnion",
+        "nation": "IWW",
+        "mayor": "ifeelghosts",
+        "pvp": false,
+        "residents": [
+            "ifeelghosts",
+            "PoketCrocodile",
+            "butterman096137",
+            "Xbox_Live",
+            "BR__KitKatKatill",
+            "Sebase",
+            "MasterPuppeteer",
+            "celluloids",
+            "SmartyAlek",
+            "EarthSphere6628"
+        ],
+        "assistants": [],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": -10536,
+            "x": -7544
         }
     },
     {
@@ -2880,6 +3372,8 @@
             "ShanDere"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5560,
             "x": 5656
@@ -2896,6 +3390,8 @@
             "misanthropic_me"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -11640,
             "x": 7992
@@ -2910,6 +3406,8 @@
             "OmyClay"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7944,
             "x": -4296
@@ -2924,6 +3422,8 @@
             "Cewkoyle"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9672,
             "x": -13736
@@ -2938,6 +3438,8 @@
             "MxgicUsagi"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9064,
             "x": 3080
@@ -2973,6 +3475,8 @@
             "OverExtendedd",
             "Kipology"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3480,
             "x": 5896
@@ -2987,6 +3491,8 @@
             "Zaemar"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4456,
             "x": 2680
@@ -3003,6 +3509,8 @@
             "chargedpanic"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2712,
             "x": 5384
@@ -3019,6 +3527,8 @@
             "daddy2881"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6408,
             "x": 4344
@@ -3036,6 +3546,8 @@
         "assistants": [
             "DylanZilla2390"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6968,
             "x": 9816
@@ -3051,6 +3563,8 @@
             "koenymeloeny"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8424,
             "x": 2584
@@ -3065,6 +3579,8 @@
             "Gutter_Guac"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3736,
             "x": -5320
@@ -3080,6 +3596,8 @@
             "GrimmAlternative"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8648,
             "x": 4136
@@ -3095,6 +3613,8 @@
             "Hyraxis"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 14056,
             "x": 12728
@@ -3109,6 +3629,8 @@
             "SilentOne713"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -14792,
             "x": 4040
@@ -3124,6 +3646,8 @@
             "Chyckynek"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -11624,
             "x": 12904
@@ -3138,6 +3662,8 @@
             "benj6"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4968,
             "x": 9912
@@ -3153,6 +3679,8 @@
             "Amber_Amber"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1000,
             "x": 6056
@@ -3184,6 +3712,8 @@
             "Joesy2K",
             "Luvzeey"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9080,
             "x": 6984
@@ -3198,6 +3728,8 @@
             "Hrabia_Baan"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2840,
             "x": 8904
@@ -3212,6 +3744,8 @@
             "spidersheet"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9448,
             "x": -8904
@@ -3228,6 +3762,8 @@
             "Caelin1"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1448,
             "x": -3976
@@ -3243,6 +3779,8 @@
             "Trickypineapples"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5832,
             "x": 4104
@@ -3262,6 +3800,8 @@
             "Lilpotatgirl1"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 984,
             "x": 4440
@@ -3276,6 +3816,8 @@
             "GeorgiaMC"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4264,
             "x": -10632
@@ -3292,6 +3834,8 @@
             "Gligon3"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 10504,
             "x": 9256
@@ -3306,6 +3850,8 @@
             "SmashX101"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9736,
             "x": 6888
@@ -3320,6 +3866,8 @@
             "RenriDaerthe"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4936,
             "x": 4520
@@ -3344,6 +3892,8 @@
             "RageWarBlock"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7224,
             "x": 7896
@@ -3359,6 +3909,8 @@
             "Letroy11"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 472,
             "x": -1912
@@ -3376,6 +3928,8 @@
         "assistants": [
             "MarzieMalfoy"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8776,
             "x": -7944
@@ -3393,6 +3947,8 @@
             "JustJoeKing15"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 7272,
             "x": 9384
@@ -3407,6 +3963,8 @@
             "ErizoGames"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 136,
             "x": -10536
@@ -3425,6 +3983,8 @@
             "totallywoman"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4392,
             "x": 12232
@@ -3439,6 +3999,8 @@
             "Veshraine"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -10312,
             "x": 12008
@@ -3454,6 +4016,8 @@
             "SirSoulless"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4712,
             "x": 9080
@@ -3482,6 +4046,8 @@
         "assistants": [
             "batman3212009"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4344,
             "x": 8440
@@ -3498,6 +4064,8 @@
             "SemplicementeEli"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -776,
             "x": 2568
@@ -3514,6 +4082,8 @@
             "SSRelix"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9256,
             "x": 7720
@@ -3530,6 +4100,8 @@
             "shawn678"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6776,
             "x": -9912
@@ -3545,6 +4117,8 @@
             "RedAnger"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2040,
             "x": -11912
@@ -3560,6 +4134,8 @@
             "gip_xd"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9384,
             "x": 10168
@@ -3574,6 +4150,8 @@
             "lilugly03"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9304,
             "x": -5848
@@ -3589,6 +4167,8 @@
             "coolboydrakey"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6616,
             "x": -5544
@@ -3605,6 +4185,8 @@
             "TeaForce"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8696,
             "x": -5336
@@ -3622,6 +4204,8 @@
             "ion00"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7896,
             "x": 3448
@@ -3637,6 +4221,8 @@
             "PaNikoo"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2488,
             "x": -7448
@@ -3651,6 +4237,8 @@
             "skilledleet"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6680,
             "x": -7224
@@ -3683,6 +4271,8 @@
         "assistants": [
             "SummerVase79549"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 7048,
             "x": -5528
@@ -3698,6 +4288,8 @@
             "Involve"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2328,
             "x": 5464
@@ -3716,6 +4308,8 @@
         "assistants": [
             "BR__MJHbic"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3400,
             "x": -1176
@@ -3751,6 +4345,8 @@
             "beenssprout"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6440,
             "x": -4488
@@ -3767,6 +4363,8 @@
             "skwintZ"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4568,
             "x": 8888
@@ -3787,6 +4385,8 @@
             "miloolo"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6168,
             "x": 1128
@@ -3802,6 +4402,8 @@
             "CutestPandaEver"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3224,
             "x": -3064
@@ -3817,6 +4419,8 @@
             "MoMoTheEpic"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5992,
             "x": 4904
@@ -3832,6 +4436,8 @@
             "Estbrooke"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8888,
             "x": 9720
@@ -3848,6 +4454,8 @@
             "TheRealJaku"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7640,
             "x": -2696
@@ -3864,6 +4472,8 @@
             "Fort3k_"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -11560,
             "x": -13032
@@ -3879,6 +4489,8 @@
             "eric518"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 264,
             "x": -2872
@@ -3893,9 +4505,33 @@
             "ItzTikYea"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -10232,
             "x": 6248
+        }
+    },
+    {
+        "world": "world",
+        "name": "Solarus",
+        "nation": "Republic",
+        "mayor": "Starkittycat",
+        "pvp": false,
+        "residents": [
+            "Starkittycat",
+            "Am1y",
+            "FoxShaman",
+            "SamanthaSydney",
+            "Oribuin",
+            "NullSafety"
+        ],
+        "assistants": [],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": -264,
+            "x": 1064
         }
     },
     {
@@ -3908,6 +4544,8 @@
             "greene9000"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 11848,
             "x": 7896
@@ -3922,9 +4560,50 @@
             "drx_0"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9944,
             "x": -3480
+        }
+    },
+    {
+        "world": "world",
+        "name": "Hot_Boy_Nation",
+        "nation": "Hot_Boy_Nation",
+        "mayor": "pandacat666",
+        "pvp": false,
+        "residents": [
+            "pandacat666",
+            "cobblestonerrr",
+            "FlyingDxlphin",
+            "zeperzeus",
+            "Spooder0202",
+            "TheSandxd",
+            "54M44R",
+            "xNeXiUM",
+            "JackHamBacon",
+            "theothernico",
+            "rabqua",
+            "PvPMidnight",
+            "Expendus",
+            "lemurd",
+            "Shnikers",
+            "Ceabed",
+            "Smartbort",
+            "polarcrocs",
+            "Kunujan"
+        ],
+        "assistants": [
+            "FlyingDxlphin",
+            "zeperzeus",
+            "54M44R"
+        ],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": 7752,
+            "x": 2424
         }
     },
     {
@@ -3936,6 +4615,8 @@
             "MangalLaca"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6680,
             "x": 4536
@@ -3950,6 +4631,8 @@
             "JosefDab"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6760,
             "x": 3656
@@ -3964,6 +4647,8 @@
             "pigholex98"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9192,
             "x": 8840
@@ -3981,9 +4666,28 @@
         "assistants": [
             "_Nictendo_"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6040,
             "x": 6712
+        }
+    },
+    {
+        "world": "world",
+        "name": "Genesis",
+        "nation": "Eclipse",
+        "mayor": "LegoLord365",
+        "pvp": false,
+        "residents": [
+            "LegoLord365"
+        ],
+        "assistants": [],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": 14344,
+            "x": 5192
         }
     },
     {
@@ -3995,6 +4699,8 @@
             "browntown13"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2248,
             "x": 6648
@@ -4009,6 +4715,8 @@
             "yonoad2365"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7304,
             "x": -6056
@@ -4025,6 +4733,8 @@
             "Wiee"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 5608,
             "x": -3976
@@ -4040,6 +4750,8 @@
             "Eirias"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4664,
             "x": 7016
@@ -4055,6 +4767,8 @@
             "madsmckay1310"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8184,
             "x": 2856
@@ -4070,6 +4784,8 @@
             "HSN25"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -10488,
             "x": 280
@@ -4089,6 +4805,8 @@
             "G16O",
             "AlertedJoker582"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9112,
             "x": 4104
@@ -4104,6 +4822,8 @@
             "Seffora"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -9560,
             "x": -4920
@@ -4120,6 +4840,8 @@
             "94thJurk"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9784,
             "x": -3656
@@ -4134,6 +4856,8 @@
             "clemband"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 11928,
             "x": 13512
@@ -4148,6 +4872,8 @@
             "dovegirl1122"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8280,
             "x": -8328
@@ -4164,6 +4890,8 @@
             "Nicklp"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5064,
             "x": 3096
@@ -4180,6 +4908,8 @@
             "Oriien"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3576,
             "x": -9512
@@ -4202,6 +4932,8 @@
             "JcxrtezTTV",
             "TheUnreliable1"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8104,
             "x": 7448
@@ -4218,6 +4950,8 @@
             "StegoLegosaurus"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 12872,
             "x": -6824
@@ -4232,6 +4966,8 @@
             "GG_Bryan94"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7288,
             "x": 15096
@@ -4246,6 +4982,8 @@
             "gerbilator"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6520,
             "x": 2248
@@ -4263,6 +5001,8 @@
             "Jerrell621"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 9160,
             "x": -7368
@@ -4279,6 +5019,8 @@
             "SuperKaitlyn"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1896,
             "x": 6024
@@ -4298,6 +5040,8 @@
             "nerdnest"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3784,
             "x": 3752
@@ -4315,6 +5059,8 @@
             "micrastang"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1160,
             "x": 4984
@@ -4332,6 +5078,8 @@
         "assistants": [
             "Landulf"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2488,
             "x": 10376
@@ -4346,6 +5094,8 @@
             "RAIDENATOR4324"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3192,
             "x": 14712
@@ -4361,6 +5111,8 @@
             "MangoTree19"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -14552,
             "x": 6456
@@ -4380,6 +5132,8 @@
         "assistants": [
             "BR__koalajm123"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6552,
             "x": -680
@@ -4395,6 +5149,8 @@
             "WesWesWesWesWes_"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6440,
             "x": 3656
@@ -4411,6 +5167,8 @@
             "AkeDontHaveEbola"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -968,
             "x": 4216
@@ -4426,6 +5184,8 @@
             "TNARTAWON"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3656,
             "x": -11304
@@ -4440,6 +5200,8 @@
             "NuggetBoiii"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3704,
             "x": 15112
@@ -4455,6 +5217,8 @@
             "Limonidas"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2168,
             "x": -9224
@@ -4474,6 +5238,8 @@
             "BR__FlameHotter"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1880,
             "x": 2056
@@ -4490,6 +5256,8 @@
             "L0rd_Wensleydale"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1720,
             "x": -5976
@@ -4505,6 +5273,8 @@
             "Meduza1162006"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3512,
             "x": -6504
@@ -4523,6 +5293,8 @@
             "HiATiS"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -840,
             "x": 14008
@@ -4568,6 +5340,8 @@
         "assistants": [
             "luukvanloo"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3256,
             "x": -13576
@@ -4585,6 +5359,8 @@
             "saim126"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2744,
             "x": 1832
@@ -4602,6 +5378,8 @@
             "Shadowxeva"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2200,
             "x": 4232
@@ -4620,6 +5398,8 @@
             "BigBrotherSix"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -456,
             "x": 12216
@@ -4641,6 +5421,8 @@
             "Tomy_10s"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4456,
             "x": -8712
@@ -4656,6 +5438,8 @@
             "Bear_Ursun"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8008,
             "x": 7368
@@ -4671,6 +5455,8 @@
             "Lane_The_Game"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1304,
             "x": 2648
@@ -4686,6 +5472,8 @@
             "_SukiChan"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 136,
             "x": -9480
@@ -4700,6 +5488,8 @@
             "Vichevy"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7240,
             "x": -13640
@@ -4714,6 +5504,8 @@
             "Dzierganka"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6296,
             "x": 2824
@@ -4729,6 +5521,8 @@
             "SuperBello91"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -13288,
             "x": -5832
@@ -4745,6 +5539,8 @@
             "K1ttyCxt"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3032,
             "x": 6648
@@ -4760,9 +5556,28 @@
             "OriginalMistake"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6536,
             "x": 16296
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Harlow",
+        "nation": "Essex",
+        "mayor": "_thatntr_",
+        "pvp": false,
+        "residents": [
+            "_thatntr_"
+        ],
+        "assistants": [],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": -6248,
+            "x": 56
         }
     },
     {
@@ -4785,6 +5600,8 @@
         "assistants": [
             "Coffee__good"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7368,
             "x": 664
@@ -4807,6 +5624,8 @@
         "assistants": [
             "BR__Kitsune8379"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1320,
             "x": 4792
@@ -4821,6 +5640,8 @@
             "BalmierBear6628"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4008,
             "x": -8152
@@ -4836,6 +5657,8 @@
             "MinnieSoda"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4280,
             "x": -11768
@@ -4851,6 +5674,8 @@
             "nmitsu"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5416,
             "x": 1224
@@ -4866,6 +5691,8 @@
             "nothyva"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2840,
             "x": -5464
@@ -4881,6 +5708,8 @@
             "ANDOVEA"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -10904,
             "x": 7720
@@ -4897,6 +5726,8 @@
             "TheGoldenStevie"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1592,
             "x": 17368
@@ -4912,6 +5743,8 @@
             "Maxagonprime"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6088,
             "x": 4824
@@ -4928,6 +5761,8 @@
             "Drpawski"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4792,
             "x": -6904
@@ -4961,6 +5796,8 @@
         "assistants": [
             "Phantom_Warrier"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4888,
             "x": 17384
@@ -5072,6 +5909,8 @@
         "assistants": [
             "Rekiso102"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1288,
             "x": -1000
@@ -5095,6 +5934,8 @@
             "His_Lordsh1p",
             "MangMang265"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4760,
             "x": -9384
@@ -5110,6 +5951,8 @@
             "Jeffster_"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2696,
             "x": -11832
@@ -5127,6 +5970,8 @@
         "assistants": [
             "alejandrodonate"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7896,
             "x": 2632
@@ -5168,6 +6013,8 @@
             "TheTwistedKitty",
             "Cramble"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1688,
             "x": -7192
@@ -5182,6 +6029,8 @@
             "MCoojo"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4056,
             "x": 2248
@@ -5197,6 +6046,8 @@
             "ryoGoblin69"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6568,
             "x": -9064
@@ -5216,6 +6067,8 @@
             "MemePixel"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4584,
             "x": -10264
@@ -5230,6 +6083,8 @@
             "DeZine_Energy"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6488,
             "x": 18744
@@ -5244,6 +6099,8 @@
             "88kg"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 456,
             "x": 16632
@@ -5262,6 +6119,8 @@
         "assistants": [
             "Pinkwaffles01"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1384,
             "x": -5480
@@ -5276,6 +6135,8 @@
             "deltarouge"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8696,
             "x": 8696
@@ -5297,6 +6158,8 @@
             "craftbedrock"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2456,
             "x": 12664
@@ -5312,6 +6175,8 @@
             "Wilv"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6440,
             "x": 6904
@@ -5332,6 +6197,8 @@
             "Ars1yn"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2584,
             "x": 3080
@@ -5347,6 +6214,8 @@
             "KingHardman"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2648,
             "x": 2136
@@ -5362,6 +6231,8 @@
             "Panda_Banditz"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4248,
             "x": -9896
@@ -5376,6 +6247,8 @@
             "BoyBean2"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5800,
             "x": -14968
@@ -5390,6 +6263,8 @@
             "D0NC0RL30N3"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5208,
             "x": -9304
@@ -5405,6 +6280,8 @@
             "CupcakeVeroniie"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1384,
             "x": 14984
@@ -5420,6 +6297,8 @@
             "Angilique"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2856,
             "x": -6376
@@ -5434,6 +6313,8 @@
             "BrokeMel"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 4536,
             "x": 17384
@@ -5449,6 +6330,8 @@
             "LilDarkMatter"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5128,
             "x": -13496
@@ -5477,6 +6360,8 @@
         "assistants": [
             "XIJSpenceIX"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1000,
             "x": 3800
@@ -5493,6 +6378,8 @@
             "ObviouslyBob"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5624,
             "x": 3672
@@ -5508,6 +6395,8 @@
             "Mikaela5322747"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4536,
             "x": -3080
@@ -5523,6 +6412,8 @@
             "Shoopon"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3048,
             "x": -9656
@@ -5540,6 +6431,8 @@
             "BR__Nahiti"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7512,
             "x": 12680
@@ -5564,6 +6457,8 @@
             "BR__Aiman3692"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3688,
             "x": 8808
@@ -5578,6 +6473,8 @@
             "RainbowWarrior20"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 6840,
             "x": 8168
@@ -5592,6 +6489,8 @@
             "BR__HA_Gravity"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2376,
             "x": -4808
@@ -5607,6 +6506,8 @@
             "Damejon"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 1288,
             "x": 17096
@@ -5623,6 +6524,8 @@
             "iTorch26"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5592,
             "x": -10568
@@ -5644,6 +6547,8 @@
             "71TYK",
             "KotSR"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8536,
             "x": -4104
@@ -5658,6 +6563,8 @@
             "Sweegyboii"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3864,
             "x": 9736
@@ -5674,6 +6581,8 @@
             "Waibiao"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2760,
             "x": -9896
@@ -5691,9 +6600,32 @@
         "assistants": [
             "BEANWORM"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 56,
             "x": 3224
+        }
+    },
+    {
+        "world": "earth",
+        "name": "City_17",
+        "nation": "Broglands",
+        "mayor": "Gucci_Garrett",
+        "pvp": false,
+        "residents": [
+            "Gucci_Garrett",
+            "Pogeye",
+            "FlavoredKoolaid"
+        ],
+        "assistants": [
+            "Pogeye"
+        ],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": 1560,
+            "x": 5864
         }
     },
     {
@@ -5706,6 +6638,8 @@
             "minniekayee"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5912,
             "x": 4680
@@ -5720,6 +6654,8 @@
             "CatzX_"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4920,
             "x": 2984
@@ -5735,6 +6671,8 @@
             "calathee"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -8200,
             "x": 9640
@@ -5750,6 +6688,8 @@
             "VacuumBoi"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 8,
             "x": -6168
@@ -5766,6 +6706,8 @@
             "NihilismFan"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3976,
             "x": -8472
@@ -5781,6 +6723,8 @@
             "Soddaa"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7192,
             "x": -9224
@@ -5795,6 +6739,8 @@
             "Aeternus01"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2936,
             "x": -9368
@@ -5810,6 +6756,8 @@
             "Bandit_none"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -3272,
             "x": 14440
@@ -5825,6 +6773,8 @@
             "Tjmasterdude"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 3384,
             "x": -7208
@@ -5852,6 +6802,8 @@
             "SilverishCat",
             "NSleen"
         ],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6648,
             "x": -14472
@@ -5866,6 +6818,8 @@
             "MadCroft"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5928,
             "x": 6488
@@ -5880,6 +6834,8 @@
             "onur070707"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4488,
             "x": 4216
@@ -5898,6 +6854,8 @@
             "MeHornet_TTV"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -7208,
             "x": 2056
@@ -5912,6 +6870,8 @@
             "Dergeh"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6840,
             "x": -328
@@ -5934,6 +6894,8 @@
             "BR__Dandiesthe62"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 2472,
             "x": -7656
@@ -5950,6 +6912,8 @@
             "MitzChews"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -1304,
             "x": -8888
@@ -5964,6 +6928,8 @@
             "_ElChapo_Man"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -2920,
             "x": 4552
@@ -5981,6 +6947,8 @@
             "SpiderSpawn97"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5384,
             "x": -9528
@@ -5996,6 +6964,8 @@
             "IronicEclipse"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 24,
             "x": 12040
@@ -6010,6 +6980,8 @@
             "NHRA2017"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4536,
             "x": -232
@@ -6027,6 +6999,8 @@
             "littlepresent1"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -5816,
             "x": 5976
@@ -6042,6 +7016,8 @@
             "Ruby_78"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": 7864,
             "x": 12392
@@ -6058,6 +7034,8 @@
             "GG_Rainbow"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -4648,
             "x": -1048
@@ -6080,6 +7058,8 @@
             "linksysd"
         ],
         "assistants": [],
+        "capital": false,
+        "outpost": false,
         "coords": {
             "z": -6344,
             "x": -328

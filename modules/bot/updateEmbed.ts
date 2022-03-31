@@ -2,6 +2,7 @@ import Discord from "discord.js";
 import MapInterface from "../map/mapInterface";
 import Player from "../resources/player";
 import Town from "../resources/town";
+import Util from "./util";
 
 export default class UpdateEmbed {
 
@@ -25,7 +26,7 @@ export default class UpdateEmbed {
         const embed = new Discord.MessageEmbed()
             .setColor("#00ff00")
             .setTitle("New Town")
-            .setDescription(`${town.name} has been founded by ${town.mayor}`)
+            .setDescription(`${town.name} has been founded by ${Util.formatPlayer(town.mayor)}`)
             .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`, true)
             .setTimestamp();
 
@@ -59,8 +60,8 @@ export default class UpdateEmbed {
         const embed = new Discord.MessageEmbed()
             .setColor("#00ff00")
             .setTitle("Player Joined")
-            .setDescription(`${player.name} has joined the server`)
-            .setThumbnail(`https://mc-heads.net/head/${player.name}`)
+            .setDescription(`${player.getName()} has joined the server`)
+            .setThumbnail(`https://mc-heads.net/head/${player.getName()}`)
             .addField("Location", `x: \`${player.x}\`\nz: \`${player.z}\`\nWorld: \`${player.world}\`\n[View on map](${MapInterface.generateMapLink(player.getLocation(), 3)})`, true)
             .setTimestamp();
 

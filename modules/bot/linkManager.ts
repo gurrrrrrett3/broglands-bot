@@ -37,8 +37,9 @@ export default class LinkManager {
     const embed = new MessageEmbed()
       .setColor("#00ff00")
       .setTitle("Almost there!")
-      .setDescription(`Go to \`/nation spawn\` on the server and stand on the ${block.block}`);
+      .setDescription(`Go to \`/nation spawn\` or \`/pw BroglandsDlink\` on the server and stand on the \n\n**${block.block}**\n\nThe bot will DM you when you do it, so make sure your DMs are open!`);
 
+      if (interaction.replied) return
     interaction.reply({ embeds: [embed] });
   }
 
@@ -66,29 +67,24 @@ export default class LinkManager {
     this.codes = this.codes.filter((code) => code.id !== link.id);
     const member = interaction.guild?.members.cache.get(link.id);
     member?.setNickname(ign).catch(() => {
-      interaction.reply(`Failed to set nickname for ${ign}`);
+      console.log(`Failed to set nickname for ${ign}`);
     });
     member?.roles.add(interaction.guild?.roles.cache.find((r) => r.name === "Linked")!).catch(() => {
-      interaction.reply(`Failed to add role for ${ign}`);
+      console.log(`Failed to add role for ${ign}`);
     });
 
     const rank = Util.getUserRank(link.ign);
     switch (rank) {
       case "mayor":
         member?.roles.add(interaction.guild?.roles.cache.find((r) => r.name === "Mayor")!).catch(() => {
-          interaction.reply(`Failed to add role for ${ign}`);
+            console.log(`Failed to add role for ${ign}`);
         });
       case "assistant":
         member?.roles
           .add(interaction.guild?.roles.cache.find((r) => r.name === "Town Assistant")!)
           .catch(() => {
-            interaction.reply(`Failed to add role for ${ign}`);
+            console.log(`Failed to add role for ${ign}`);
           });
-      case "resident":
-        member?.roles.add(interaction.guild?.roles.cache.find((r) => r.name === "Town Member")!).catch(() => {
-          interaction.reply(`Failed to add role for ${ign}`);
-        });
-
       default:
         //User isn't in a town, so don't add any roles
         break;

@@ -7,6 +7,8 @@ export interface TownData {
   pvp: boolean;
   residents: string[];
   assistants: string[];
+  capital: boolean;
+  outpost: boolean;
   coords: {
     x: number;
     z: number;
@@ -22,6 +24,8 @@ export default class Town {
     public pvp: boolean;
     public residents: string[];
     public assistants: string[];
+    capital: boolean;
+    outpost: boolean;
     public coords: {
         x: number;
         z: number;
@@ -35,6 +39,8 @@ export default class Town {
         this.pvp = data.pvp;
         this.residents = data.residents;
         this.assistants = data.assistants;
+        this.capital = data.capital;
+        this.outpost = data.outpost;
         this.coords = data.coords;
 
         if (this.assistants == ["None"]) {

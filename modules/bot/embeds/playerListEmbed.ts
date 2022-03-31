@@ -17,6 +17,23 @@ export default class PlayerListEmbed implements EmbedClass {
 
   public update(): void {
     MapInterface.getPlayers().then((players) => {
+      
+      players.sort((a, b) => {
+        let score = Util.getWorldLevel(a.world) - Util.getWorldLevel(b.world)
+        score += a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+        return score;
+      })
+
+      const afkPlayers = players.filter((player) => {
+        return player.isAfk();
+      });
+
+      const nonAfkPlayers = players.filter((player) => {
+        return !player.isAfk();
+      });
+
+      players = nonAfkPlayers.concat(afkPlayers);
+
       const playerList = players.map(
         (p) => `**${p.world.replace(/_/, "\\_")}** ${p.name.replace(/_/, "\\_")} ${p.isAfk() ? " | **AFK**" : getPresence(p.getLocation())}`
       );
