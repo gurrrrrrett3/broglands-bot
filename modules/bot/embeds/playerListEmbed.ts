@@ -8,7 +8,11 @@ import Util from "../util";
 
 export default class PlayerListEmbed implements EmbedClass {
   public channel: Discord.TextChannel;
-  public messages: Discord.Message[] = [];
+  public message: Discord.Message | null = null;
+  public timer: NodeJS.Timer = setTimeout(() => {
+    this.resend();
+    //1 hour
+  }, 3600000);
 
   constructor(channel: Discord.TextChannel) {
     this.channel = channel;
@@ -16,13 +20,27 @@ export default class PlayerListEmbed implements EmbedClass {
   }
 
   public update(): void {
+    if (this.message) {
+      this.message.edit({ embeds: [this.getEmbed()] });
+    } else {
+      this.resend();
+    }
+  }
+  public resend(): void {
+    Util.purgeChannel(this.channel, 100).then(() => {
+      this.channel.send({ embeds: [] }).then((msg) => {
+        this.message = msg;
+      });
+    });
+  }
+
+  public getEmbed(): Discord.MessageEmbed {
     MapInterface.getPlayers().then((players) => {
-      
       players.sort((a, b) => {
-        let score = Util.getWorldLevel(a.world) - Util.getWorldLevel(b.world)
+        let score = Util.getWorldLevel(a.world) - Util.getWorldLevel(b.world);
         score += a.name.toLowerCase().localeCompare(b.name.toLowerCase());
         return score;
-      })
+      });
 
       const afkPlayers = players.filter((player) => {
         return player.isAfk();
@@ -35,27 +53,33 @@ export default class PlayerListEmbed implements EmbedClass {
       players = nonAfkPlayers.concat(afkPlayers);
 
       const playerList = players.map(
-        (p) => `**${p.world.replace(/_/, "\\_")}** ${p.name.replace(/_/, "\\_")} ${p.isAfk() ? " | **AFK**" : getPresence(p.getLocation())}`
+        (p) =>
+          `**${p.world.replace(/_/, "\\_")}** ${p.name.replace(/_/, "\\_")} ${
+            p.isAfk() ? " | **AFK**" : getPresence(p.getLocation())
+          }`
       );
       const embed = new Discord.MessageEmbed()
         .setTitle("Players")
-        .setDescription(playerList.join("\n") + "\n\n" + `Total: ${playerList.length} players \n Last updated: <t:${Math.floor(Date.now() / 1000)}>`)
-        .addField("Preformance", `RAM: ${Math.round(process.memoryUsage().rss / 1000000)}MB \n CPU: ${Math.round(process.cpuUsage().user / 1000000)}% \n Uptime: ${Math.round(process.uptime() / 60)}m \n Node version: ${process.version}`)
+        .setDescription(
+          playerList.join("\n") +
+            "\n\n" +
+            `Total: ${playerList.length} players \n Last updated: <t:${Math.floor(Date.now() / 1000)}>`
+        )
+        .addField(
+          "Preformance",
+          `RAM: ${Math.round(process.memoryUsage().rss / 1000000)}MB \n CPU: ${Math.round(
+            process.cpuUsage().user / 1000000
+          )}% \n Uptime: ${Math.round(process.uptime() / 60)}m \n Node version: ${process.version}`
+        )
         .setColor("#0099ff")
         .setFooter({ text: "Last updated" })
         .setTimestamp();
-
-      if (this.messages.length > 0) {
-        this.messages.forEach((m) => {
-          m.edit({ embeds: [embed] });
-        });
-      } else {
-        Util.purgeChannel(this.channel, 100).then(() => {
-          this.channel.send({ embeds: [embed] }).then((msg) => {
-            this.messages.push(msg);
-          });
-        });
-      }
+      return embed;
     });
+
+    return new Discord.MessageEmbed()
+      .setTitle("Error")
+      .setDescription("Error getting players")
+      .setColor("#ff0000");
   }
 }

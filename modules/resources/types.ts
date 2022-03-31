@@ -29,7 +29,7 @@ export interface PlayersFetchReturn {
 
 export interface EmbedClass {
     channel: TextChannel;
-    messages: Message[];
+    message: Message | null;
     update(): void;
 }
 
