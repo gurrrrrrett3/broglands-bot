@@ -28,5 +28,54 @@ export default class Util {
     return Math.min(Math.max(value, min), max);
   }
 
-  
+  public static getMemberList() {
+    const towns = Util.getTownFile();
+    let residents: string[] = [];
+    towns.forEach((town) => {
+      town.residents.forEach((resident) => {
+        residents.push(resident);
+      });
+    });
+    return residents;
+  }
+
+  public static getTownList() {
+    const towns = Util.getTownFile();
+    let townsList: string[] = [];
+    towns.forEach((town) => {
+      townsList.push(town.name);
+    });
+    return townsList;
+  }
+
+  public static getResidentRankList(): {
+    name: string;
+    rank: "resident" | "assistant" | "mayor";
+  }[] {
+    const towns = Util.getTownFile();
+    let residents: {
+      name: string;
+      rank: "resident" | "assistant" | "mayor";
+    }[] = [];
+    towns.forEach((town) => {
+      town.residents.forEach((resident) => {
+        residents.push({
+          name: resident,
+          rank:
+            town.mayor === resident ? "mayor" : town.assistants.includes(resident) ? "assistant" : "resident",
+        });
+      });
+    });
+    return residents;
+  }
+
+  public static getUserRank(user: string): "resident" | "assistant" | "mayor" | "none" {
+
+    const residents = Util.getResidentRankList();
+    const resident = residents.find((r) => r.name === user);
+    if (resident) {
+      return resident.rank;
+    }
+    return "none";
+  }
 }

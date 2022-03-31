@@ -271,35 +271,6 @@
     },
     {
         "world": "world",
-        "name": "Farland",
-        "mayor": "adventure12255",
-        "pvp": false,
-        "residents": [
-            "adventure12255",
-            "JadeTempest",
-            "TripleFrosty3",
-            "NewDarks",
-            "miashap1129",
-            "Sageii",
-            "Ehpik",
-            "h1rsch73",
-            "SplicingSpud",
-            "michaelcap123",
-            "Craftnill",
-            "qtcathy",
-            "Mysmann",
-            "Undelighted",
-            "NotAGamer2407",
-            "darkflamed_raven"
-        ],
-        "assistants": [],
-        "coords": {
-            "z": 7928,
-            "x": -10712
-        }
-    },
-    {
-        "world": "world",
         "name": "coolland",
         "mayor": "Thijs226",
         "pvp": false,
@@ -967,9 +938,7 @@
             "SenzySez",
             "Bulletz4Life",
             "PeacDragons",
-            "SennaM",
-            "ByllaBoo4442",
-            "Cknkbab"
+            "SennaM"
         ],
         "assistants": [
             "SuoxenZ"
@@ -1027,7 +996,7 @@
         "name": "amsterdam",
         "nation": "Harmonia",
         "mayor": "morriemoor21",
-        "pvp": false,
+        "pvp": true,
         "residents": [
             "morriemoor21",
             "Mason0221"
@@ -1459,20 +1428,6 @@
         "coords": {
             "z": 3544,
             "x": 5432
-        }
-    },
-    {
-        "world": "world",
-        "name": "Smashin",
-        "mayor": "Hlynjays",
-        "pvp": false,
-        "residents": [
-            "Hlynjays"
-        ],
-        "assistants": [],
-        "coords": {
-            "z": 15000,
-            "x": 15000
         }
     },
     {
@@ -2642,6 +2597,20 @@
     },
     {
         "world": "world",
+        "name": "Fallen_Star",
+        "mayor": "StormBolio",
+        "pvp": false,
+        "residents": [
+            "StormBolio"
+        ],
+        "assistants": [],
+        "coords": {
+            "z": -3912,
+            "x": -9192
+        }
+    },
+    {
+        "world": "world",
         "name": "OliveBridge",
         "mayor": "Catnip687",
         "pvp": false,
@@ -3453,8 +3422,7 @@
             "EpikEvan",
             "EpikGoat8878",
             "OzzyTheCat",
-            "totallywoman",
-            "TheEG"
+            "totallywoman"
         ],
         "assistants": [],
         "coords": {
@@ -4808,7 +4776,6 @@
             "HeroicPie885",
             "Coffee__good",
             "Official_Goose",
-            "Abduplayz",
             "Spencer596",
             "smellyfishcake",
             "DArs31",
@@ -5079,7 +5046,6 @@
             "dragoking",
             "SvenDeSlayer",
             "EITC_FOXYWOLF",
-            "PlayerInDistres",
             "Zappelfab",
             "Cwto",
             "ScrimKitty",
@@ -5090,9 +5056,6 @@
             "Astr0n0micalArms",
             "ChimeraHypeirion",
             "Servachuels",
-            "BR__LegoMind10",
-            "SlowJoe43",
-            "Reallstech",
             "crasjo",
             "BR__Shinigami981",
             "karlimi",
@@ -5270,24 +5233,6 @@
         "coords": {
             "z": -6488,
             "x": 18744
-        }
-    },
-    {
-        "world": "earth",
-        "name": "Katara",
-        "mayor": "Sya_Kiru",
-        "pvp": false,
-        "residents": [
-            "BR__Sir670",
-            "BR__ImmaFindYou2",
-            "BR__CheeMUSUBI19",
-            "BR__RUgame64",
-            "Sya_Kiru"
-        ],
-        "assistants": [],
-        "coords": {
-            "z": 3608,
-            "x": -6040
         }
     },
     {
@@ -5843,20 +5788,6 @@
     },
     {
         "world": "earth",
-        "name": "Snowtown",
-        "mayor": "Proheadshot20",
-        "pvp": false,
-        "residents": [
-            "Proheadshot20"
-        ],
-        "assistants": [],
-        "coords": {
-            "z": -9704,
-            "x": -7688
-        }
-    },
-    {
-        "world": "earth",
         "name": "bahamas",
         "mayor": "Aeternus01",
         "pvp": false,
@@ -5964,7 +5895,6 @@
             "LightningCreater",
             "axyb08",
             "axpv",
-            "Gilbert8824",
             "MeHornet_TTV"
         ],
         "assistants": [],
@@ -6001,7 +5931,6 @@
             "FuzzyDaBunny",
             "Altigords",
             "SilvR234",
-            "Fra_Jan",
             "BR__Dandiesthe62"
         ],
         "assistants": [],
