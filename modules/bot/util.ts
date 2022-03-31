@@ -79,6 +79,16 @@ export default class Util {
     return "none";
   }
 
+  public static getTown(name: string) {
+    const towns = Util.getTownFile();
+    return towns.find((t) => t.name === name);
+  }
+
+  public static getUserTown(user: string) {
+    const towns = Util.getTownFile();
+    return towns.find((t) => t.residents.includes(user));
+  }
+
   public static getWorldLevel(world: string) {
     const worlds = [
       "world",

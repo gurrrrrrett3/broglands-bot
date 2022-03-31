@@ -40,6 +40,7 @@ export default class PlayerListEmbed implements EmbedClass {
       const embed = new Discord.MessageEmbed()
         .setTitle("Players")
         .setDescription(playerList.join("\n") + "\n\n" + `Total: ${playerList.length} players \n Last updated: <t:${Math.floor(Date.now() / 1000)}>`)
+        .addField("Preformance", `RAM: ${Math.round(process.memoryUsage().rss / 1000000)}MB \n CPU: ${Math.round(process.cpuUsage().user / 1000000)}% \n Uptime: ${Math.round(process.uptime() / 60)}m \n Node version: ${process.version}`)
         .setColor("#0099ff")
         .setFooter({ text: "Last updated" })
         .setTimestamp();

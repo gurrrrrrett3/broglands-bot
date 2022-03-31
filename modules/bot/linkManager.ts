@@ -73,6 +73,9 @@ export default class LinkManager {
       console.log(`Failed to add role for ${ign}`);
     });
 
+    const town = Util.getUserTown(link.ign);
+    if (!town || town.nation != "Broglands") return;
+
     const rank = Util.getUserRank(link.ign);
     switch (rank) {
       case "mayor":
