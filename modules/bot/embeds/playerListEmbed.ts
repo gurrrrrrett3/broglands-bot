@@ -19,23 +19,23 @@ export default class PlayerListEmbed implements EmbedClass {
     return this;
   }
 
-  public update(): void {
+  public async update(): Promise<void> {
     if (this.message) {
-      this.message.edit({ embeds: [this.getEmbed()] });
+      this.message.edit({ embeds: [await this.getEmbed()] });
     } else {
       this.resend();
     }
   }
-  public resend(): void {
-    Util.purgeChannel(this.channel, 100).then(() => {
-      this.channel.send({ embeds: [] }).then((msg) => {
+  public async resend(): Promise<void> {
+    Util.purgeChannel(this.channel, 100).then(async () => {
+      this.channel.send({ embeds: [await this.getEmbed()] }).then((msg) => {
         this.message = msg;
       });
     });
   }
 
-  public getEmbed(): Discord.MessageEmbed {
-    MapInterface.getPlayers().then((players) => {
+  public async getEmbed(): Promise<Discord.MessageEmbed> {
+  const embed = await MapInterface.getPlayers().then((players) => {
       players.sort((a, b) => {
         let score = Util.getWorldLevel(a.world) - Util.getWorldLevel(b.world);
         score += a.name.toLowerCase().localeCompare(b.name.toLowerCase());
@@ -75,11 +75,7 @@ export default class PlayerListEmbed implements EmbedClass {
         .setFooter({ text: "Last updated" })
         .setTimestamp();
       return embed;
-    });
-
-    return new Discord.MessageEmbed()
-      .setTitle("Error")
-      .setDescription("Error getting players")
-      .setColor("#ff0000");
+    })
+  return embed;
   }
 }

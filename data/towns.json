@@ -115,7 +115,8 @@
         "pvp": false,
         "residents": [
             "OBgameslayer",
-            "Magicthecatlmy"
+            "Magicthecatlmy",
+            "FroggyVal"
         ],
         "assistants": [],
         "capital": false,
@@ -1556,6 +1557,23 @@
         "coords": {
             "z": -2120,
             "x": -6088
+        }
+    },
+    {
+        "world": "world",
+        "name": "Kitty_Town",
+        "mayor": "Christenxo",
+        "pvp": false,
+        "residents": [
+            "Christenxo",
+            "terpzeerula"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -6184,
+            "x": 2296
         }
     },
     {
@@ -4114,7 +4132,10 @@
         "mayor": "RedAnger",
         "pvp": false,
         "residents": [
-            "RedAnger"
+            "RedAnger",
+            "MTSoda",
+            "No_Refills",
+            "daddyshrek__"
         ],
         "assistants": [],
         "capital": false,
