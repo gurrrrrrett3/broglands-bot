@@ -26,7 +26,7 @@ export default class Bot {
   public updateInterval = setInterval(() => {
     this.embedManager.updateEmbeds();
     this.playerUpdate.update(Util.getPlayerFile());
-  }, 3000);
+  }, 5000);
 
   constructor(client: Dicord.Client) {
     this.Client = client;
