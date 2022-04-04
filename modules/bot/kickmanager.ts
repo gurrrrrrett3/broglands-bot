@@ -7,12 +7,9 @@ export default class KickManager {
 
   constructor(client: Discord.Client) {
     this.loadKicklist();
-    const delay = Math.random() * 5000;
     client.on("guildMemberAdd", (member) => {
       if (this.kicklist.includes(member.user.id)) {
-        setTimeout(() => {
-          member.kick(`${member.user.tag} was kicked for being on the kicklist. Delay was ${delay}ms`);
-        }, delay);
+          member.kick(`${member.user.tag} was kicked for being on the kicklist.`);
       }
     });
   }
