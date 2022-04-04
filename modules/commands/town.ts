@@ -24,7 +24,7 @@ const Command = {
       .setTitle(town.name)
       .setURL(MapInterface.generateMapLink(town.getLocation(), 5))
       .addField("Mayor", town.mayor, true)
-      .addField("Nation", town.nation, true)
+      .addField("Nation", town.nation ?? "None", true)
       .addField("Population", town.residents.length.toString(), true)
       .addField(
         "Assistants",

@@ -41,7 +41,8 @@
             "BR__AirJames_225",
             "Skelcy123",
             "AuroraMidnight",
-            "Jambas18"
+            "Jambas18",
+            "ryanthayer2002"
         ],
         "assistants": [
             "BR__AirJames_225",
@@ -61,8 +62,7 @@
         "mayor": "SG180SG",
         "pvp": false,
         "residents": [
-            "SG180SG",
-            "EdgeySmurf"
+            "SG180SG"
         ],
         "assistants": [],
         "capital": false,
@@ -145,23 +145,6 @@
     },
     {
         "world": "world",
-        "name": "Weimar",
-        "mayor": "BurntFacePalm",
-        "pvp": false,
-        "residents": [
-            "BurntFacePalm",
-            "garmanana"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": 6536,
-            "x": 7000
-        }
-    },
-    {
-        "world": "world",
         "name": "Ohmville",
         "mayor": "coglingoblin",
         "pvp": false,
@@ -175,6 +158,23 @@
         "coords": {
             "z": 8536,
             "x": 8904
+        }
+    },
+    {
+        "world": "world",
+        "name": "Weimar",
+        "mayor": "BurntFacePalm",
+        "pvp": false,
+        "residents": [
+            "BurntFacePalm",
+            "garmanana"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 6536,
+            "x": 7000
         }
     },
     {
@@ -328,7 +328,6 @@
             "mrblockus",
             "kruvice",
             "Goosey_",
-            "NooksAC",
             "Sumire37",
             "tillantas",
             "alumpof",
@@ -338,8 +337,8 @@
             "Meekom12",
             "Ajhavok",
             "KAIZEK",
-            "BR__SuctionPlain",
-            "IAMAMUFFINHEAD"
+            "IAMAMUFFINHEAD",
+            "OctoYeti"
         ],
         "assistants": [],
         "capital": false,
@@ -368,6 +367,22 @@
     },
     {
         "world": "world",
+        "name": "GalaxyFalls",
+        "mayor": "Maintizer",
+        "pvp": false,
+        "residents": [
+            "Maintizer"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -7976,
+            "x": -4744
+        }
+    },
+    {
+        "world": "world",
         "name": "Dragonvale",
         "mayor": "Pendragon2020",
         "pvp": false,
@@ -381,22 +396,6 @@
         "coords": {
             "z": 11336,
             "x": -12680
-        }
-    },
-    {
-        "world": "world",
-        "name": "GalaxyFalls",
-        "mayor": "Maintizer",
-        "pvp": false,
-        "residents": [
-            "Maintizer"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -7976,
-            "x": -4744
         }
     },
     {
@@ -415,22 +414,6 @@
         "coords": {
             "z": 1016,
             "x": 9016
-        }
-    },
-    {
-        "world": "world",
-        "name": "Sonic",
-        "mayor": "Brnull_",
-        "pvp": false,
-        "residents": [
-            "Brnull_"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": 10760,
-            "x": -3848
         }
     },
     {
@@ -459,6 +442,22 @@
         "coords": {
             "z": -840,
             "x": -2296
+        }
+    },
+    {
+        "world": "world",
+        "name": "Sonic",
+        "mayor": "Brnull_",
+        "pvp": false,
+        "residents": [
+            "Brnull_"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 10760,
+            "x": -3848
         }
     },
     {
@@ -677,7 +676,8 @@
         "pvp": false,
         "residents": [
             "WinterWolf19575",
-            "KatTheMermaid3"
+            "KatTheMermaid3",
+            "Puredemon67"
         ],
         "assistants": [],
         "capital": false,
@@ -1020,7 +1020,6 @@
             "f333yyy",
             "Leyy__",
             "ChrisEagle_2008",
-            "smurf0509",
             "sireastbound",
             "CROUTON_JESUS",
             "iShockMC",
@@ -1104,7 +1103,8 @@
         "pvp": false,
         "residents": [
             "morriemoor21",
-            "Mason0221"
+            "Mason0221",
+            "DecTr07"
         ],
         "assistants": [
             "Mason0221"
@@ -1231,22 +1231,6 @@
     },
     {
         "world": "world",
-        "name": "Hades",
-        "mayor": "Xperianthrax",
-        "pvp": false,
-        "residents": [
-            "Xperianthrax"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -4104,
-            "x": -10344
-        }
-    },
-    {
-        "world": "world",
         "name": "Muse",
         "mayor": "Lumina_Luminesce",
         "pvp": false,
@@ -1264,6 +1248,7 @@
     {
         "world": "world",
         "name": "Citadel",
+        "nation": "Broglands",
         "mayor": "QopsterNoDice",
         "pvp": false,
         "residents": [
@@ -1529,6 +1514,22 @@
     },
     {
         "world": "world",
+        "name": "solitary_cribs",
+        "mayor": "lil_russian",
+        "pvp": false,
+        "residents": [
+            "lil_russian"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -7640,
+            "x": 2680
+        }
+    },
+    {
+        "world": "world",
         "name": "VoltTown",
         "mayor": "DemxGGG",
         "pvp": false,
@@ -1620,7 +1621,8 @@
             "Crissy_Craft",
             "Zombie_thing",
             "Kromamak",
-            "Xe11o"
+            "Xe11o",
+            "Vct0ry"
         ],
         "assistants": [],
         "capital": false,
@@ -1802,23 +1804,6 @@
     },
     {
         "world": "world",
-        "name": "Willowshire",
-        "mayor": "Borislander",
-        "pvp": false,
-        "residents": [
-            "Borislander",
-            "sassdassah"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -9544,
-            "x": 3576
-        }
-    },
-    {
-        "world": "world",
         "name": "BlissHaven",
         "nation": "Harmonia",
         "mayor": "AppleCider9283",
@@ -1870,13 +1855,10 @@
             "JamesFRFX_TTV",
             "Wiesenschnitzel",
             "gumball1308",
-            "King_Aggelos2012",
             "sboket",
             "Justforswe",
             "ghost_morpho",
             "GiselleMora",
-            "swepso",
-            "Froggy_boba75",
             "TI6502",
             "_Mythic___",
             "Xelloz",
@@ -1884,7 +1866,10 @@
             "Katsugari",
             "Yandyyyy",
             "Daboecia",
-            "Mother_Miercette"
+            "Mother_Miercette",
+            "PaganAthiest",
+            "yonoad2365",
+            "amertzycow"
         ],
         "assistants": [
             "maddiem18",
@@ -1895,6 +1880,23 @@
         "coords": {
             "z": -12776,
             "x": -3240
+        }
+    },
+    {
+        "world": "world",
+        "name": "Willowshire",
+        "mayor": "Borislander",
+        "pvp": false,
+        "residents": [
+            "Borislander",
+            "sassdassah"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -9544,
+            "x": 3576
         }
     },
     {
@@ -1962,6 +1964,7 @@
     {
         "world": "world",
         "name": "Athens",
+        "nation": "Broglands",
         "mayor": "50centt",
         "pvp": false,
         "residents": [
@@ -1983,7 +1986,8 @@
         "pvp": false,
         "residents": [
             "meechza",
-            "Hanabi_Yasuraoka"
+            "Hanabi_Yasuraoka",
+            "KittyBaby123"
         ],
         "assistants": [],
         "capital": false,
@@ -2012,6 +2016,22 @@
     },
     {
         "world": "world",
+        "name": "Trading_Island",
+        "mayor": "Undertale9087",
+        "pvp": false,
+        "residents": [
+            "Undertale9087"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -200,
+            "x": 1816
+        }
+    },
+    {
+        "world": "world",
         "name": "Whiterun",
         "nation": "Skyrim",
         "mayor": "aeron_noxx",
@@ -2026,7 +2046,6 @@
             "aeron_noxx",
             "Silly_Monke",
             "LegendTM3223",
-            "breetherusski__",
             "crest99",
             "flthompson21",
             "xSiilver",
@@ -2058,22 +2077,6 @@
     },
     {
         "world": "world",
-        "name": "Trading_Island",
-        "mayor": "Undertale9087",
-        "pvp": false,
-        "residents": [
-            "Undertale9087"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -200,
-            "x": 1816
-        }
-    },
-    {
-        "world": "world",
         "name": "Xenia",
         "mayor": "VanSpeijk",
         "pvp": false,
@@ -2086,7 +2089,10 @@
             "TTV_ThePbGames",
             "LewisBarmy",
             "ssare",
-            "Iianaphobic"
+            "Iianaphobic",
+            "Villager48",
+            "CutestPandaEver",
+            "Calumesh"
         ],
         "assistants": [
             "_ingenieur",
@@ -2119,23 +2125,6 @@
     },
     {
         "world": "world",
-        "name": "Broglands",
-        "nation": "Broglands",
-        "mayor": "Broglands",
-        "pvp": false,
-        "residents": [
-            "Broglands"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -120,
-            "x": 344
-        }
-    },
-    {
-        "world": "world",
         "name": "Catboy_Maidland",
         "nation": "Cat_Boy_Nation",
         "mayor": "BaldMaidboy",
@@ -2150,6 +2139,23 @@
         "coords": {
             "z": 10200,
             "x": -3256
+        }
+    },
+    {
+        "world": "world",
+        "name": "Broglands",
+        "nation": "Broglands",
+        "mayor": "Broglands",
+        "pvp": false,
+        "residents": [
+            "Broglands"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -120,
+            "x": 344
         }
     },
     {
@@ -2266,22 +2272,6 @@
     },
     {
         "world": "world",
-        "name": "boMboLand",
-        "mayor": "AlexaIV",
-        "pvp": false,
-        "residents": [
-            "AlexaIV"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -12584,
-            "x": -12296
-        }
-    },
-    {
-        "world": "world",
         "name": "BlueBerryValley",
         "mayor": "BlauwBesje",
         "pvp": false,
@@ -2295,6 +2285,22 @@
         "coords": {
             "z": 8824,
             "x": -2712
+        }
+    },
+    {
+        "world": "world",
+        "name": "boMboLand",
+        "mayor": "AlexaIV",
+        "pvp": false,
+        "residents": [
+            "AlexaIV"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -12584,
+            "x": -12296
         }
     },
     {
@@ -2402,7 +2408,8 @@
         "residents": [
             "Hedgiedog",
             "Nightcore_Ally",
-            "Markos29"
+            "Markos29",
+            "MrMcFluffy23"
         ],
         "assistants": [],
         "capital": false,
@@ -2430,6 +2437,23 @@
     },
     {
         "world": "world",
+        "name": "Reds",
+        "mayor": "redevilx",
+        "pvp": false,
+        "residents": [
+            "redevilx",
+            "Amyyyyyyy1997"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 11208,
+            "x": 2056
+        }
+    },
+    {
+        "world": "world",
         "name": "Solo",
         "mayor": "tortoisesquid",
         "pvp": false,
@@ -2442,22 +2466,6 @@
         "coords": {
             "z": 3144,
             "x": -5432
-        }
-    },
-    {
-        "world": "world",
-        "name": "Reds",
-        "mayor": "redevilx",
-        "pvp": false,
-        "residents": [
-            "redevilx"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": 11208,
-            "x": 2056
         }
     },
     {
@@ -2667,7 +2675,6 @@
             "g4qween",
             "XxDragonTamer",
             "MistressVixen",
-            "Devoid_11",
             "kingkevin070",
             "PwnedCrystal",
             "lolitsdillonx"
@@ -2715,6 +2722,23 @@
     },
     {
         "world": "world",
+        "name": "Koolaid",
+        "mayor": "Sandgolf78",
+        "pvp": false,
+        "residents": [
+            "Sandgolf78",
+            "Sammy_boy209"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -5592,
+            "x": 3272
+        }
+    },
+    {
+        "world": "world",
         "name": "Vinocaye",
         "mayor": "ChromeGoggles",
         "pvp": false,
@@ -2727,22 +2751,6 @@
         "coords": {
             "z": 13928,
             "x": 14376
-        }
-    },
-    {
-        "world": "world",
-        "name": "Koolaid",
-        "mayor": "Sandgolf78",
-        "pvp": false,
-        "residents": [
-            "Sandgolf78"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -5592,
-            "x": 3272
         }
     },
     {
@@ -2809,7 +2817,9 @@
             "fendermitch",
             "BEETLENOT",
             "_Citizen__",
-            "WulfyEH"
+            "WulfyEH",
+            "LunaAki",
+            "Ladster"
         ],
         "assistants": [],
         "capital": false,
@@ -2954,8 +2964,7 @@
         "residents": [
             "tDIzzle224",
             "ChopUpBruh",
-            "WizzUpBruh",
-            "Tigerlilli20"
+            "WizzUpBruh"
         ],
         "assistants": [],
         "capital": false,
@@ -3042,6 +3051,22 @@
     },
     {
         "world": "world",
+        "name": "Fallen_Star",
+        "mayor": "StormBolio",
+        "pvp": false,
+        "residents": [
+            "StormBolio"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -3912,
+            "x": -9192
+        }
+    },
+    {
+        "world": "world",
         "name": "Jomppula",
         "mayor": "Villebuilder",
         "pvp": false,
@@ -3055,22 +3080,6 @@
         "coords": {
             "z": 1336,
             "x": 10504
-        }
-    },
-    {
-        "world": "world",
-        "name": "Fallen_Star",
-        "mayor": "StormBolio",
-        "pvp": false,
-        "residents": [
-            "StormBolio"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -3912,
-            "x": -9192
         }
     },
     {
@@ -3147,18 +3156,20 @@
     },
     {
         "world": "world",
-        "name": "Margaritaville",
-        "mayor": "DAEMON_DEAN",
+        "name": "Xizzy",
+        "mayor": "QURKZY_JAY",
         "pvp": false,
         "residents": [
-            "DAEMON_DEAN"
+            "QURKZY_JAY",
+            "KuroBuildzzz",
+            "Fxsysbuildzzz"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "z": 3784,
-            "x": -8200
+            "z": -1896,
+            "x": -2904
         }
     },
     {
@@ -3183,6 +3194,22 @@
         "coords": {
             "z": -2296,
             "x": -6536
+        }
+    },
+    {
+        "world": "world",
+        "name": "Margaritaville",
+        "mayor": "DAEMON_DEAN",
+        "pvp": false,
+        "residents": [
+            "DAEMON_DEAN"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 3784,
+            "x": -8200
         }
     },
     {
@@ -3256,6 +3283,22 @@
     },
     {
         "world": "world",
+        "name": "Chamber_of_Secrets",
+        "mayor": "NooksAC",
+        "pvp": false,
+        "residents": [
+            "NooksAC"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 1864,
+            "x": -7640
+        }
+    },
+    {
+        "world": "world",
         "name": "Cygnus_X-1",
         "mayor": "MB3113",
         "pvp": false,
@@ -3299,6 +3342,23 @@
         "coords": {
             "z": -1672,
             "x": 2760
+        }
+    },
+    {
+        "world": "world",
+        "name": "Vallheim",
+        "nation": "Broglands",
+        "mayor": "breetherusski__",
+        "pvp": false,
+        "residents": [
+            "breetherusski__"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -7176,
+            "x": -10536
         }
     },
     {
@@ -3356,7 +3416,8 @@
             "Greeva_",
             "IcyTheAxolotl",
             "ILoveIce_cream",
-            "noraly123"
+            "noraly123",
+            "Slimestruct"
         ],
         "assistants": [],
         "capital": false,
@@ -3398,7 +3459,8 @@
         "mayor": "Grallien",
         "pvp": false,
         "residents": [
-            "Grallien"
+            "Grallien",
+            "kxmishiro"
         ],
         "assistants": [],
         "capital": false,
@@ -3817,7 +3879,6 @@
     {
         "world": "world",
         "name": "Stillwater",
-        "nation": "Republic",
         "mayor": "Trickypineapples",
         "pvp": false,
         "residents": [
@@ -3859,14 +3920,15 @@
         "pvp": false,
         "residents": [
             "GeorgiaMC",
-            "Olinova"
+            "Olinova",
+            "Scotty33Hotty"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "z": 4264,
-            "x": -10632
+            "z": 4216,
+            "x": -10584
         }
     },
     {
@@ -3965,6 +4027,7 @@
     {
         "world": "world",
         "name": "Hugz",
+        "nation": "Broglands",
         "mayor": "BR__MarzieMalfoy",
         "pvp": false,
         "residents": [
@@ -4002,22 +4065,6 @@
     },
     {
         "world": "world",
-        "name": "Enigma",
-        "mayor": "ErizoGames",
-        "pvp": false,
-        "residents": [
-            "ErizoGames"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": 136,
-            "x": -10536
-        }
-    },
-    {
-        "world": "world",
         "name": "Awesomeville_II",
         "nation": "Broglands",
         "mayor": "EpikEvan",
@@ -4034,6 +4081,22 @@
         "coords": {
             "z": -4392,
             "x": 12232
+        }
+    },
+    {
+        "world": "world",
+        "name": "Enigma",
+        "mayor": "ErizoGames",
+        "pvp": false,
+        "residents": [
+            "ErizoGames"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 136,
+            "x": -10536
         }
     },
     {
@@ -4154,6 +4217,24 @@
     },
     {
         "world": "world",
+        "name": "Taako_Town",
+        "mayor": "Taako102",
+        "pvp": true,
+        "residents": [
+            "Taako102",
+            "gip_xd",
+            "marieF09"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 9384,
+            "x": 10168
+        }
+    },
+    {
+        "world": "world",
         "name": "Red",
         "nation": "Hot_Boy_Nation",
         "mayor": "RedAnger",
@@ -4170,23 +4251,6 @@
         "coords": {
             "z": -2040,
             "x": -11912
-        }
-    },
-    {
-        "world": "world",
-        "name": "Taako_Town",
-        "mayor": "Taako102",
-        "pvp": true,
-        "residents": [
-            "Taako102",
-            "gip_xd"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": 9384,
-            "x": 10168
         }
     },
     {
@@ -4303,7 +4367,6 @@
             "MHtyox",
             "SummerVase79549",
             "DragonGod31",
-            "Saxon_fire",
             "itsjustjochem",
             "FreeLester",
             "JimBijvoetXD",
@@ -4315,7 +4378,8 @@
             "IndeedRik",
             "Sir_Morte",
             "Bunnda",
-            "bundaa"
+            "bundaa",
+            "CLUMSY_NlNJA"
         ],
         "assistants": [
             "SummerVase79549"
@@ -4447,8 +4511,7 @@
         "mayor": "PricedMender935",
         "pvp": false,
         "residents": [
-            "PricedMender935",
-            "CutestPandaEver"
+            "PricedMender935"
         ],
         "assistants": [],
         "capital": false,
@@ -4490,42 +4553,6 @@
         "coords": {
             "z": -8888,
             "x": 9720
-        }
-    },
-    {
-        "world": "world",
-        "name": "Bloodshed_Hallow",
-        "mayor": "HeartlessFox77",
-        "pvp": false,
-        "residents": [
-            "HeartlessFox77",
-            "Huffy413413",
-            "TheRealJaku"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -7640,
-            "x": -2696
-        }
-    },
-    {
-        "world": "world",
-        "name": "Wolfenburg_2",
-        "mayor": "Bloit",
-        "pvp": false,
-        "residents": [
-            "Bloit",
-            "JrnCli",
-            "Fort3k_"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -11560,
-            "x": -13032
         }
     },
     {
@@ -4689,6 +4716,23 @@
     },
     {
         "world": "world",
+        "name": "Genesis",
+        "nation": "Eclipse",
+        "mayor": "LegoLord365",
+        "pvp": false,
+        "residents": [
+            "LegoLord365"
+        ],
+        "assistants": [],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": 14200,
+            "x": 4856
+        }
+    },
+    {
+        "world": "world",
         "name": "PiggyParadise",
         "mayor": "pigholex98",
         "pvp": false,
@@ -4724,23 +4768,6 @@
     },
     {
         "world": "world",
-        "name": "Genesis",
-        "nation": "Eclipse",
-        "mayor": "LegoLord365",
-        "pvp": false,
-        "residents": [
-            "LegoLord365"
-        ],
-        "assistants": [],
-        "capital": true,
-        "outpost": false,
-        "coords": {
-            "z": 14200,
-            "x": 4856
-        }
-    },
-    {
-        "world": "world",
         "name": "Lords",
         "mayor": "browntown13",
         "pvp": false,
@@ -4753,22 +4780,6 @@
         "coords": {
             "z": -2248,
             "x": 6648
-        }
-    },
-    {
-        "world": "world",
-        "name": "OpSfFactory",
-        "mayor": "yonoad2365",
-        "pvp": false,
-        "residents": [
-            "yonoad2365"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -7304,
-            "x": -6056
         }
     },
     {
@@ -4880,7 +4891,7 @@
     {
         "world": "world",
         "name": "Spekton",
-        "nation": "Harmonia",
+        "nation": "Republic",
         "mayor": "Spektrofotometer",
         "pvp": false,
         "residents": [
@@ -4965,6 +4976,24 @@
     },
     {
         "world": "world",
+        "name": "CycleTown",
+        "nation": "Broglands",
+        "mayor": "CycleKing",
+        "pvp": false,
+        "residents": [
+            "CycleKing",
+            "StegoLegosaurus"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 12872,
+            "x": -6824
+        }
+    },
+    {
+        "world": "world",
         "name": "besties",
         "nation": "Harmonia",
         "mayor": "ninaarii",
@@ -4985,24 +5014,6 @@
         "coords": {
             "z": 8104,
             "x": 7448
-        }
-    },
-    {
-        "world": "world",
-        "name": "CycleTown",
-        "nation": "Broglands",
-        "mayor": "CycleKing",
-        "pvp": false,
-        "residents": [
-            "CycleKing",
-            "StegoLegosaurus"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": 12872,
-            "x": -6824
         }
     },
     {
@@ -5102,7 +5113,6 @@
         "pvp": false,
         "residents": [
             "NovaTheGodess",
-            "Kaloo234",
             "Zi_Qc",
             "micrastang"
         ],
@@ -5169,7 +5179,6 @@
     {
         "world": "earth",
         "name": "Down",
-        "nation": "Republic",
         "mayor": "BR__AnonymousP13",
         "pvp": false,
         "residents": [
@@ -5360,7 +5369,6 @@
             "NekoCb",
             "WellAllBell",
             "SupSwooty",
-            "WillowExists",
             "GetSmurfed",
             "SoulTSC",
             "luukvanloo",
@@ -5382,7 +5390,9 @@
             "LUCHASAZ",
             "beanmanthegr8",
             "LocklandLLama",
-            "BLTRover"
+            "BLTRover",
+            "ImNovee",
+            "ImQuaqqt"
         ],
         "assistants": [
             "luukvanloo"
@@ -5415,25 +5425,6 @@
     },
     {
         "world": "earth",
-        "name": "Woodpine",
-        "mayor": "josefedavila",
-        "pvp": false,
-        "residents": [
-            "josefedavila",
-            "CandyGamez",
-            "SparkleOverlord",
-            "Shadowxeva"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": 2200,
-            "x": 4232
-        }
-    },
-    {
-        "world": "earth",
         "name": "a_e_s_t_h_e_t_i_c_s",
         "mayor": "Mammakstoll",
         "pvp": false,
@@ -5450,6 +5441,25 @@
         "coords": {
             "z": -456,
             "x": 12216
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Woodpine",
+        "mayor": "josefedavila",
+        "pvp": false,
+        "residents": [
+            "josefedavila",
+            "CandyGamez",
+            "SparkleOverlord",
+            "Shadowxeva"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 2200,
+            "x": 4232
         }
     },
     {
@@ -5540,6 +5550,38 @@
         "coords": {
             "z": -7240,
             "x": -13640
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Bakis",
+        "mayor": "MerNoire55",
+        "pvp": false,
+        "residents": [
+            "MerNoire55"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -4984,
+            "x": 4312
+        }
+    },
+    {
+        "world": "earth",
+        "name": "_HuckleBerry_",
+        "mayor": "smurf0509",
+        "pvp": false,
+        "residents": [
+            "smurf0509"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -568,
+            "x": -6568
         }
     },
     {
@@ -5648,7 +5690,8 @@
             "BR__MonkeyXMecha",
             "BR__Code_X48",
             "FazeStaff",
-            "BR__SlateWindow7"
+            "BR__SlateWindow7",
+            "vinxyenjinere"
         ],
         "assistants": [
             "BR__Kitsune8379"
@@ -5678,23 +5721,6 @@
     },
     {
         "world": "earth",
-        "name": "Silverkeep",
-        "mayor": "MrFoxzer",
-        "pvp": false,
-        "residents": [
-            "MrFoxzer",
-            "MinnieSoda"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -4280,
-            "x": -11768
-        }
-    },
-    {
-        "world": "earth",
         "name": "zen",
         "mayor": "nmitsu",
         "pvp": false,
@@ -5708,6 +5734,23 @@
         "coords": {
             "z": -5416,
             "x": 1224
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Silverkeep",
+        "mayor": "MrFoxzer",
+        "pvp": false,
+        "residents": [
+            "MrFoxzer",
+            "MinnieSoda"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -4280,
+            "x": -11768
         }
     },
     {
@@ -5872,11 +5915,8 @@
             "2_Cute_4_U_",
             "unmatchedsocks",
             "Vinc3L3Gh3yB0i",
-            "Matthias011",
-            "EdibleMichael",
             "crimeboykarl",
             "Breaks__Hetheon",
-            "_Or1gins_",
             "SpareTangerine",
             "Tatherva",
             "_Walex",
@@ -5918,7 +5958,6 @@
             "Astr0n0micalArms",
             "ChimeraHypeirion",
             "Servachuels",
-            "crasjo",
             "karlimi",
             "MrPhilipBones",
             "HeyItzRye",
@@ -5930,7 +5969,12 @@
             "Winnss",
             "Robertfox",
             "GatorBoySC",
-            "ProFX_"
+            "ProFX_",
+            "Gold_Crusader",
+            "PuhhI",
+            "Maxtar_",
+            "mollyinmywater",
+            "GunnerZeke"
         ],
         "assistants": [
             "Rekiso102"
@@ -6022,7 +6066,6 @@
             "_Apidae_",
             "k1ll1nf00s",
             "BR__Gurpreet6947",
-            "Nedthezed",
             "Lizardo53",
             "Scipiio",
             "BR__GfungIsGreat",
@@ -6032,7 +6075,9 @@
             "omgarisgozirra",
             "ImPhoenixx",
             "Kirsuberid",
-            "CelloMetalMTG33"
+            "CelloMetalMTG33",
+            "BR__Golden_Fox31",
+            "freddyboy3609"
         ],
         "assistants": [
             "TheTwistedKitty",
@@ -6192,23 +6237,6 @@
     },
     {
         "world": "earth",
-        "name": "Mushroom_village",
-        "mayor": "Vixthemutt",
-        "pvp": false,
-        "residents": [
-            "Vixthemutt",
-            "Wilv"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -6440,
-            "x": 6904
-        }
-    },
-    {
-        "world": "earth",
         "name": "Exodus",
         "mayor": "Deltafoxter",
         "pvp": false,
@@ -6349,7 +6377,7 @@
         "world": "earth",
         "name": "DuckBallz",
         "nation": "Broglands",
-        "mayor": "MustrixOnTwitch",
+        "mayor": "malkum4432",
         "pvp": false,
         "residents": [
             "MustrixOnTwitch",
@@ -6395,6 +6423,22 @@
     },
     {
         "world": "earth",
+        "name": "florida",
+        "mayor": "SirSalad",
+        "pvp": false,
+        "residents": [
+            "SirSalad"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -3048,
+            "x": -9656
+        }
+    },
+    {
+        "world": "earth",
         "name": "Northpacific",
         "nation": "Republic",
         "mayor": "Mikaela5322747",
@@ -6408,22 +6452,6 @@
         "coords": {
             "z": -4536,
             "x": -3080
-        }
-    },
-    {
-        "world": "earth",
-        "name": "florida",
-        "mayor": "SirSalad",
-        "pvp": false,
-        "residents": [
-            "SirSalad"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -3048,
-            "x": -9656
         }
     },
     {
@@ -6494,7 +6522,9 @@
         "pvp": false,
         "residents": [
             "BR__HA_Gravity",
-            "Viaktree"
+            "Viaktree",
+            "SharaLynn",
+            "LiveLeader95050"
         ],
         "assistants": [],
         "capital": false,
@@ -6542,7 +6572,6 @@
     {
         "world": "earth",
         "name": "Greenville",
-        "nation": "Republic",
         "mayor": "MainTaylor",
         "pvp": false,
         "residents": [
@@ -6599,6 +6628,7 @@
     {
         "world": "earth",
         "name": "Sailoria",
+        "nation": "Broglands",
         "mayor": "Siilinki",
         "pvp": false,
         "residents": [
@@ -6791,6 +6821,22 @@
     },
     {
         "world": "earth",
+        "name": "Tritton",
+        "mayor": "MadCroft",
+        "pvp": false,
+        "residents": [
+            "MadCroft"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -5928,
+            "x": 6488
+        }
+    },
+    {
+        "world": "earth",
         "name": "Korvo",
         "mayor": "StragoNubius",
         "pvp": false,
@@ -6820,34 +6866,35 @@
     },
     {
         "world": "earth",
-        "name": "Tritton",
-        "mayor": "MadCroft",
-        "pvp": false,
-        "residents": [
-            "MadCroft"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -5928,
-            "x": 6488
-        }
-    },
-    {
-        "world": "earth",
         "name": "EcoTown",
         "mayor": "onur070707",
         "pvp": false,
         "residents": [
-            "onur070707"
+            "onur070707",
+            "EvrenBaban"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "z": -4488,
-            "x": 4216
+            "z": -4504,
+            "x": 4056
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Dragonia",
+        "mayor": "Dergeh",
+        "pvp": false,
+        "residents": [
+            "Dergeh"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -6840,
+            "x": -328
         }
     },
     {
@@ -6868,22 +6915,6 @@
         "coords": {
             "z": -7208,
             "x": 2056
-        }
-    },
-    {
-        "world": "earth",
-        "name": "Dragonia",
-        "mayor": "Dergeh",
-        "pvp": false,
-        "residents": [
-            "Dergeh"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "z": -6840,
-            "x": -328
         }
     },
     {
@@ -6961,6 +6992,27 @@
         "coords": {
             "z": -5384,
             "x": -9528
+        }
+    },
+    {
+        "world": "earth",
+        "name": "North_Empire",
+        "mayor": "Goosseking",
+        "pvp": false,
+        "residents": [
+            "Goosseking",
+            "roteemil",
+            "reversedPoland",
+            "I_Am_Broke"
+        ],
+        "assistants": [
+            "reversedPoland"
+        ],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -8232,
+            "x": 9064
         }
     },
     {
