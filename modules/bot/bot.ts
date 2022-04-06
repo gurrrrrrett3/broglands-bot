@@ -78,7 +78,20 @@ export default class Bot {
       } else if (os.channel && ns.channel) {
         const channel = channels.get("voiceLog");
         if (channel) {
-          channel.send(`${os.member.displayName} has moved from ${os.channel.name} to ${ns.channel.name}`);
+          
+          if (ns.selfDeaf != os.selfDeaf) {
+            channel.send(`${ns.member.displayName} has ${ns.selfDeaf ? "deafened" : "undeafened"} in ${ns.channel.name}`);
+          } else if (ns.selfMute != os.selfMute) {
+            channel.send(`${ns.member.displayName} has ${ns.selfMute ? "muted" : "unmuted"} in ${ns.channel.name}`);
+          } else if (ns.serverDeaf != os.serverMute) {
+            channel.send(`${ns.member.displayName} has been ${ns.deaf ? "deafened" : "undeafened"} in ${ns.channel.name}`);
+          } else if (ns.serverMute != os.serverMute) {
+            channel.send(`${ns.member.displayName} has been ${ns.mute ? "muted" : "unmuted"} in ${ns.channel.name}`);
+          } else if (ns.streaming != os.streaming) {
+            channel.send(`${ns.member.displayName} has ${ns.streaming ? "started streaming" : "stopped streaming"} in ${ns.channel.name}`);
+          } else if (ns.channel.name != os.channel.name) {
+            channel.send(`${ns.member.displayName} has moved from ${os.channel.name} to ${ns.channel.name}`);
+          }
         }
       }
     });
