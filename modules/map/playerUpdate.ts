@@ -1,5 +1,6 @@
 import Player from "../resources/player";
 import { bot } from "../..";
+import PlayerLoginManager from "../data/playerLoginManager";
 
 export default class playerUpdate {
 
@@ -20,6 +21,7 @@ export default class playerUpdate {
             if (!this.oldPlayers.find((op) => op.name == p.name)) {
                 // New player
                 bot.updateEmbedManager.playerJoin(p);
+                PlayerLoginManager.newLogin(p.name);
             }
         });
 

@@ -61,7 +61,7 @@ export default class UpdateEmbed {
             .setColor("#00ff00")
             .setTitle("Player Joined")
             .setDescription(`${player.getName()} has joined the server`)
-            .setThumbnail(`https://mc-heads.net/head/${player.getName()}`)
+            .setThumbnail(`https://mc-heads.net/head/${player.name}`)
             .addField("Location", `x: \`${player.x}\`\nz: \`${player.z}\`\nWorld: \`${player.world}\`\n[View on map](${MapInterface.generateMapLink(player.getLocation(), 3)})`, true)
             .setTimestamp();
 
@@ -72,7 +72,7 @@ export default class UpdateEmbed {
         const embed = new Discord.MessageEmbed()
             .setColor("#ff0000")
             .setTitle("Player Left")
-            .setDescription(`${player.name} has left the server`)
+            .setDescription(`${player.getName()} has left the server`)
             .setThumbnail(`https://mc-heads.net/head/${player.name}`)
             .addField("Location", `x: \`${player.x}\`\nz: \`${player.z}\`\nWorld: \`${player.world}\`\n[View on map](${MapInterface.generateMapLink(player.getLocation(), 3)})`, true)
             .setTimestamp();

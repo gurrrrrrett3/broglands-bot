@@ -37,7 +37,7 @@ export default class LinkManager {
     const embed = new MessageEmbed()
       .setColor("#00ff00")
       .setTitle("Almost there!")
-      .setDescription(`Go to \`/nation spawn\` or \`/pw BroglandsDlink\` on the server and stand on the \n\n**${block.block}**\n\nThe bot will DM you when you do it, so make sure your DMs are open!`);
+      .setDescription(`Go to \`/nation spawn\` on the server and stand on the \n\n**${block.block}**\n\nThe bot will DM you when you do it, so make sure your DMs are open!`);
 
       if (interaction.replied) return
     interaction.reply({ embeds: [embed] });

@@ -26,6 +26,7 @@ export default class Bot {
   public updateInterval = setInterval(() => {
     this.embedManager.updateEmbeds();
     this.playerUpdate.update(Util.getPlayerFile());
+    this.setStatus();
   }, 5000);
 
   constructor(client: Dicord.Client) {
@@ -97,5 +98,15 @@ export default class Bot {
 
       member.roles.add(member.guild.roles.cache.find((r) => r.name === "Nation Member")!);
     });
+  }
+
+  public setStatus() {
+    const towns = Util.getTownFile()
+    const players = Util.getPlayerFile()
+    
+    const townCount = towns.length
+    const playerCount = players.length
+    
+    this.Client.user?.setActivity(`on CYT, ${Util.getBroglandsResidentCount()} Broglanders, ${Util.getPlayersInBroglands().length} Online (${(Util.getPlayersInBroglands().length / players.length * 100).toFixed(2)}%)`, { type: "PLAYING" });
   }
 }

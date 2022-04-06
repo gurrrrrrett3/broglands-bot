@@ -2,6 +2,7 @@ import Town from "../resources/town";
 import fs from "fs";
 import UpdateEmbed from "../bot/updateEmbed";
 import { bot } from "../..";
+import Util from "../bot/util";
 
 export default class TownDataManager {
   public towns: Town[];
@@ -41,7 +42,7 @@ export default class TownDataManager {
       this.embedManager.updateTown(
         t.town,
         `Town Nation Change`,
-        `${t.town.name} moved to ${t.newNation} from ${t.oldNation}`
+        `${t.town.name} moved to ${t.newNation ?? "None"} from ${t.oldNation ?? "None"}`,
       );
     });
 
@@ -50,7 +51,7 @@ export default class TownDataManager {
         this.embedManager.updateTown(
             t.town,
             `Town Mayor Change`,
-            `${t.town.name}'s mayor changed from ${t.oldMayor} to ${t.newMayor}`
+            `${t.town.name}'s mayor changed from ${Util.formatPlayer(t.oldMayor)} to ${Util.formatPlayer(t.newMayor)}`
         );
     });
 
@@ -59,7 +60,7 @@ export default class TownDataManager {
         this.embedManager.updateTown(
             t.town,
             `Town Assistant Added`,
-            `${t.town.name}'s added ${t.assistant} as an assistant`
+            `${t.town.name}'s added ${Util.formatPlayer(t.assistant)} as an assistant`
         );
     });
 
@@ -67,7 +68,7 @@ export default class TownDataManager {
         this.embedManager.updateTown(
             t.town,
             `Town Assistant Removed`,
-            `${t.town.name}'s removed ${t.assistant} as an assistant`
+            `${t.town.name}'s removed ${Util.formatPlayer(t.assistant)} as an assistant`
         );
     });
 
@@ -78,7 +79,7 @@ export default class TownDataManager {
             this.embedManager.updateTown(
                 t.town,
                 `Town Resident Change`,
-                `${a} joined ${t.town.name}`
+                `${Util.formatPlayer(a)} joined ${t.town.name}`
             );
         })
     });
@@ -88,7 +89,7 @@ export default class TownDataManager {
             this.embedManager.updateTown(
                 t.town,
                 `Town Resident Change`,
-                `${a} left ${t.town.name}`
+                `${Util.formatPlayer(a)} left ${t.town.name}`
             );
         })
     });
