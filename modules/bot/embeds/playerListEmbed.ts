@@ -72,7 +72,7 @@ export default class PlayerListEmbed implements EmbedClass {
         .addField("AFK", afkList.join("\n"))
         .addField(
           "Data",
-          `Total: ${allPlayers.length} players\nNon AFK: ${nonAfkPlayers.length}\nAFK Percentage: ${(
+          `Total: ${allPlayers.length} players\nNon AFK: ${nonAfkPlayers.length}\nAFK: ${afkList.length}\nAFK Percentage: ${(
             (afkPlayers.length / allPlayers.length) *
             100
           ).toFixed(2)}%\nOnline in Nation: ${

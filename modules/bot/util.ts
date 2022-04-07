@@ -90,7 +90,7 @@ export default class Util {
   }
 
   public static getOnlinePlayer(name: string) {
-    return Util.getPlayerFile().find((p) => p.name === name);
+    return Util.getPlayerFile().find((p) => p.name.toLowerCase() === name.toLowerCase());
   }
 
   public static getDistance(a: Coords, b: Coords) {

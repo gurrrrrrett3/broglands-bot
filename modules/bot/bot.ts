@@ -7,6 +7,7 @@ import KickManager from "./kickmanager";
 import LinkManager from "./linkManager";
 import UpdateEmbed from "./updateEmbed";
 import playerUpdate from "../map/playerUpdate";
+import Web from "../web/index"
 import Util from "./util";
 
 let channels = new Map<string, Dicord.TextChannel>();
@@ -22,6 +23,7 @@ export default class Bot {
   public updateEmbedManager: UpdateEmbed;
   public linkManager: LinkManager;
   public playerUpdate: playerUpdate;
+  public web: Web;
 
   public updateInterval = setInterval(() => {
     this.embedManager.updateEmbeds();
@@ -37,6 +39,7 @@ export default class Bot {
     this.mapUpdate = new MapUpdate();
     this.linkManager = new LinkManager(client);
     this.playerUpdate = new playerUpdate();
+    this.web = new Web();
 
     this.Client.on("ready", () => {
       console.log(`Logged in as ${this.Client.user?.tag}`);

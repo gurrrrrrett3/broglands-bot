@@ -115,7 +115,6 @@
         "pvp": false,
         "residents": [
             "OBgameslayer",
-            "Magicthecatlmy",
             "FroggyVal"
         ],
         "assistants": [],
@@ -341,7 +340,8 @@
             "OctoYeti",
             "AlexTheArchitect",
             "koolkid231",
-            "KingTimper"
+            "KingTimper",
+            "GunnerZeke"
         ],
         "assistants": [],
         "capital": false,
@@ -2376,7 +2376,10 @@
         "residents": [
             "Hedgiedog",
             "Nightcore_Ally",
-            "MrMcFluffy23"
+            "MrMcFluffy23",
+            "Kname",
+            "420Existential",
+            "Rmodz"
         ],
         "assistants": [],
         "capital": false,
@@ -5880,7 +5883,6 @@
             "PuhhI",
             "Maxtar_",
             "mollyinmywater",
-            "GunnerZeke",
             "Proudmark"
         ],
         "assistants": [
@@ -6105,8 +6107,7 @@
         "residents": [
             "oRevert51",
             "Pinkwaffles01",
-            "Lachrox",
-            "420Existential"
+            "Lachrox"
         ],
         "assistants": [
             "Pinkwaffles01"
@@ -6132,6 +6133,24 @@
         "coords": {
             "z": -8696,
             "x": 8696
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Creaky_Castle",
+        "mayor": "o_oLegit",
+        "pvp": false,
+        "residents": [
+            "o_oLegit",
+            "Clutz00",
+            "HairyBuckets"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -1128,
+            "x": 1080
         }
     },
     {

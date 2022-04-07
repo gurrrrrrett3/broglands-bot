@@ -20,7 +20,7 @@ export default class PlayerLoginManager {
   }
 
   public static getLoginTime(name: string) {
-    return this.openFile().find((login) => login.name === name)?.time;
+    return this.openFile().find((login) => login.name.toLowerCase() === name.toLowerCase())?.time;
   }
 
   public static getPlaytime(name: string) {

@@ -127,3 +127,9 @@ dist
 .pnp.*
 
 auth.json
+
+*.crt
+*.key
+data/tokens.json
+data/states.json
+data/users/
