@@ -92,6 +92,15 @@ export default class LinkManager {
         //User isn't in a town, so don't add any roles
         break;
     }
+
+    const guild = member?.guild
+    if (!guild) return;
+
+    if (guild.emojis.cache.find((e) => e.name === ign)) return;
+
+    guild.emojis.create(`https://mc-heads.net/avatar/${ign}`, `${ign}`).catch(() => { 
+      console.log(`Failed to create emoji for ${ign}`);
+    });
   }
 
   private getCheck(ign: string, block: Block, interaction: CommandInteraction): NodeJS.Timer {

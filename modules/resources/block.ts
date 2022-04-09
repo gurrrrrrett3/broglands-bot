@@ -8,48 +8,48 @@ export default class Blocks {
     public static readonly BLOCKS = [
         {
           block: "Note Block",
-          x: 5912,
-          z: 1546,
+          x: 5939,
+          z: 1562,
         },
           {
           block: "Cobblestone",
-          x: 5913,
-          z: 1547,
+          x: 5940,
+          z: 1564,
           },
           {
           block: "Gold Block",
-          x: 5914,
-          z: 1547,
+          x: 5940,
+          z: 1562,
           },
           {
           block: "Crafting Table",
-          x: 5912,
-          z: 1547,
+          x: 5941,
+          z: 1562,
           },
           {
-          block: "Glowstone",
-          x: 5913,
-          z: 1546,
+          block: "Sea Lantern",
+          x: 5940,
+          z: 1563,
           },
           {
           block: "Diamond Block",
-          x: 5914,
-          z: 1546,
+          x: 5941,
+          z: 1563,
           },
           {
           block: "Emerald Block",
-          x: 5912,
-          z: 1545,
+          x: 5939,
+          z: 1564,
           },
           {
           block: "Dirt",
-          x: 5913,
-          z: 1545,
+          x: 5941,
+          z: 1564,
           },
           {
           block: "Sand",
-          x: 5914,
-          z: 1545,
+          x: 5939,
+          z: 1563,
           }
       ]
 

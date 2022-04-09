@@ -336,7 +336,6 @@
             "KAIZEK",
             "IAMAMUFFINHEAD",
             "OctoYeti",
-            "koolkid231",
             "KingTimper",
             "GunnerZeke",
             "BR__TimeToSmile8",
@@ -3770,6 +3769,23 @@
         "coords": {
             "x": 9256,
             "z": 10504
+        }
+    },
+    {
+        "world": "world",
+        "name": "Oxbel_Cove",
+        "nation": "Broglands",
+        "mayor": "koolkid231",
+        "pvp": false,
+        "residents": [
+            "koolkid231"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 13336,
+            "z": 14584
         }
     },
     {
