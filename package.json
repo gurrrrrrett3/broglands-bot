@@ -22,9 +22,12 @@
     "@discordjs/rest": "^0.3.0",
     "discord.js": "^13.6.0",
     "express": "^4.17.3",
-    "node-html-parser": "^5.3.3"
+    "express-ws": "^5.0.2",
+    "node-html-parser": "^5.3.3",
+    "ws": "^8.5.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.13"
+    "@types/express": "^4.17.13",
+    "@types/express-ws": "^3.0.1"
   }
 }

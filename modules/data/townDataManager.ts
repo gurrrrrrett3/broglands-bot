@@ -1,4 +1,4 @@
-import Town from "../resources/town";
+import Town, { FullTownData, TownData } from "../resources/town";
 import fs from "fs";
 import UpdateEmbed from "../bot/updateEmbed";
 import { bot } from "../..";
@@ -16,7 +16,8 @@ export default class TownDataManager {
   }
 
   public async check(townData: Town[]): Promise<void> {
-    this.oldTowns = JSON.parse(fs.readFileSync("./data/towns.json", "utf8")) as Town[];
+    const td = JSON.parse(fs.readFileSync("./data/towns.json", "utf8")) as FullTownData[]
+    this.oldTowns = td.map((t) => new Town(t.world, t));
     this.towns = townData;
 
     const newTowns = this.getNewTowns();

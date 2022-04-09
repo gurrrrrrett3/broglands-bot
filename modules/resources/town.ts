@@ -15,6 +15,10 @@ export interface TownData {
   };
 }
 
+export interface FullTownData extends TownData {
+    world: string;
+}
+
 export default class Town {
     
     public world: string;

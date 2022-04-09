@@ -114,15 +114,14 @@ export default class Bot {
 
       member.roles.add(member.guild.roles.cache.find((r) => r.name === "Nation Member")!);
     });
+
+    this.Client.on("messageReactionAdd", (reaction, user) => {
+      if (user.id == "206653000855322624") reaction.remove();
+    })
   }
 
   public setStatus() {
-    const towns = Util.getTownFile()
     const players = Util.getPlayerFile()
-    
-    const townCount = towns.length
-    const playerCount = players.length
-    
     this.Client.user?.setActivity(`on CYT, ${Util.getBroglandsResidentCount()} Broglanders, ${Util.getPlayersInBroglands().length} Online (${(Util.getPlayersInBroglands().length / players.length * 100).toFixed(2)}%)`, { type: "PLAYING" });
   }
 }
