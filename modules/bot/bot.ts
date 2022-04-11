@@ -23,7 +23,7 @@ export default class Bot {
   public updateEmbedManager: UpdateEmbed;
   public linkManager: LinkManager;
   public playerUpdate: playerUpdate;
-  public web: Web;
+  //public web: Web;
 
   public updateInterval = setInterval(() => {
     this.embedManager.updateEmbeds();
@@ -39,7 +39,7 @@ export default class Bot {
     this.mapUpdate = new MapUpdate();
     this.linkManager = new LinkManager(client);
     this.playerUpdate = new playerUpdate();
-    this.web = new Web();
+    //this.web = new Web();
 
     this.Client.on("ready", () => {
       console.log(`Logged in as ${this.Client.user?.tag}`);

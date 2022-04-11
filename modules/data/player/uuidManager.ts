@@ -32,4 +32,22 @@ export default class UUIDManager {
 
     this.saveFile(d);
   }
+
+  public static getUsername(uuid: string) {
+    const d = this.openFile();
+    const u = d.find((u) => u.UUID === uuid);
+    if (u) {
+      return u.username;
+    }
+    return undefined;
+  }
+
+  public static getUUID(username: string) {
+    const d = this.openFile();
+    const u = d.find((u) => u.username.toLowerCase() === username.toLowerCase());
+    if (u) {
+      return u.UUID;
+    }
+    return undefined;
+  }
 }

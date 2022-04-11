@@ -44,7 +44,7 @@ export default class LinkManager {
   }
 
   private triggerLink(ign: string, interaction: CommandInteraction) {
-    const link = this.codes.find((code) => code.ign === ign);
+    const link = this.codes.find((code) => code.ign.toLowerCase() === ign.toLowerCase());
     if (!link) return;
 
     const user = this.client.users.cache.get(link.id);

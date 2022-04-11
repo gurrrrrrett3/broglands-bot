@@ -163,4 +163,41 @@ export default class Util {
 
     return worlds.indexOf(world);
   }
+
+  public static getTimeInSeconds(time: number) {
+    return Math.floor(time / 1000);
+  }
+
+  public static formatDiscordTime(
+    time: number,
+    mode:
+      | "shortTime"
+      | "longTime"
+      | "shortDate"
+      | "longDate"
+      | "shortDateTime"
+      | "longDateTime"
+      | "relative" = "shortTime"
+  ) {
+    const t = this.getTimeInSeconds(time);
+
+    switch (mode) {
+      case "shortTime":
+        return `<t:${t}:t>`;
+      case "longTime":
+        return `<t:${t}:T>`;
+      case "shortDate":
+        return `<t:${t}:d>`;
+      case "longDate":
+        return `<t:${t}:D>`;
+      case "shortDateTime":
+        return `<t:${t}:f>`;
+      case "longDateTime":
+        return `<t:${t}:F>`;
+      case "relative":
+        return `<t:${t}:R>`;
+      default:
+        return `<t:${t}:f>`;
+    }
+  }
 }

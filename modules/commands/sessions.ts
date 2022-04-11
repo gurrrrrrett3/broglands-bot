@@ -1,7 +1,6 @@
 import { SlashCommandBuilder, SlashCommandStringOption } from "@discordjs/builders";
 import Discord from "discord.js";
 import SessionsViewer from "../bot/sessionsViewer";
-import SessionPagedEmbed from "../resources/sessionPagedEmbed";
 
 const Command = {
   data: new SlashCommandBuilder()

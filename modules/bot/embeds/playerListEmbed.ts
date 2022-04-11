@@ -12,8 +12,8 @@ export default class PlayerListEmbed implements EmbedClass {
   public message: Discord.Message | null = null;
   public timer: NodeJS.Timer = setTimeout(() => {
     this.resend();
-    //1 hour
-  }, 3600000);
+    //10 minutes
+  }, 600000);
 
   constructor(channel: Discord.TextChannel) {
     this.channel = channel;

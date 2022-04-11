@@ -25,8 +25,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9784,
-            "z": -4184
+            "z": -4184,
+            "x": 9784
         }
     },
     {
@@ -41,7 +41,8 @@
             "BR__AirJames_225",
             "Skelcy123",
             "AuroraMidnight",
-            "Jambas18"
+            "Jambas18",
+            "BR__Pancaketim3"
         ],
         "assistants": [
             "BR__AirJames_225",
@@ -50,8 +51,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1880,
-            "z": -8808
+            "z": -8808,
+            "x": 1880
         }
     },
     {
@@ -67,8 +68,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1592,
-            "z": -2328
+            "z": -2328,
+            "x": 1592
         }
     },
     {
@@ -86,8 +87,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4088,
-            "z": -9992
+            "z": -9992,
+            "x": -4088
         }
     },
     {
@@ -103,8 +104,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1288,
-            "z": -12376
+            "z": -12376,
+            "x": 1288
         }
     },
     {
@@ -120,8 +121,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5416,
-            "z": -1704
+            "z": -1704,
+            "x": -5416
         }
     },
     {
@@ -137,8 +138,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5480,
-            "z": 5304
+            "z": 5304,
+            "x": -5480
         }
     },
     {
@@ -154,25 +155,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8904,
-            "z": 8536
-        }
-    },
-    {
-        "world": "world",
-        "name": "Weimar",
-        "mayor": "BurntFacePalm",
-        "pvp": false,
-        "residents": [
-            "BurntFacePalm",
-            "garmanana"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 7000,
-            "z": 6536
+            "z": 8536,
+            "x": 8904
         }
     },
     {
@@ -188,8 +172,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2920,
-            "z": 6152
+            "z": 6152,
+            "x": -2920
         }
     },
     {
@@ -208,8 +192,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6088,
-            "z": 11000
+            "z": 11000,
+            "x": -6088
         }
     },
     {
@@ -224,8 +208,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 14984,
-            "z": -14968
+            "z": -14968,
+            "x": 14984
         }
     },
     {
@@ -241,8 +225,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2216,
-            "z": -13752
+            "z": -13752,
+            "x": -2216
         }
     },
     {
@@ -257,14 +241,15 @@
             "LIONsaysROAR",
             "Ataraxia_",
             "BR__Feerrugem",
-            "mossywhale"
+            "mossywhale",
+            "KrypticChaos0"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7688,
-            "z": 8472
+            "z": 8472,
+            "x": 7688
         }
     },
     {
@@ -279,8 +264,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5320,
-            "z": 7704
+            "z": 7704,
+            "x": -5320
         }
     },
     {
@@ -296,8 +281,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9304,
-            "z": 9992
+            "z": 9992,
+            "x": -9304
         }
     },
     {
@@ -312,8 +297,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2408,
-            "z": 9880
+            "z": 9880,
+            "x": 2408
         }
     },
     {
@@ -336,7 +321,6 @@
             "KAIZEK",
             "IAMAMUFFINHEAD",
             "OctoYeti",
-            "KingTimper",
             "GunnerZeke",
             "BR__TimeToSmile8",
             "BananaBoyTen"
@@ -345,8 +329,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4952,
-            "z": -4920
+            "z": -4920,
+            "x": 4952
         }
     },
     {
@@ -362,8 +346,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -504,
-            "z": 12376
+            "z": 12376,
+            "x": -504
         }
     },
     {
@@ -378,8 +362,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4744,
-            "z": -7976
+            "z": -7976,
+            "x": -4744
         }
     },
     {
@@ -396,8 +380,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9016,
-            "z": 1016
+            "z": 1016,
+            "x": 9016
+        }
+    },
+    {
+        "world": "world",
+        "name": "Sonic",
+        "mayor": "Brnull_",
+        "pvp": false,
+        "residents": [
+            "Brnull_"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 10760,
+            "x": -3848
         }
     },
     {
@@ -424,24 +424,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2296,
-            "z": -840
-        }
-    },
-    {
-        "world": "world",
-        "name": "Sonic",
-        "mayor": "Brnull_",
-        "pvp": false,
-        "residents": [
-            "Brnull_"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -3848,
-            "z": 10760
+            "z": -840,
+            "x": -2296
         }
     },
     {
@@ -458,8 +442,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3720,
-            "z": 2232
+            "z": 2232,
+            "x": 3720
         }
     },
     {
@@ -475,8 +459,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7384,
-            "z": 5288
+            "z": 5288,
+            "x": -7384
         }
     },
     {
@@ -491,8 +475,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3480,
-            "z": 4648
+            "z": 4648,
+            "x": 3480
         }
     },
     {
@@ -509,8 +493,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8952,
-            "z": 1464
+            "z": 1464,
+            "x": 8952
         }
     },
     {
@@ -525,8 +509,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3464,
-            "z": -6504
+            "z": -6504,
+            "x": 3464
         }
     },
     {
@@ -546,8 +530,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -200,
-            "z": -296
+            "z": -296,
+            "x": -200
         }
     },
     {
@@ -563,8 +547,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -920,
-            "z": 8536
+            "z": 8536,
+            "x": -920
         }
     },
     {
@@ -583,8 +567,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6424,
-            "z": -3848
+            "z": -3848,
+            "x": -6424
         }
     },
     {
@@ -600,8 +584,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9976,
-            "z": 3048
+            "z": 3048,
+            "x": 9976
         }
     },
     {
@@ -616,8 +600,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7656,
-            "z": -8008
+            "z": -8008,
+            "x": -7656
         }
     },
     {
@@ -633,8 +617,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7704,
-            "z": -488
+            "z": -488,
+            "x": 7704
         }
     },
     {
@@ -649,8 +633,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3992,
-            "z": -1592
+            "z": -1592,
+            "x": 3992
         }
     },
     {
@@ -667,8 +651,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7496,
-            "z": 5656
+            "z": 5656,
+            "x": -7496
         }
     },
     {
@@ -687,8 +671,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4024,
-            "z": -5544
+            "z": -5544,
+            "x": 4024
         }
     },
     {
@@ -704,24 +688,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8056,
-            "z": -6392
-        }
-    },
-    {
-        "world": "world",
-        "name": "noobvill",
-        "mayor": "Stoopid_nooob",
-        "pvp": false,
-        "residents": [
-            "Stoopid_nooob"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 2440,
-            "z": -1832
+            "z": -6392,
+            "x": 8056
         }
     },
     {
@@ -736,8 +704,25 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6648,
-            "z": 12312
+            "z": 12312,
+            "x": 6648
+        }
+    },
+    {
+        "world": "world",
+        "name": "BlueBird4168",
+        "mayor": "BlueBird4168",
+        "pvp": false,
+        "residents": [
+            "BlueBird4168",
+            "c00kieMc"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -2952,
+            "x": -8840
         }
     },
     {
@@ -755,8 +740,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7368,
-            "z": 5912
+            "z": 5912,
+            "x": -7368
         }
     },
     {
@@ -772,8 +757,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -13032,
-            "z": -10952
+            "z": -10952,
+            "x": -13032
         }
     },
     {
@@ -789,8 +774,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4440,
-            "z": -2248
+            "z": -2248,
+            "x": 4440
         }
     },
     {
@@ -805,8 +790,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -12696,
-            "z": -12888
+            "z": -12888,
+            "x": -12696
         }
     },
     {
@@ -824,8 +809,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8744,
-            "z": 5224
+            "z": 5224,
+            "x": 8744
         }
     },
     {
@@ -841,8 +826,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3048,
-            "z": -3288
+            "z": -3288,
+            "x": 3048
         }
     },
     {
@@ -857,8 +842,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9336,
-            "z": 7496
+            "z": 7496,
+            "x": -9336
         }
     },
     {
@@ -873,8 +858,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 5880,
-            "z": -11592
+            "z": -11592,
+            "x": 5880
         }
     },
     {
@@ -892,8 +877,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9672,
-            "z": 8904
+            "z": 8904,
+            "x": 9672
         }
     },
     {
@@ -909,8 +894,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 14648,
-            "z": 13640
+            "z": 13640,
+            "x": 14648
         }
     },
     {
@@ -932,8 +917,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6584,
-            "z": 3064
+            "z": 3064,
+            "x": 6584
         }
     },
     {
@@ -959,7 +944,6 @@
             "sireastbound",
             "CROUTON_JESUS",
             "iShockMC",
-            "Jermaya",
             "BillyBroPlayz",
             "King_Elderado",
             "gamerxellie",
@@ -968,8 +952,9 @@
             "MysticalFelineOG",
             "Bulletz4Life",
             "PeacDragons",
-            "SennaM",
-            "soulbeann"
+            "soulbeann",
+            "MerNoire55",
+            "Aero0206"
         ],
         "assistants": [
             "SuoxenZ"
@@ -977,8 +962,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12984,
-            "z": 3016
+            "z": 3016,
+            "x": 12984
         }
     },
     {
@@ -993,8 +978,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4584,
-            "z": 4296
+            "z": 4296,
+            "x": 4584
         }
     },
     {
@@ -1009,8 +994,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8184,
-            "z": 2664
+            "z": 2664,
+            "x": 8184
         }
     },
     {
@@ -1026,8 +1011,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -11928,
-            "z": 4760
+            "z": 4760,
+            "x": -11928
         }
     },
     {
@@ -1048,8 +1033,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8360,
-            "z": -6408
+            "z": -6408,
+            "x": 8360
         }
     },
     {
@@ -1065,8 +1050,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6152,
-            "z": 2504
+            "z": 2504,
+            "x": 6152
         }
     },
     {
@@ -1081,8 +1066,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2664,
-            "z": -424
+            "z": -424,
+            "x": -2664
         }
     },
     {
@@ -1098,8 +1083,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7368,
-            "z": 5064
+            "z": 5064,
+            "x": -7368
         }
     },
     {
@@ -1123,8 +1108,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6904,
-            "z": 4840
+            "z": 4840,
+            "x": 6904
         }
     },
     {
@@ -1145,8 +1130,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 10296,
-            "z": 8920
+            "z": 8920,
+            "x": 10296
         }
     },
     {
@@ -1161,8 +1146,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2536,
-            "z": -5192
+            "z": -5192,
+            "x": -2536
         }
     },
     {
@@ -1177,8 +1162,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4968,
-            "z": -8184
+            "z": -8184,
+            "x": -4968
         }
     },
     {
@@ -1194,8 +1179,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2520,
-            "z": -5928
+            "z": -5928,
+            "x": 2520
         }
     },
     {
@@ -1211,8 +1196,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5560,
-            "z": -3784
+            "z": -3784,
+            "x": -5560
         }
     },
     {
@@ -1227,8 +1212,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 5912,
-            "z": -1016
+            "z": -1016,
+            "x": 5912
         }
     },
     {
@@ -1243,8 +1228,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 14392,
-            "z": 2328
+            "z": 2328,
+            "x": 14392
         }
     },
     {
@@ -1255,20 +1240,20 @@
         "residents": [
             "0RADIOSTAR0",
             "Fubarspeaks",
-            "Marjo16"
+            "Marjo16",
+            "JujuPoojooVOODO"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2472,
-            "z": 9384
+            "z": 9384,
+            "x": -2472
         }
     },
     {
         "world": "world",
         "name": "Foxclove",
-        "nation": "Republic",
         "mayor": "FeralFemdrogyny",
         "pvp": false,
         "residents": [
@@ -1278,8 +1263,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -10136,
-            "z": -4248
+            "z": -4248,
+            "x": -10136
         }
     },
     {
@@ -1297,8 +1282,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 11864,
-            "z": -5288
+            "z": -5288,
+            "x": 11864
         }
     },
     {
@@ -1316,14 +1301,31 @@
             "Medicor1225",
             "zVinizor",
             "Nutdealer__",
-            "Clasherz"
+            "Clasherz",
+            "Lothargaming"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2104,
-            "z": -2808
+            "z": -2808,
+            "x": -2104
+        }
+    },
+    {
+        "world": "world",
+        "name": "Bunker",
+        "mayor": "CreepersGraves",
+        "pvp": false,
+        "residents": [
+            "CreepersGraves"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -14984,
+            "x": -6152
         }
     },
     {
@@ -1338,8 +1340,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1672,
-            "z": -568
+            "z": -568,
+            "x": 1672
         }
     },
     {
@@ -1355,24 +1357,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9144,
-            "z": -2792
-        }
-    },
-    {
-        "world": "world",
-        "name": "Paradise",
-        "mayor": "Bellatriixx",
-        "pvp": false,
-        "residents": [
-            "Bellatriixx"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 8616,
-            "z": 10376
+            "z": -2792,
+            "x": -9144
         }
     },
     {
@@ -1392,8 +1378,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6072,
-            "z": 1688
+            "z": 1688,
+            "x": 6072
         }
     },
     {
@@ -1430,8 +1416,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -8872,
-            "z": -1544
+            "z": -1544,
+            "x": -8872
         }
     },
     {
@@ -1446,8 +1432,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2680,
-            "z": -7640
+            "z": -7640,
+            "x": 2680
         }
     },
     {
@@ -1462,8 +1448,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6088,
-            "z": -2120
+            "z": -2120,
+            "x": -6088
         }
     },
     {
@@ -1479,8 +1465,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8104,
-            "z": 9528
+            "z": 9528,
+            "x": 8104
         }
     },
     {
@@ -1504,8 +1490,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 5432,
-            "z": 3544
+            "z": 3544,
+            "x": 5432
         }
     },
     {
@@ -1531,8 +1517,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 10808,
-            "z": 4520
+            "z": 4520,
+            "x": 10808
         }
     },
     {
@@ -1549,8 +1535,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4200,
-            "z": -7032
+            "z": -7032,
+            "x": 4200
         }
     },
     {
@@ -1569,8 +1555,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 328,
-            "z": 4216
+            "z": 4216,
+            "x": 328
         }
     },
     {
@@ -1585,8 +1571,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1640,
-            "z": 6984
+            "z": 6984,
+            "x": 1640
         }
     },
     {
@@ -1602,8 +1588,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7480,
-            "z": -14552
+            "z": -14552,
+            "x": -7480
         }
     },
     {
@@ -1636,8 +1622,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5768,
-            "z": -2824
+            "z": -2824,
+            "x": -5768
         }
     },
     {
@@ -1652,8 +1638,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8360,
-            "z": -13656
+            "z": -13656,
+            "x": 8360
         }
     },
     {
@@ -1669,8 +1655,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3368,
-            "z": 6488
+            "z": 6488,
+            "x": 3368
         }
     },
     {
@@ -1685,8 +1671,25 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1816,
-            "z": 14328
+            "z": 14328,
+            "x": 1816
+        }
+    },
+    {
+        "world": "world",
+        "name": "Willowshire",
+        "mayor": "Borislander",
+        "pvp": false,
+        "residents": [
+            "Borislander",
+            "sassdassah"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -9544,
+            "x": 3576
         }
     },
     {
@@ -1757,7 +1760,12 @@
             "PaganAthiest",
             "amertzycow",
             "CutestPandaEver",
-            "finnskata"
+            "finnskata",
+            "Crlsswhspr",
+            "yonoad2365",
+            "AtmostCrown22",
+            "cookieslow",
+            "g0vthz"
         ],
         "assistants": [
             "maddiem18",
@@ -1766,25 +1774,8 @@
         "capital": true,
         "outpost": false,
         "coords": {
-            "x": -3240,
-            "z": -12776
-        }
-    },
-    {
-        "world": "world",
-        "name": "Willowshire",
-        "mayor": "Borislander",
-        "pvp": false,
-        "residents": [
-            "Borislander",
-            "sassdassah"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 3576,
-            "z": -9544
+            "z": -12776,
+            "x": -3240
         }
     },
     {
@@ -1811,8 +1802,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5816,
-            "z": -24
+            "z": -24,
+            "x": -5816
         }
     },
     {
@@ -1828,8 +1819,25 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4024,
-            "z": -1448
+            "z": -1448,
+            "x": 4024
+        }
+    },
+    {
+        "world": "world",
+        "name": "Bumle",
+        "mayor": "KapplexDK",
+        "pvp": false,
+        "residents": [
+            "KapplexDK",
+            "LilHumle"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -5928,
+            "x": 10392
         }
     },
     {
@@ -1844,8 +1852,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3848,
-            "z": -12152
+            "z": -12152,
+            "x": 3848
         }
     },
     {
@@ -1862,8 +1870,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2840,
-            "z": 8760
+            "z": 8760,
+            "x": 2840
         }
     },
     {
@@ -1880,8 +1888,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5400,
-            "z": -8184
+            "z": -8184,
+            "x": -5400
         }
     },
     {
@@ -1897,24 +1905,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2504,
-            "z": 3016
-        }
-    },
-    {
-        "world": "world",
-        "name": "Trading_Island",
-        "mayor": "Undertale9087",
-        "pvp": false,
-        "residents": [
-            "Undertale9087"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 1816,
-            "z": -200
+            "z": 3016,
+            "x": 2504
         }
     },
     {
@@ -1934,14 +1926,16 @@
             "LegendTM3223",
             "crest99",
             "flthompson21",
-            "SomberDiamond73"
+            "SomberDiamond73",
+            "fireskull95",
+            "Saliz10"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 5944,
-            "z": 2968
+            "z": 2968,
+            "x": 5944
         }
     },
     {
@@ -1956,8 +1950,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9800,
-            "z": -7400
+            "z": -7400,
+            "x": 9800
         }
     },
     {
@@ -1985,8 +1979,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9224,
-            "z": -792
+            "z": -792,
+            "x": 9224
         }
     },
     {
@@ -2003,8 +1997,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 376,
-            "z": 8456
+            "z": 8456,
+            "x": 376
         }
     },
     {
@@ -2020,8 +2014,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 344,
-            "z": -120
+            "z": -120,
+            "x": 344
         }
     },
     {
@@ -2038,8 +2032,8 @@
         "capital": true,
         "outpost": false,
         "coords": {
-            "x": -3256,
-            "z": 10200
+            "z": 10200,
+            "x": -3256
         }
     },
     {
@@ -2054,8 +2048,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1688,
-            "z": -4584
+            "z": -4584,
+            "x": 1688
         }
     },
     {
@@ -2070,8 +2064,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -1160,
-            "z": -12072
+            "z": -12072,
+            "x": -1160
         }
     },
     {
@@ -2088,40 +2082,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4856,
-            "z": 8664
-        }
-    },
-    {
-        "world": "world",
-        "name": "DragonIron",
-        "mayor": "dragon8877",
-        "pvp": false,
-        "residents": [
-            "dragon8877",
-            "danykub77",
-            "Magglet",
-            "HrsRdr3001",
-            "5gPhones",
-            "PoggersBenny",
-            "SpeedyAfrican",
-            "PopDinosaur",
-            "NorskButterBear",
-            "karmatree",
-            "Lewizzalot"
-        ],
-        "assistants": [
-            "danykub77",
-            "Magglet",
-            "5gPhones",
-            "PoggersBenny",
-            "Lewizzalot"
-        ],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 2584,
-            "z": -2824
+            "z": 8664,
+            "x": -4856
         }
     },
     {
@@ -2140,7 +2102,7 @@
             "8BitDonut",
             "SNEEZETheAxolotl",
             "depression2",
-            "LeElohim",
+            "CyberKeys_",
             "alanappleseed",
             "Malacodae"
         ],
@@ -2150,8 +2112,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9464,
-            "z": -7128
+            "z": -7128,
+            "x": 9464
+        }
+    },
+    {
+        "world": "world",
+        "name": "boMboLand",
+        "mayor": "AlexaIV",
+        "pvp": false,
+        "residents": [
+            "AlexaIV"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -12584,
+            "x": -12296
         }
     },
     {
@@ -2167,24 +2145,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2712,
-            "z": 8824
-        }
-    },
-    {
-        "world": "world",
-        "name": "boMboLand",
-        "mayor": "AlexaIV",
-        "pvp": false,
-        "residents": [
-            "AlexaIV"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -12296,
-            "z": -12584
+            "z": 8824,
+            "x": -2712
         }
     },
     {
@@ -2202,8 +2164,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 920,
-            "z": -8376
+            "z": -8376,
+            "x": 920
         }
     },
     {
@@ -2229,8 +2191,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5176,
-            "z": -10920
+            "z": -10920,
+            "x": -5176
         }
     },
     {
@@ -2246,8 +2208,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12728,
-            "z": -13944
+            "z": -13944,
+            "x": 12728
+        }
+    },
+    {
+        "world": "world",
+        "name": "LittleIsrael",
+        "mayor": "Yettav",
+        "pvp": false,
+        "residents": [
+            "Yettav"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -14936,
+            "x": 10024
         }
     },
     {
@@ -2263,8 +2241,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3992,
-            "z": 5592
+            "z": 5592,
+            "x": 3992
         }
     },
     {
@@ -2279,8 +2257,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7448,
-            "z": -3096
+            "z": -3096,
+            "x": -7448
         }
     },
     {
@@ -2292,36 +2270,18 @@
         "residents": [
             "Hedgiedog",
             "Nightcore_Ally",
-            "MrMcFluffy23",
             "Kname",
             "Rmodz",
-            "WingedClover37",
             "_LQKI",
             "meeep2",
-            "EmmaElephant1"
+            "moodyexperience"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5992,
-            "z": 8136
-        }
-    },
-    {
-        "world": "world",
-        "name": "Reds",
-        "mayor": "redevilx",
-        "pvp": false,
-        "residents": [
-            "redevilx"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 2056,
-            "z": 11208
+            "z": 8136,
+            "x": -5992
         }
     },
     {
@@ -2336,8 +2296,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5432,
-            "z": 3144
+            "z": 3144,
+            "x": -5432
+        }
+    },
+    {
+        "world": "world",
+        "name": "Reds",
+        "mayor": "redevilx",
+        "pvp": false,
+        "residents": [
+            "redevilx"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 11208,
+            "x": 2056
         }
     },
     {
@@ -2345,7 +2321,7 @@
         "name": "PepeLands",
         "nation": "Broglands",
         "mayor": "Powelus",
-        "pvp": true,
+        "pvp": false,
         "residents": [
             "Powelus"
         ],
@@ -2353,8 +2329,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 11976,
-            "z": -13928
+            "z": -13928,
+            "x": 11976
         }
     },
     {
@@ -2380,8 +2356,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1544,
-            "z": -4296
+            "z": -4296,
+            "x": 1544
         }
     },
     {
@@ -2397,8 +2373,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -13848,
-            "z": -11672
+            "z": -11672,
+            "x": -13848
         }
     },
     {
@@ -2423,8 +2399,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -11528,
-            "z": -10200
+            "z": -10200,
+            "x": -11528
         }
     },
     {
@@ -2440,8 +2416,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -3848,
-            "z": -2104
+            "z": -2104,
+            "x": -3848
         }
     },
     {
@@ -2458,8 +2434,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7656,
-            "z": 6424
+            "z": 6424,
+            "x": -7656
         }
     },
     {
@@ -2476,8 +2452,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9640,
-            "z": -8392
+            "z": -8392,
+            "x": -9640
         }
     },
     {
@@ -2495,8 +2471,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2696,
-            "z": -9368
+            "z": -9368,
+            "x": 2696
         }
     },
     {
@@ -2516,8 +2492,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1736,
-            "z": -6616
+            "z": -6616,
+            "x": 1736
         }
     },
     {
@@ -2532,8 +2508,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5496,
-            "z": -568
+            "z": -568,
+            "x": -5496
         }
     },
     {
@@ -2555,8 +2531,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -8360,
-            "z": -13320
+            "z": -13320,
+            "x": -8360
         }
     },
     {
@@ -2571,8 +2547,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1144,
-            "z": 4824
+            "z": 4824,
+            "x": 1144
         }
     },
     {
@@ -2588,25 +2564,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4088,
-            "z": 3064
-        }
-    },
-    {
-        "world": "world",
-        "name": "Koolaid",
-        "mayor": "Sandgolf78",
-        "pvp": false,
-        "residents": [
-            "Sandgolf78",
-            "Sammy_boy209"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 3272,
-            "z": -5592
+            "z": 3064,
+            "x": -4088
         }
     },
     {
@@ -2621,8 +2580,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 14376,
-            "z": 13928
+            "z": 13928,
+            "x": 14376
         }
     },
     {
@@ -2638,8 +2597,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5688,
-            "z": -5224
+            "z": -5224,
+            "x": -5688
         }
     },
     {
@@ -2658,8 +2617,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -360,
-            "z": 744
+            "z": 744,
+            "x": -360
         }
     },
     {
@@ -2674,8 +2633,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2344,
-            "z": 12248
+            "z": 12248,
+            "x": -2344
         }
     },
     {
@@ -2702,8 +2661,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 11208,
-            "z": 11944
+            "z": 11944,
+            "x": 11208
         }
     },
     {
@@ -2720,8 +2679,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9304,
-            "z": -14056
+            "z": -14056,
+            "x": 9304
         }
     },
     {
@@ -2736,8 +2695,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 408,
-            "z": -424
+            "z": -424,
+            "x": 408
         }
     },
     {
@@ -2752,8 +2711,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3048,
-            "z": -6120
+            "z": -6120,
+            "x": 3048
         }
     },
     {
@@ -2787,7 +2746,8 @@
             "KilusOps",
             "Combified",
             "MasonMizGaming",
-            "Vikkenilsson1"
+            "Vikkenilsson1",
+            "Bluepanda___"
         ],
         "assistants": [
             "SmilingChicken2",
@@ -2796,8 +2756,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9448,
-            "z": 5864
+            "z": 5864,
+            "x": -9448
         }
     },
     {
@@ -2824,8 +2784,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4360,
-            "z": 9800
+            "z": 9800,
+            "x": -4360
         }
     },
     {
@@ -2840,8 +2800,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4744,
-            "z": 5656
+            "z": 5656,
+            "x": 4744
         }
     },
     {
@@ -2852,14 +2812,15 @@
         "residents": [
             "tDIzzle224",
             "ChopUpBruh",
-            "WizzUpBruh"
+            "WizzUpBruh",
+            "deadreaper23"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2632,
-            "z": 4456
+            "z": 4456,
+            "x": -2632
         }
     },
     {
@@ -2880,8 +2841,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -10712,
-            "z": -3960
+            "z": -3960,
+            "x": -10712
         }
     },
     {
@@ -2897,8 +2858,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9192,
-            "z": -4280
+            "z": -4280,
+            "x": 9192
         }
     },
     {
@@ -2917,8 +2878,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4712,
-            "z": -3992
+            "z": -3992,
+            "x": -4712
         }
     },
     {
@@ -2933,8 +2894,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9192,
-            "z": -3912
+            "z": -3912,
+            "x": -9192
         }
     },
     {
@@ -2950,8 +2911,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4088,
-            "z": 5128
+            "z": 5128,
+            "x": -4088
+        }
+    },
+    {
+        "world": "world",
+        "name": "Booba",
+        "mayor": "kxmishiro",
+        "pvp": false,
+        "residents": [
+            "kxmishiro"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -3992,
+            "x": 9096
         }
     },
     {
@@ -2970,8 +2947,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -8360,
-            "z": -7544
+            "z": -7544,
+            "x": -8360
         }
     },
     {
@@ -2987,8 +2964,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4760,
-            "z": 1480
+            "z": 1480,
+            "x": 4760
         }
     },
     {
@@ -3005,8 +2982,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 11608,
-            "z": -376
+            "z": -376,
+            "x": 11608
         }
     },
     {
@@ -3023,8 +3000,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2904,
-            "z": -1896
+            "z": -1896,
+            "x": -2904
+        }
+    },
+    {
+        "world": "world",
+        "name": "Margaritaville",
+        "mayor": "DAEMON_DEAN",
+        "pvp": false,
+        "residents": [
+            "DAEMON_DEAN"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 3784,
+            "x": -8200
         }
     },
     {
@@ -3046,24 +3039,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6536,
-            "z": -2296
-        }
-    },
-    {
-        "world": "world",
-        "name": "Margaritaville",
-        "mayor": "DAEMON_DEAN",
-        "pvp": false,
-        "residents": [
-            "DAEMON_DEAN"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -8200,
-            "z": 3784
+            "z": -2296,
+            "x": -6536
         }
     },
     {
@@ -3079,8 +3056,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6024,
-            "z": 648
+            "z": 648,
+            "x": 6024
         }
     },
     {
@@ -3098,8 +3075,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 13960,
-            "z": 13560
+            "z": 13560,
+            "x": 13960
         }
     },
     {
@@ -3115,8 +3092,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7416,
-            "z": -3960
+            "z": -3960,
+            "x": 7416
         }
     },
     {
@@ -3131,8 +3108,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6088,
-            "z": 4232
+            "z": 4232,
+            "x": -6088
         }
     },
     {
@@ -3147,8 +3124,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7640,
-            "z": 1864
+            "z": 1864,
+            "x": -7640
         }
     },
     {
@@ -3166,8 +3143,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4968,
-            "z": -7208
+            "z": -7208,
+            "x": -4968
         }
     },
     {
@@ -3194,8 +3171,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2760,
-            "z": -1672
+            "z": -1672,
+            "x": 2760
         }
     },
     {
@@ -3211,8 +3188,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -10536,
-            "z": -7176
+            "z": -7176,
+            "x": -10536
         }
     },
     {
@@ -3227,8 +3204,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2536,
-            "z": -4520
+            "z": -4520,
+            "x": -2536
         }
     },
     {
@@ -3245,8 +3222,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2392,
-            "z": -9400
+            "z": -9400,
+            "x": 2392
         }
     },
     {
@@ -3269,7 +3246,6 @@
             "Unicornsvk",
             "Greeva_",
             "IcyTheAxolotl",
-            "ILoveIce_cream",
             "noraly123",
             "Slimestruct",
             "Juniyuni",
@@ -3279,8 +3255,41 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -14680,
-            "z": 11080
+            "z": 11080,
+            "x": -14680
+        }
+    },
+    {
+        "world": "world",
+        "name": "Burgertown",
+        "mayor": "EpikKoala",
+        "pvp": false,
+        "residents": [
+            "EpikKoala",
+            "darkblade19981"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -10840,
+            "x": 5128
+        }
+    },
+    {
+        "world": "world",
+        "name": "Nyth",
+        "mayor": "Grallien",
+        "pvp": false,
+        "residents": [
+            "Grallien"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -3624,
+            "x": 7272
         }
     },
     {
@@ -3305,25 +3314,8 @@
         "capital": true,
         "outpost": false,
         "coords": {
-            "x": -7544,
-            "z": -10536
-        }
-    },
-    {
-        "world": "world",
-        "name": "Nyth",
-        "mayor": "Grallien",
-        "pvp": false,
-        "residents": [
-            "Grallien",
-            "kxmishiro"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 7272,
-            "z": -3624
+            "z": -10536,
+            "x": -7544
         }
     },
     {
@@ -3338,8 +3330,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 5656,
-            "z": -5560
+            "z": -5560,
+            "x": 5656
         }
     },
     {
@@ -3356,8 +3348,25 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7992,
-            "z": -11640
+            "z": -11640,
+            "x": 7992
+        }
+    },
+    {
+        "world": "world",
+        "name": "Salacia",
+        "nation": "Hot_Boy_Nation",
+        "mayor": "Kamtronix",
+        "pvp": false,
+        "residents": [
+            "Kamtronix"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -4584,
+            "x": -1704
         }
     },
     {
@@ -3372,8 +3381,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -13736,
-            "z": -9672
+            "z": -9672,
+            "x": -13736
         }
     },
     {
@@ -3388,8 +3397,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3080,
-            "z": -9064
+            "z": -9064,
+            "x": 3080
         }
     },
     {
@@ -3425,8 +3434,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 5896,
-            "z": 3480
+            "z": 3480,
+            "x": 5896
         }
     },
     {
@@ -3441,8 +3450,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2680,
-            "z": 4456
+            "z": 4456,
+            "x": 2680
         }
     },
     {
@@ -3459,8 +3468,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 5384,
-            "z": 2712
+            "z": 2712,
+            "x": 5384
         }
     },
     {
@@ -3477,8 +3486,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4344,
-            "z": 6408
+            "z": 6408,
+            "x": 4344
         }
     },
     {
@@ -3496,8 +3505,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9816,
-            "z": -6968
+            "z": -6968,
+            "x": 9816
         }
     },
     {
@@ -3513,8 +3522,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2584,
-            "z": 8424
+            "z": 8424,
+            "x": 2584
         }
     },
     {
@@ -3529,8 +3538,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5320,
-            "z": -3736
+            "z": -3736,
+            "x": -5320
         }
     },
     {
@@ -3546,8 +3555,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12728,
-            "z": 14056
+            "z": 14056,
+            "x": 12728
         }
     },
     {
@@ -3562,8 +3571,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4040,
-            "z": -14792
+            "z": -14792,
+            "x": 4040
         }
     },
     {
@@ -3579,8 +3588,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12904,
-            "z": -11624
+            "z": -11624,
+            "x": 12904
         }
     },
     {
@@ -3595,8 +3604,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9912,
-            "z": 4968
+            "z": 4968,
+            "x": 9912
         }
     },
     {
@@ -3612,8 +3621,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6056,
-            "z": 1000
+            "z": 1000,
+            "x": 6056
         }
     },
     {
@@ -3645,8 +3654,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6984,
-            "z": -9080
+            "z": -9080,
+            "x": 6984
         }
     },
     {
@@ -3661,8 +3670,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8904,
-            "z": 2840
+            "z": 2840,
+            "x": 8904
         }
     },
     {
@@ -3677,8 +3686,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -8904,
-            "z": 9448
+            "z": 9448,
+            "x": -8904
         }
     },
     {
@@ -3695,8 +3704,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -3976,
-            "z": -1448
+            "z": -1448,
+            "x": -3976
         }
     },
     {
@@ -3711,8 +3720,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4104,
-            "z": 5832
+            "z": 5832,
+            "x": 4104
         }
     },
     {
@@ -3732,8 +3741,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4440,
-            "z": 984
+            "z": 984,
+            "x": 4440
         }
     },
     {
@@ -3749,8 +3758,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -10584,
-            "z": 4216
+            "z": 4216,
+            "x": -10584
         }
     },
     {
@@ -3767,8 +3776,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9256,
-            "z": 10504
+            "z": 10504,
+            "x": 9256
         }
     },
     {
@@ -3778,14 +3787,16 @@
         "mayor": "koolkid231",
         "pvp": false,
         "residents": [
-            "koolkid231"
+            "koolkid231",
+            "KingTimper",
+            "GingerSpiced4"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 13336,
-            "z": 14584
+            "z": 14648,
+            "x": 13352
         }
     },
     {
@@ -3800,8 +3811,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4520,
-            "z": 4936
+            "z": 4936,
+            "x": 4520
         }
     },
     {
@@ -3826,8 +3837,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7896,
-            "z": -7224
+            "z": -7224,
+            "x": 7896
         }
     },
     {
@@ -3843,8 +3854,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -1912,
-            "z": 472
+            "z": 472,
+            "x": -1912
         }
     },
     {
@@ -3863,8 +3874,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7944,
-            "z": -8776
+            "z": -8776,
+            "x": -7944
         }
     },
     {
@@ -3882,8 +3893,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9384,
-            "z": 7272
+            "z": 7272,
+            "x": 9384
+        }
+    },
+    {
+        "world": "world",
+        "name": "Enigma",
+        "mayor": "ErizoGames",
+        "pvp": false,
+        "residents": [
+            "ErizoGames"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 136,
+            "x": -10536
         }
     },
     {
@@ -3902,24 +3929,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12232,
-            "z": -4392
-        }
-    },
-    {
-        "world": "world",
-        "name": "Enigma",
-        "mayor": "ErizoGames",
-        "pvp": false,
-        "residents": [
-            "ErizoGames"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -10536,
-            "z": 136
+            "z": -4392,
+            "x": 12232
         }
     },
     {
@@ -3934,8 +3945,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12008,
-            "z": -10312
+            "z": -10312,
+            "x": 12008
         }
     },
     {
@@ -3951,8 +3962,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9080,
-            "z": -4712
+            "z": -4712,
+            "x": 9080
         }
     },
     {
@@ -3964,7 +3975,6 @@
             "BalletBoyBot",
             "Hack_Attack_02",
             "crimsonphoenix46",
-            "ItzHalo_0",
             "curefoot",
             "BR__KaylaDaniell",
             "BR__mkm16",
@@ -3973,7 +3983,7 @@
             "Music_Reed",
             "BR__Shonengump",
             "GayFroggs",
-            "_simplysav"
+            "ItzNotHalo0"
         ],
         "assistants": [
             "batman3212009"
@@ -3981,8 +3991,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8440,
-            "z": -4344
+            "z": -4344,
+            "x": 8440
         }
     },
     {
@@ -3999,8 +4009,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2568,
-            "z": -776
+            "z": -776,
+            "x": 2568
         }
     },
     {
@@ -4017,8 +4027,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7720,
-            "z": 9256
+            "z": 9256,
+            "x": 7720
         }
     },
     {
@@ -4035,25 +4045,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9912,
-            "z": 6776
-        }
-    },
-    {
-        "world": "world",
-        "name": "Taako_Town",
-        "mayor": "Taako102",
-        "pvp": true,
-        "residents": [
-            "Taako102",
-            "gip_xd"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 10168,
-            "z": 9384
+            "z": 6776,
+            "x": -9912
         }
     },
     {
@@ -4071,8 +4064,25 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -11912,
-            "z": -2040
+            "z": -2040,
+            "x": -11912
+        }
+    },
+    {
+        "world": "world",
+        "name": "Taako_Town",
+        "mayor": "Taako102",
+        "pvp": true,
+        "residents": [
+            "Taako102",
+            "gip_xd"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 9384,
+            "x": 10168
         }
     },
     {
@@ -4087,8 +4097,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5848,
-            "z": -9304
+            "z": -9304,
+            "x": -5848
         }
     },
     {
@@ -4104,8 +4114,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5544,
-            "z": 6616
+            "z": 6616,
+            "x": -5544
         }
     },
     {
@@ -4122,8 +4132,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5336,
-            "z": -8696
+            "z": -8696,
+            "x": -5336
         }
     },
     {
@@ -4141,8 +4151,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3448,
-            "z": -7896
+            "z": -7896,
+            "x": 3448
+        }
+    },
+    {
+        "world": "world",
+        "name": "Rodrigo",
+        "mayor": "R0drig0_Reis",
+        "pvp": false,
+        "residents": [
+            "R0drig0_Reis"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 7176,
+            "x": -7224
         }
     },
     {
@@ -4158,8 +4184,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7448,
-            "z": -2488
+            "z": -2488,
+            "x": -7448
         }
     },
     {
@@ -4182,8 +4208,6 @@
             "TedstormDev",
             "IndeedRik",
             "Sir_Morte",
-            "Bunnda",
-            "bundaa",
             "CLUMSY_NlNJA"
         ],
         "assistants": [
@@ -4192,8 +4216,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5528,
-            "z": 7048
+            "z": 7048,
+            "x": -5528
         }
     },
     {
@@ -4209,8 +4233,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 5464,
-            "z": 2328
+            "z": 2328,
+            "x": 5464
         }
     },
     {
@@ -4225,8 +4249,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9368,
-            "z": 7560
+            "z": 7560,
+            "x": 9368
         }
     },
     {
@@ -4245,8 +4269,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -1176,
-            "z": 3400
+            "z": 3400,
+            "x": -1176
         }
     },
     {
@@ -4265,7 +4289,6 @@
             "Masterfuzja",
             "EmilySpratt",
             "Starhunter_",
-            "Kamtronix",
             "ErrorErrorError",
             "nucleosomes",
             "ZacharyRodger",
@@ -4282,8 +4305,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4488,
-            "z": 6440
+            "z": 6440,
+            "x": -4488
         }
     },
     {
@@ -4300,8 +4323,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8888,
-            "z": -4568
+            "z": -4568,
+            "x": 8888
         }
     },
     {
@@ -4311,14 +4334,15 @@
         "pvp": false,
         "residents": [
             "StivenPink",
-            "chamottt"
+            "chamottt",
+            "BR__RoughJo"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5016,
-            "z": 6168
+            "z": 6168,
+            "x": -5016
         }
     },
     {
@@ -4339,8 +4363,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1128,
-            "z": -6168
+            "z": -6168,
+            "x": 1128
         }
     },
     {
@@ -4355,8 +4379,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -3064,
-            "z": -3224
+            "z": -3224,
+            "x": -3064
         }
     },
     {
@@ -4372,8 +4396,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4904,
-            "z": 5992
+            "z": 5992,
+            "x": 4904
         }
     },
     {
@@ -4389,8 +4413,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9720,
-            "z": -8888
+            "z": -8888,
+            "x": 9720
         }
     },
     {
@@ -4406,8 +4430,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -2872,
-            "z": 264
+            "z": 264,
+            "x": -2872
         }
     },
     {
@@ -4422,8 +4446,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6248,
-            "z": -10232
+            "z": -10232,
+            "x": 6248
         }
     },
     {
@@ -4444,8 +4468,8 @@
         "capital": true,
         "outpost": false,
         "coords": {
-            "x": 1064,
-            "z": -264
+            "z": -264,
+            "x": 1064
         }
     },
     {
@@ -4461,8 +4485,26 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7896,
-            "z": 11848
+            "z": 11848,
+            "x": 7896
+        }
+    },
+    {
+        "world": "world",
+        "name": "Vimox",
+        "mayor": "WeirdlyGreen",
+        "pvp": false,
+        "residents": [
+            "WeirdlyGreen",
+            "Stranger_san",
+            "Khandras"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -4840,
+            "x": -6136
         }
     },
     {
@@ -4477,8 +4519,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -3480,
-            "z": 9944
+            "z": 9944,
+            "x": -3480
         }
     },
     {
@@ -4504,7 +4546,8 @@
             "Smartbort",
             "polarcrocs",
             "Kunujan",
-            "Kir0washere"
+            "Kir0washere",
+            "dirtdoritos"
         ],
         "assistants": [
             "FlyingDxlphin",
@@ -4514,8 +4557,8 @@
         "capital": true,
         "outpost": false,
         "coords": {
-            "x": 2424,
-            "z": 7752
+            "z": 7736,
+            "x": 2408
         }
     },
     {
@@ -4530,8 +4573,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4536,
-            "z": -6680
+            "z": -6680,
+            "x": 4536
         }
     },
     {
@@ -4546,25 +4589,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3656,
-            "z": -6760
-        }
-    },
-    {
-        "world": "world",
-        "name": "Genesis",
-        "nation": "Eclipse",
-        "mayor": "LegoLord365",
-        "pvp": false,
-        "residents": [
-            "LegoLord365"
-        ],
-        "assistants": [],
-        "capital": true,
-        "outpost": false,
-        "coords": {
-            "x": 4856,
-            "z": 14200
+            "z": -6760,
+            "x": 3656
         }
     },
     {
@@ -4579,8 +4605,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8840,
-            "z": 9192
+            "z": 9192,
+            "x": 8840
         }
     },
     {
@@ -4598,8 +4624,25 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6712,
-            "z": -6040
+            "z": -6040,
+            "x": 6712
+        }
+    },
+    {
+        "world": "world",
+        "name": "Genesis",
+        "nation": "Eclipse",
+        "mayor": "LegoLord365",
+        "pvp": false,
+        "residents": [
+            "LegoLord365"
+        ],
+        "assistants": [],
+        "capital": true,
+        "outpost": false,
+        "coords": {
+            "z": 14200,
+            "x": 4856
         }
     },
     {
@@ -4614,8 +4657,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6648,
-            "z": -2248
+            "z": -2248,
+            "x": 6648
         }
     },
     {
@@ -4632,8 +4675,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -3976,
-            "z": 5608
+            "z": 5608,
+            "x": -3976
         }
     },
     {
@@ -4649,8 +4692,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7016,
-            "z": -4664
+            "z": -4664,
+            "x": 7016
         }
     },
     {
@@ -4666,8 +4709,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2856,
-            "z": 8184
+            "z": 8184,
+            "x": 2856
         }
     },
     {
@@ -4682,29 +4725,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 280,
-            "z": -10488
-        }
-    },
-    {
-        "world": "world",
-        "name": "Gargoyles",
-        "mayor": "Toru_Donu",
-        "pvp": false,
-        "residents": [
-            "Toru_Donu",
-            "G16O",
-            "AlertedJoker582"
-        ],
-        "assistants": [
-            "G16O",
-            "AlertedJoker582"
-        ],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 4104,
-            "z": 9112
+            "z": -10488,
+            "x": 280
         }
     },
     {
@@ -4720,8 +4742,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4920,
-            "z": -9560
+            "z": -9560,
+            "x": -4920
         }
     },
     {
@@ -4738,8 +4760,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -3656,
-            "z": 9784
+            "z": 9784,
+            "x": -3656
         }
     },
     {
@@ -4754,8 +4776,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 13512,
-            "z": 11928
+            "z": 11928,
+            "x": 13512
         }
     },
     {
@@ -4770,8 +4792,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7576,
-            "z": 4616
+            "z": 4616,
+            "x": -7576
         }
     },
     {
@@ -4786,8 +4808,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -8328,
-            "z": -8280
+            "z": -8280,
+            "x": -8328
         }
     },
     {
@@ -4804,8 +4826,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3096,
-            "z": -5064
+            "z": -5064,
+            "x": 3096
         }
     },
     {
@@ -4822,26 +4844,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9512,
-            "z": 3576
-        }
-    },
-    {
-        "world": "world",
-        "name": "CycleTown",
-        "nation": "Broglands",
-        "mayor": "CycleKing",
-        "pvp": false,
-        "residents": [
-            "CycleKing",
-            "StegoLegosaurus"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -6824,
-            "z": 12872
+            "z": 3576,
+            "x": -9512
         }
     },
     {
@@ -4864,8 +4868,26 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7448,
-            "z": 8104
+            "z": 8104,
+            "x": 7448
+        }
+    },
+    {
+        "world": "world",
+        "name": "CycleTown",
+        "nation": "Broglands",
+        "mayor": "CycleKing",
+        "pvp": false,
+        "residents": [
+            "CycleKing",
+            "StegoLegosaurus"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 12872,
+            "x": -6824
         }
     },
     {
@@ -4880,8 +4902,25 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 15096,
-            "z": -7288
+            "z": -7288,
+            "x": 15096
+        }
+    },
+    {
+        "world": "earth",
+        "name": "BunLand",
+        "mayor": "Bunnda",
+        "pvp": false,
+        "residents": [
+            "Bunnda",
+            "bundaa"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -4968,
+            "x": 1912
         }
     },
     {
@@ -4896,8 +4935,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6824,
-            "z": -6392
+            "z": -6392,
+            "x": -6824
         }
     },
     {
@@ -4914,8 +4953,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7368,
-            "z": 9160
+            "z": 9160,
+            "x": -7368
         }
     },
     {
@@ -4932,8 +4971,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6024,
-            "z": 1896
+            "z": 1896,
+            "x": 6024
         }
     },
     {
@@ -4952,8 +4991,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3752,
-            "z": -3784
+            "z": -3784,
+            "x": 3752
+        }
+    },
+    {
+        "world": "earth",
+        "name": "ICY",
+        "mayor": "ICY_UR_MOM",
+        "pvp": false,
+        "residents": [
+            "ICY_UR_MOM"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -1032,
+            "x": 2344
         }
     },
     {
@@ -4971,24 +5026,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 10376,
-            "z": -2488
-        }
-    },
-    {
-        "world": "earth",
-        "name": "Communist_Australia",
-        "mayor": "RAIDENATOR4324",
-        "pvp": true,
-        "residents": [
-            "RAIDENATOR4324"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 14712,
-            "z": 3192
+            "z": -2488,
+            "x": 10376
         }
     },
     {
@@ -5004,8 +5043,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 6456,
-            "z": -14552
+            "z": -14552,
+            "x": 6456
         }
     },
     {
@@ -5024,8 +5063,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -680,
-            "z": -6552
+            "z": -6552,
+            "x": -680
         }
     },
     {
@@ -5041,8 +5080,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3656,
-            "z": -6440
+            "z": -6440,
+            "x": 3656
         }
     },
     {
@@ -5059,8 +5098,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4216,
-            "z": -968
+            "z": -968,
+            "x": 4216
         }
     },
     {
@@ -5076,8 +5115,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -11304,
-            "z": -3656
+            "z": -3656,
+            "x": -11304
         }
     },
     {
@@ -5092,8 +5131,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 15112,
-            "z": -3704
+            "z": -3704,
+            "x": 15112
         }
     },
     {
@@ -5113,8 +5152,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2056,
-            "z": 1880
+            "z": 1880,
+            "x": 2056
         }
     },
     {
@@ -5130,8 +5169,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5976,
-            "z": 1720
+            "z": 1720,
+            "x": -5976
         }
     },
     {
@@ -5150,8 +5189,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 14008,
-            "z": -840
+            "z": -840,
+            "x": 14008
         }
     },
     {
@@ -5185,12 +5224,14 @@
             "MUSQUITOSBITE",
             "Zealeon",
             "LUCHASAZ",
-            "beanmanthegr8",
             "LocklandLLama",
             "BLTRover",
             "ImNovee",
             "ImQuaqqt",
-            "Lenkso"
+            "Lenkso",
+            "astat1122",
+            "Nixnotfound_",
+            "HyperPix"
         ],
         "assistants": [
             "luukvanloo"
@@ -5198,8 +5239,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -13576,
-            "z": -3256
+            "z": -3256,
+            "x": -13576
         }
     },
     {
@@ -5217,8 +5258,27 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1832,
-            "z": -2744
+            "z": -2744,
+            "x": 1832
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Woodpine",
+        "mayor": "josefedavila",
+        "pvp": false,
+        "residents": [
+            "josefedavila",
+            "CandyGamez",
+            "SparkleOverlord",
+            "Shadowxeva"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 2200,
+            "x": 4232
         }
     },
     {
@@ -5237,27 +5297,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12216,
-            "z": -456
-        }
-    },
-    {
-        "world": "earth",
-        "name": "Woodpine",
-        "mayor": "josefedavila",
-        "pvp": false,
-        "residents": [
-            "josefedavila",
-            "CandyGamez",
-            "SparkleOverlord",
-            "Shadowxeva"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 4232,
-            "z": 2200
+            "z": -456,
+            "x": 12216
         }
     },
     {
@@ -5279,8 +5320,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -8712,
-            "z": 4456
+            "z": 4456,
+            "x": -8712
         }
     },
     {
@@ -5296,8 +5337,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7368,
-            "z": -8008
+            "z": -8008,
+            "x": 7368
         }
     },
     {
@@ -5313,8 +5354,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2648,
-            "z": -1304
+            "z": -1304,
+            "x": 2648
         }
     },
     {
@@ -5330,8 +5371,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9480,
-            "z": 136
+            "z": 136,
+            "x": -9480
         }
     },
     {
@@ -5348,8 +5389,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 20984,
-            "z": 4664
+            "z": 4664,
+            "x": 20984
         }
     },
     {
@@ -5364,24 +5405,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -13640,
-            "z": -7240
-        }
-    },
-    {
-        "world": "earth",
-        "name": "Bakis",
-        "mayor": "MerNoire55",
-        "pvp": false,
-        "residents": [
-            "MerNoire55"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 4312,
-            "z": -4984
+            "z": -7240,
+            "x": -13640
         }
     },
     {
@@ -5396,8 +5421,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6584,
-            "z": -552
+            "z": -552,
+            "x": -6584
         }
     },
     {
@@ -5412,8 +5437,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2824,
-            "z": -6296
+            "z": -6296,
+            "x": 2824
         }
     },
     {
@@ -5429,8 +5454,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5832,
-            "z": -13288
+            "z": -13288,
+            "x": -5832
         }
     },
     {
@@ -5446,8 +5471,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 16296,
-            "z": -6536
+            "z": -6536,
+            "x": 16296
         }
     },
     {
@@ -5462,8 +5487,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 56,
-            "z": -6248
+            "z": -6248,
+            "x": 56
         }
     },
     {
@@ -5477,13 +5502,15 @@
             "Coffee__good",
             "Spencer596",
             "smellyfishcake",
-            "DArs31",
             "Getmybelt",
             "fartinajar11",
-            "KrypticChaos0",
             "tarakonaa",
             "Abduplayz",
-            "Lady_Chiroptera"
+            "Lady_Chiroptera",
+            "nitefoal05",
+            "Romeyn_V",
+            "Cactussgod",
+            "Ecco___"
         ],
         "assistants": [
             "Coffee__good"
@@ -5491,8 +5518,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 664,
-            "z": -7368
+            "z": -7368,
+            "x": 664
         }
     },
     {
@@ -5516,8 +5543,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4792,
-            "z": 1320
+            "z": 1320,
+            "x": 4792
         }
     },
     {
@@ -5533,8 +5560,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -11768,
-            "z": -4280
+            "z": -4280,
+            "x": -11768
         }
     },
     {
@@ -5550,8 +5577,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5464,
-            "z": 2840
+            "z": 2840,
+            "x": -5464
         }
     },
     {
@@ -5567,8 +5594,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 7720,
-            "z": -10904
+            "z": -10904,
+            "x": 7720
         }
     },
     {
@@ -5585,8 +5612,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 17368,
-            "z": -1592
+            "z": -1592,
+            "x": 17368
         }
     },
     {
@@ -5602,8 +5629,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4824,
-            "z": -6088
+            "z": -6088,
+            "x": 4824
         }
     },
     {
@@ -5620,8 +5647,26 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6904,
-            "z": 4792
+            "z": 4792,
+            "x": -6904
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Lockwood",
+        "mayor": "MrMcFluffy23",
+        "pvp": false,
+        "residents": [
+            "MrMcFluffy23",
+            "Rising_PheoxinYT",
+            "BR__MrMcFluffy83"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": 1304,
+            "x": -8392
         }
     },
     {
@@ -5655,8 +5700,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 17384,
-            "z": 4888
+            "z": 4888,
+            "x": 17384
         }
     },
     {
@@ -5696,7 +5741,6 @@
             "Gasle07",
             "CampbellSS3784",
             "2_Cute_4_U_",
-            "unmatchedsocks",
             "Vinc3L3Gh3yB0i",
             "crimeboykarl",
             "Breaks__Hetheon",
@@ -5708,7 +5752,6 @@
             "NinjaGirl_98",
             "CheapBassoon377",
             "sonicjet1",
-            "TheTrollPearl",
             "FuntimeFoxy_exe",
             "BoBBB1237",
             "boomoose",
@@ -5731,7 +5774,6 @@
             "Zappelfab",
             "Cwto",
             "ScrimKitty",
-            "deadreaper23",
             "Amalurra13",
             "ChimeraHypeirion",
             "Servachuels",
@@ -5740,10 +5782,15 @@
             "Pookstir",
             "iAedz",
             "GryffindorBean",
-            "Robertfox",
             "ProFX_",
-            "PuhhI",
-            "Proudmark"
+            "Proudmark",
+            "lickyro1234",
+            "shmack31",
+            "Ryqq",
+            "LazyMonkey15",
+            "commandox98",
+            "Darthbrix",
+            "Avenger3000"
         ],
         "assistants": [
             "Rekiso102"
@@ -5751,8 +5798,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -1000,
-            "z": -1288
+            "z": -1288,
+            "x": -1000
         }
     },
     {
@@ -5776,8 +5823,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9384,
-            "z": -4760
+            "z": -4760,
+            "x": -9384
         }
     },
     {
@@ -5792,8 +5839,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2632,
-            "z": -4872
+            "z": -4872,
+            "x": 2632
         }
     },
     {
@@ -5809,8 +5856,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -11832,
-            "z": -2696
+            "z": -2696,
+            "x": -11832
         }
     },
     {
@@ -5829,8 +5876,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2632,
-            "z": -7896
+            "z": -7896,
+            "x": 2632
         }
     },
     {
@@ -5847,7 +5894,6 @@
             "Dark_Aether",
             "profesorabbott",
             "k1ll1nf00s",
-            "BR__Gurpreet6947",
             "Lizardo53",
             "ArtisticLemons",
             "John_Mccain",
@@ -5856,9 +5902,8 @@
             "ImPhoenixx",
             "CelloMetalMTG33",
             "BR__Golden_Fox31",
-            "freddyboy3609",
             "C_Devil_",
-            "lickyro1234"
+            "BR__WolfKing6114"
         ],
         "assistants": [
             "TheTwistedKitty",
@@ -5867,8 +5912,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7192,
-            "z": 1688
+            "z": 1688,
+            "x": -7192
         }
     },
     {
@@ -5883,8 +5928,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2248,
-            "z": 4056
+            "z": 4056,
+            "x": 2248
         }
     },
     {
@@ -5899,8 +5944,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9064,
-            "z": -6568
+            "z": -6568,
+            "x": -9064
         }
     },
     {
@@ -5920,8 +5965,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -10264,
-            "z": -4584
+            "z": -4584,
+            "x": -10264
         }
     },
     {
@@ -5936,8 +5981,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 18744,
-            "z": -6488
+            "z": -6488,
+            "x": 18744
         }
     },
     {
@@ -5955,8 +6000,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -5480,
-            "z": 1384
+            "z": 1384,
+            "x": -5480
         }
     },
     {
@@ -5971,8 +6016,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8696,
-            "z": -8696
+            "z": -8696,
+            "x": 8696
         }
     },
     {
@@ -5989,8 +6034,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1080,
-            "z": -1128
+            "z": -1128,
+            "x": 1080
         }
     },
     {
@@ -6012,8 +6057,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12664,
-            "z": -2456
+            "z": -2456,
+            "x": 12664
         }
     },
     {
@@ -6034,8 +6079,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3080,
-            "z": 2584
+            "z": 2584,
+            "x": 3080
         }
     },
     {
@@ -6051,8 +6096,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2136,
-            "z": -2648
+            "z": -2648,
+            "x": 2136
         }
     },
     {
@@ -6068,24 +6113,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9896,
-            "z": -4248
-        }
-    },
-    {
-        "world": "earth",
-        "name": "Washington",
-        "mayor": "BoyBean2",
-        "pvp": false,
-        "residents": [
-            "BoyBean2"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -14968,
-            "z": -5800
+            "z": -4248,
+            "x": -9896
         }
     },
     {
@@ -6100,8 +6129,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9304,
-            "z": -5208
+            "z": -5208,
+            "x": -9304
         }
     },
     {
@@ -6117,8 +6146,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6376,
-            "z": 2856
+            "z": 2808,
+            "x": -6360
         }
     },
     {
@@ -6133,8 +6162,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 17384,
-            "z": 4536
+            "z": 4536,
+            "x": 17384
         }
     },
     {
@@ -6150,8 +6179,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -13496,
-            "z": -5128
+            "z": -5128,
+            "x": -13496
         }
     },
     {
@@ -6181,8 +6210,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3800,
-            "z": -1000
+            "z": -1000,
+            "x": 3800
         }
     },
     {
@@ -6199,25 +6228,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3672,
-            "z": -5624
-        }
-    },
-    {
-        "world": "earth",
-        "name": "florida",
-        "nation": "Broglands",
-        "mayor": "SirSalad",
-        "pvp": false,
-        "residents": [
-            "SirSalad"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -9656,
-            "z": -3048
+            "z": -5624,
+            "x": 3672
         }
     },
     {
@@ -6233,8 +6245,25 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -3080,
-            "z": -4536
+            "z": -4536,
+            "x": -3080
+        }
+    },
+    {
+        "world": "earth",
+        "name": "florida",
+        "nation": "Broglands",
+        "mayor": "SirSalad",
+        "pvp": false,
+        "residents": [
+            "SirSalad"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -3048,
+            "x": -9656
         }
     },
     {
@@ -6252,8 +6281,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12680,
-            "z": -7512
+            "z": -7512,
+            "x": 12680
         }
     },
     {
@@ -6278,8 +6307,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8808,
-            "z": -3688
+            "z": -3688,
+            "x": 8808
         }
     },
     {
@@ -6295,8 +6324,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8168,
-            "z": 6840
+            "z": 6840,
+            "x": 8168
         }
     },
     {
@@ -6314,8 +6343,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4808,
-            "z": 2360
+            "z": 2360,
+            "x": -4808
         }
     },
     {
@@ -6331,8 +6360,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 17096,
-            "z": 1288
+            "z": 1288,
+            "x": 17096
         }
     },
     {
@@ -6349,8 +6378,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -10568,
-            "z": -5592
+            "z": -5592,
+            "x": -10568
         }
     },
     {
@@ -6371,8 +6400,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4104,
-            "z": -8536
+            "z": -8536,
+            "x": -4104
         }
     },
     {
@@ -6387,8 +6416,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9736,
-            "z": -3864
+            "z": -3864,
+            "x": 9736
         }
     },
     {
@@ -6405,8 +6434,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9896,
-            "z": -2760
+            "z": -2760,
+            "x": -9896
         }
     },
     {
@@ -6420,13 +6449,14 @@
             "BEANWORM"
         ],
         "assistants": [
+            "Siilinki",
             "BEANWORM"
         ],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 3224,
-            "z": 56
+            "z": 56,
+            "x": 3224
         }
     },
     {
@@ -6447,8 +6477,8 @@
         "capital": true,
         "outpost": false,
         "coords": {
-            "x": 5912,
-            "z": 1560
+            "z": 1560,
+            "x": 5944
         }
     },
     {
@@ -6464,8 +6494,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4680,
-            "z": -5912
+            "z": -5912,
+            "x": 4680
         }
     },
     {
@@ -6481,8 +6511,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9640,
-            "z": -8200
+            "z": -8200,
+            "x": 9640
         }
     },
     {
@@ -6498,8 +6528,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -6168,
-            "z": 8
+            "z": 8,
+            "x": -6168
         }
     },
     {
@@ -6516,8 +6546,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -8472,
-            "z": 3976
+            "z": 3976,
+            "x": -8472
+        }
+    },
+    {
+        "world": "earth",
+        "name": "DangerZone",
+        "mayor": "Sprotikus",
+        "pvp": false,
+        "residents": [
+            "Sprotikus"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -4888,
+            "x": 1000
         }
     },
     {
@@ -6533,8 +6579,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9224,
-            "z": -7192
+            "z": -7192,
+            "x": -9224
         }
     },
     {
@@ -6549,8 +6595,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9368,
-            "z": -2936
+            "z": -2936,
+            "x": -9368
         }
     },
     {
@@ -6566,8 +6612,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 14440,
-            "z": -3272
+            "z": -3272,
+            "x": 14440
         }
     },
     {
@@ -6583,24 +6629,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7208,
-            "z": 3384
-        }
-    },
-    {
-        "world": "earth",
-        "name": "Tritton",
-        "mayor": "MadCroft",
-        "pvp": false,
-        "residents": [
-            "MadCroft"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 6488,
-            "z": -5928
+            "z": 3384,
+            "x": -7208
         }
     },
     {
@@ -6628,8 +6658,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -14472,
-            "z": -6648
+            "z": -6648,
+            "x": -14472
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Tritton",
+        "mayor": "MadCroft",
+        "pvp": false,
+        "residents": [
+            "MadCroft"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -5928,
+            "x": 6488
         }
     },
     {
@@ -6644,43 +6690,28 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -4952,
-            "z": -7432
+            "z": -7432,
+            "x": -4952
         }
     },
     {
         "world": "earth",
         "name": "EcoTown",
+        "nation": "Broglands",
         "mayor": "onur070707",
         "pvp": false,
         "residents": [
             "onur070707",
             "odysseu",
             "BR__SuprIceeFoxM",
-            "uNick"
+            "kubenn"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4056,
-            "z": -4504
-        }
-    },
-    {
-        "world": "earth",
-        "name": "Dragonia",
-        "mayor": "Dergeh",
-        "pvp": false,
-        "residents": [
-            "Dergeh"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -328,
-            "z": -6840
+            "z": -4504,
+            "x": 4056
         }
     },
     {
@@ -6698,8 +6729,24 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 2056,
-            "z": -7208
+            "z": -7208,
+            "x": 2056
+        }
+    },
+    {
+        "world": "earth",
+        "name": "Dragonia",
+        "mayor": "Dergeh",
+        "pvp": false,
+        "residents": [
+            "Dergeh"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "z": -6840,
+            "x": -328
         }
     },
     {
@@ -6714,15 +6761,14 @@
             "mohinipanini",
             "Rhys021102",
             "FuzzyDaBunny",
-            "Altigords",
             "Totallygamers"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -7656,
-            "z": 2472
+            "z": 2472,
+            "x": -7656
         }
     },
     {
@@ -6739,8 +6785,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -8888,
-            "z": -1304
+            "z": -1304,
+            "x": -8888
         }
     },
     {
@@ -6755,8 +6801,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 4552,
-            "z": -2920
+            "z": -2920,
+            "x": 4552
         }
     },
     {
@@ -6774,8 +6820,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -9528,
-            "z": -5384
+            "z": -5384,
+            "x": -9528
         }
     },
     {
@@ -6792,8 +6838,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 9064,
-            "z": -8232
+            "z": -8232,
+            "x": 9064
         }
     },
     {
@@ -6809,24 +6855,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12040,
-            "z": 24
-        }
-    },
-    {
-        "world": "earth",
-        "name": "Aquila",
-        "mayor": "NHRA2017",
-        "pvp": false,
-        "residents": [
-            "NHRA2017"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -232,
-            "z": -4536
+            "z": 24,
+            "x": 12040
         }
     },
     {
@@ -6844,8 +6874,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 5976,
-            "z": -5816
+            "z": -5816,
+            "x": 5976
         }
     },
     {
@@ -6861,8 +6891,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 12392,
-            "z": 7864
+            "z": 7864,
+            "x": 12392
         }
     },
     {
@@ -6879,8 +6909,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -1048,
-            "z": -4648
+            "z": -4648,
+            "x": -1048
         }
     },
     {
@@ -6903,8 +6933,8 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": -328,
-            "z": -6344
+            "z": -6344,
+            "x": -328
         }
     },
     {
@@ -6913,16 +6943,16 @@
         "mayor": "Tiger1700",
         "pvp": false,
         "residents": [
-            "Tiger1700",
             "sparklez1700",
-            "multiplyred"
+            "multiplyred",
+            "Tiger1700"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 17992,
-            "z": 4168
+            "z": 4168,
+            "x": 17992
         }
     }
 ]
