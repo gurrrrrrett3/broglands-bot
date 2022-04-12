@@ -8,5 +8,4 @@ This is a discord bot used by the netizens of broglands on the minecraft server 
 - [ ] Web version of all commands
 - [ ] Web linking
 - [ ] Web user pages
-
-
+- [ ] Web shop anylitics
