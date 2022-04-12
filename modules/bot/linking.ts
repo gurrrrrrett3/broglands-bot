@@ -3,6 +3,8 @@ import fs from "fs";
 import path from "path";
 import { Link } from "./botTypes";
 
+//The Data storage Manager for the /link command
+
 export default class Linking {
   public static readonly filePath = path.join(__dirname, "../../../data/links.json");
   

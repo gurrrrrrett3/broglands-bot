@@ -83,13 +83,13 @@ export default class PlayerSessionManager {
   }
 
   public static getPlayerSessionsByPage(uuid: string, page: number) {
-    const sessions = PlayerDataManager.openPlayerData(uuid, "session");
+    const sessions = PlayerDataManager.openPlayerData(uuid, "session")
 
     const sortedSessions = sessions.sort((a, b) => {
-      if (a.login.time < b.login.time) {
+      if (a.login.time > b.login.time) {
         return -1;
       }
-      if (a.login.time > b.login.time) {
+      if (a.login.time < b.login.time) {
         return 1;
       }
       return 0;
@@ -97,7 +97,7 @@ export default class PlayerSessionManager {
 
     const slicedSessions = sortedSessions.slice(page * 10, (page + 1) * 10);
 
-    return slicedSessions.reverse();
+    return slicedSessions
   }
 
   public static getPlayerPlaytime(options: GetPlayerPlaytimeOptions) {

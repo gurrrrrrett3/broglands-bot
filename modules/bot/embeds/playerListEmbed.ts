@@ -44,11 +44,11 @@ export default class PlayerListEmbed implements EmbedClass {
       });
 
       const afkPlayers = Util.getAfkPlayers();
-
       const nonAfkPlayers = players.filter((player) => {
         return !player.isAfk();
       });
 
+      //Format each line of the player list embed
 
       const playerList = nonAfkPlayers.map(
         (p) =>
@@ -59,18 +59,24 @@ export default class PlayerListEmbed implements EmbedClass {
       const afkList = afkPlayers.map(
         (p) => `${p.getName()} | ${PlayerLoginManager.getFormattedPlaytime(p.name)}`
       );
-
+      
+        //formatted list of all players
       const allPlayers = playerList.concat(afkList)
 
+      //percentage of players in Broglands Nation
       const broglandsPercent = (Util.getPlayersInBroglands().length / players.length) * 100;
 
+      //Formatted embed description
       const des = playerList.join("\n");
-
+      
       const embed = new Discord.MessageEmbed()
         .setTitle("Online Players")
         .setDescription(des)
         .addField("AFK", afkList.join("\n"))
         .addField(
+
+          //Complete mess, this is just all the info at the bottom of the embed
+
           "Data",
           `Total: ${allPlayers.length} players\nNon AFK: ${nonAfkPlayers.length}\nAFK: ${afkList.length}\nAFK Percentage: ${(
             (afkPlayers.length / allPlayers.length) *

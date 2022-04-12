@@ -4,6 +4,8 @@ import PlayerListEmbed from "./embeds/playerListEmbed";
 
 export type EmbedTypes = "playerlist";
 
+//This class is largly unsed at the moment
+
 export default class EmbedManager {
   public embeds = new Map<string, EmbedClass>();
 

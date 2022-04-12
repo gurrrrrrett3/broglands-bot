@@ -22,6 +22,7 @@ export default class CommandHandler {
     this.client.once("ready", async () => {
       const applicationId = this.client.application?.id ?? this.client.user?.id ?? "unknown";
 
+      //Collect list of command files
       let commandsToDeploy: RESTPostAPIApplicationCommandsJSONBody[] = [];
       const commandFiles = fs
         .readdirSync(path.resolve("./dist/modules/commands"))
@@ -29,6 +30,7 @@ export default class CommandHandler {
 
       console.log(`Deploying ${commandFiles.length} commands`);
 
+      //Import off of the commands as modules
       for (const file of commandFiles) {
         const command: Command = require(`../commands/${file}`);
         this.commands.set(command.data.name, command);
@@ -39,6 +41,7 @@ export default class CommandHandler {
 
       this.client.application?.commands.set([]);
 
+      //Push to Discord
       rest
         .put(Routes.applicationGuildCommands(applicationId, "953522718215655425"), {
           body: commandsToDeploy,
@@ -51,6 +54,7 @@ export default class CommandHandler {
         });
     });
 
+    //Handle running commands, and direct them to the correct execute function
     this.client.on("interactionCreate", (interaction) => {
       if (!interaction.channel) return; // Ignore DM interactions
       if (!interaction.isCommand()) return; // Ignore non-command interactions

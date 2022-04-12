@@ -9,8 +9,11 @@ import UpdateEmbed from "./updateEmbed";
 import playerUpdate from "../map/playerUpdate";
 import Web from "../web/index"
 import Util from "./util";
+import ButtonHandler from "./buttonHandler";
 
 let channels = new Map<string, Dicord.TextChannel>();
+
+//A container for all the submodules. 
 export default class Bot {
   public Client: Dicord.Client;
   public CommandHandler: CommandHandler;
@@ -23,6 +26,7 @@ export default class Bot {
   public updateEmbedManager: UpdateEmbed;
   public linkManager: LinkManager;
   public playerUpdate: playerUpdate;
+  public buttonHandler: ButtonHandler;
   //public web: Web;
 
   public updateInterval = setInterval(() => {
@@ -39,6 +43,7 @@ export default class Bot {
     this.mapUpdate = new MapUpdate();
     this.linkManager = new LinkManager(client);
     this.playerUpdate = new playerUpdate();
+    this.buttonHandler = new ButtonHandler(client)
     //this.web = new Web();
 
     this.Client.on("ready", () => {
@@ -120,6 +125,9 @@ export default class Bot {
     })
   }
 
+  /**
+   * Update bot status
+   */
   public setStatus() {
     const players = Util.getPlayerFile()
     this.Client.user?.setActivity(`on CYT, ${Util.getBroglandsResidentCount()} Broglanders, ${Util.getPlayersInBroglands().length} Online (${(Util.getPlayersInBroglands().length / players.length * 100).toFixed(2)}%)`, { type: "PLAYING" });

@@ -15,14 +15,14 @@ export default class ButtonHandler {
   }
 
   private handleButtonInteraction(interaction: ButtonInteraction) {
-    const options = interaction.id.split("-");
+    const options = interaction.customId.split("-");
     const [comm, arg1, arg2, arg3] = options;
-
-    if (interaction.message.type != "REPLY") return;
+    
+    console.log(options)
 
     switch (comm) {
       case "sessions":
-        SessionsViewer.editOnButtonInteraction(interaction.message, interaction.customId);
+        SessionsViewer.editOnButtonInteraction(interaction, interaction.customId);
         break;
       default:
         break;

@@ -18,25 +18,29 @@ export default class SessionPagedEmbed {
     const embed = new Discord.MessageEmbed()
       .setColor("#0099ff")
       .setTitle(`${this.username}'s sessions`)
-      .setFooter({ text: `Page ${page + 1}` });
+      .setFooter({ text: `Page ${page + 1} of ${Math.ceil(PlayerSessionManager.getTotalSessionCount(this.uuid) / 10)}` });
 
     let disc: string[] = [];
     disc.push(`**${PlayerSessionManager.getTotalSessionCount(this.uuid)} sessions found over ${Util.formatTime(PlayerSessionManager.getPlayerPlaytime({uuid: this.uuid, before: Date.now()}))}**`);
 
+    let i = 0
+
     for (const session of sessions) {
       const login = session.login.time;
       const logout = session.logout.time;
+      const sessionCount = PlayerSessionManager.getTotalSessionCount(this.uuid) - (page * 10 + i)
 
       if (logout == 0) {
-        disc.push(`${Util.formatDiscordTime(login, "shortDateTime")} - Currently online | ${PlayerLoginManager.getFormattedPlaytime(this.username)}`);
+        disc.push(`\`${sessionCount}\` ${Util.formatDiscordTime(login, "shortDateTime")} - Currently online | ${PlayerLoginManager.getFormattedPlaytime(this.username)}`);
       } else {
         disc.push(
-          `${Util.formatDiscordTime(login, "shortDateTime")} - ${Util.formatDiscordTime(
+          `\`${sessionCount}\` ${Util.formatDiscordTime(login, "shortDateTime")} - ${Util.formatDiscordTime(
             logout,
             "shortDateTime"
           )} | ${Util.formatTime(logout - login)}`
         );
       }
+      i++
     }
 
     embed.setDescription(disc.join("\n"));

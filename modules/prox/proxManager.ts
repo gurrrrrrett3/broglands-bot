@@ -4,6 +4,8 @@ import ProxGroup from "../resources/proxGroup";
 import ProxMember from "../resources/proxMember";
 import config from "../../config.json";
 
+
+
 export default class ProxManager {
   public static readonly PROX_CATEGORY: string = "960759625421045841";
   public static readonly LOBBY_CHANNEL: string = "960759691351326750";

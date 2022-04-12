@@ -1,6 +1,9 @@
 import Discord from "discord.js";
 import fs from "fs";
 import path from "path";
+
+//Class mostly explains itself, just a funnier form of banning
+
 export default class KickManager {
   private static readonly KICK_FILE_LOCATION = path.resolve("./data/kicklist.json");
   public kicklist: string[] = [];
