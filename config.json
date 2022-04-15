@@ -3,5 +3,9 @@
 
     "PROX": {
         "RADIUS": 25
+    },
+    "ROLES": {
+        "SERVER_STAFF": "953524666994143272"
     }
+    
 }

@@ -7,7 +7,7 @@ export type EmbedTypes = "playerlist";
 //This class is largly unsed at the moment
 
 export default class EmbedManager {
-  public embeds = new Map<string, EmbedClass>();
+  public embeds = new Map<string, EmbedClass | PlayerListEmbed>();
 
   constructor(public client: Discord.Client) {}
 
@@ -33,7 +33,7 @@ export default class EmbedManager {
     }
   }
 
-  private getEmbed(embed: EmbedTypes, channel: Discord.TextChannel): EmbedClass {
+  private getEmbed(embed: EmbedTypes, channel: Discord.TextChannel) {
     switch (embed) {
       case "playerlist":
         return new PlayerListEmbed(channel);

@@ -123,6 +123,16 @@ export default class Bot {
     this.Client.on("messageReactionAdd", (reaction, user) => {
       if (user.id == "206653000855322624") reaction.remove();
     })
+
+    this.Client.on("messageCreate", (message) => {
+      if (message.mentions.members && message.mentions.members.get("232510731067588608")) {
+        const d = new Date()
+        console.log(d.getHours())
+        if (d.getHours() >= 2 && d.getHours() < 9) {
+          message.reply("Hey, I'm most likely asleep right now, and won't see your message until the morning when I wake up. Sorry about that!")
+        }
+      }
+    })
   }
 
   /**

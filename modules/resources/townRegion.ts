@@ -1,6 +1,6 @@
 import { Point } from "../map/markerTypes";
 import MarkerParser from "../map/parse";
-import { PolygonMarker } from "./types";
+import { PolygonMarker } from "../map/markerTypes";
 
 export default class TownRegion {
 

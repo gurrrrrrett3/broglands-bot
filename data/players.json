@@ -1,32 +1,162 @@
 [
     {
         "world": "world",
-        "armor": 17,
-        "name": "GeorgiaMC",
+        "armor": 20,
+        "name": "Sumire37",
         "x": 25,
         "health": 20,
         "z": 42,
-        "uuid": "a186b5182b694e42941d6605bbd1f657",
+        "uuid": "e2249470c6d74697862b260b27cd2daf",
+        "yaw": 20.18843
+    },
+    {
+        "world": "world",
+        "armor": 18,
+        "name": "breetherusski__",
+        "x": 25,
+        "health": 20,
+        "z": 42,
+        "uuid": "32e58c6db6a9489f9bb59d5a392dc870",
+        "yaw": -91.71936
+    },
+    {
+        "world": "world",
+        "armor": 0,
+        "name": "Keviyto",
+        "x": 25,
+        "health": 20,
+        "z": 42,
+        "uuid": "65446935a8ca4e19be56842967085a1c",
+        "yaw": 20.18843
+    },
+    {
+        "world": "world",
+        "armor": 19,
+        "name": "Am1y",
+        "x": 25,
+        "health": 34,
+        "z": 42,
+        "uuid": "9806183b075a47468e6a3a181fc4058f",
+        "yaw": 20.18843
+    },
+    {
+        "world": "world",
+        "armor": 7,
+        "name": "Amber_Amber",
+        "x": 6038,
+        "health": 20,
+        "z": 1046,
+        "uuid": "af950e0df7d84542a1ce4381ad656209",
+        "yaw": 56.809658
+    },
+    {
+        "world": "world",
+        "armor": 20,
+        "name": "Kamtronix",
+        "x": -1697,
+        "health": 20,
+        "z": -4564,
+        "uuid": "de570958c75747f88f20e5656f4aa1e9",
+        "yaw": 48.3703
+    },
+    {
+        "world": "world",
+        "armor": 23,
+        "name": "CycleKing",
+        "x": 25,
+        "health": 22,
+        "z": 42,
+        "uuid": "8bee2c277dfe4790b71f68a0483d695c",
+        "yaw": 42.838425
+    },
+    {
+        "world": "world",
+        "armor": 20,
+        "name": "deadreaper23",
+        "x": 25,
+        "health": 20,
+        "z": 42,
+        "uuid": "05c63696c78c4ad0aafd6a614e00637d",
+        "yaw": 20.18843
+    },
+    {
+        "world": "world",
+        "armor": 19,
+        "name": "HeavyD1",
+        "x": -8376,
+        "health": 20,
+        "z": -7524,
+        "uuid": "cd5e5c925d0342e0a411e7bae04c5353",
+        "yaw": -1.4593506
+    },
+    {
+        "world": "world",
+        "armor": 20,
+        "name": "KrisW",
+        "x": -14877,
+        "health": 32,
+        "z": -12660,
+        "uuid": "6ab807c6b8694c39b5985a87c2763bed",
+        "yaw": 95.09264
+    },
+    {
+        "world": "world",
+        "armor": 12,
+        "name": "koenymeloeny",
+        "x": 25,
+        "health": 20,
+        "z": 42,
+        "uuid": "e5b041edeb874629b7d5f7b3a69af124",
+        "yaw": 20.18843
+    },
+    {
+        "world": "world",
+        "armor": 21,
+        "name": "QopsterNoDice",
+        "x": 25,
+        "health": 20,
+        "z": 42,
+        "uuid": "cec2852f1a9d4e0e9b04f4d21d45a7a6",
         "yaw": 20.18843
     },
     {
         "world": "world",
         "armor": 20,
-        "name": "Eirias",
-        "x": 7012,
+        "name": "AppleCider9283",
+        "x": -14884,
         "health": 20,
-        "z": -4657,
-        "uuid": "95f3a31669d1405b8692a94b0d98b9a9",
-        "yaw": 121.05133
+        "z": -12659,
+        "uuid": "80446ef3a2284d81bfdd35500d80606d",
+        "yaw": -110.04297
     },
     {
         "world": "world",
-        "armor": 17,
-        "name": "TailsTheFox74",
+        "armor": 20,
+        "name": "KilusOps",
         "x": 25,
         "health": 20,
         "z": 42,
-        "uuid": "3caae5098de34b749dde436d91910c98",
+        "uuid": "1395d91402844ea1a2c39f95ae07039a",
+        "yaw": 20.18843
+    },
+    {
+        "world": "world",
+        "armor": 20,
+        "name": "LegoLord365",
+        "x": 25,
+        "health": 20,
+        "z": 42,
+        "uuid": "e737118a821141da89d56b46a68b5d92",
+        "yaw": 20.18843
+    },
+    {
+        "world": "world",
+        "armor": 22,
+        "name": "TNARTAWON",
+        "x": 25,
+        "health": 34,
+        "z": 42,
+        "uuid": "26d2afb3c4864215bd4f258dbf930793",
         "yaw": 20.18843
     },
     {
@@ -42,451 +172,211 @@
     {
         "world": "world",
         "armor": 20,
-        "name": "Kamtronix",
-        "x": -4340,
+        "name": "Flanza",
+        "x": 9721,
         "health": 20,
-        "z": 6516,
-        "uuid": "de570958c75747f88f20e5656f4aa1e9",
-        "yaw": 75.60321
+        "z": 9033,
+        "uuid": "ea6d20f01ba14ca7b4860be279b34c86",
+        "yaw": 90.896454
     },
     {
         "world": "world",
-        "armor": 20,
-        "name": "LegoLord365",
-        "x": 25,
-        "health": 20,
-        "z": 42,
-        "uuid": "e737118a821141da89d56b46a68b5d92",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "WinterWolf19575",
-        "x": 25,
-        "health": 20,
-        "z": 42,
-        "uuid": "3fa111203ddf4bb084506dc749ff8e5c",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 17,
-        "name": "mrblockus",
-        "x": 25,
-        "health": 21,
-        "z": 42,
-        "uuid": "b80c3afa0671447b88e5c01440fca130",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "BrokeMel",
-        "x": 25,
-        "health": 20,
-        "z": 42,
-        "uuid": "7527b2e3ea87494b932c7542a579db57",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "Landulf",
-        "x": 25,
-        "health": 20,
-        "z": 42,
-        "uuid": "5a6330d996cb4399bf5c6ecc8bb15484",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "Sumire37",
-        "x": 25,
-        "health": 20,
-        "z": 42,
-        "uuid": "e2249470c6d74697862b260b27cd2daf",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 22,
-        "name": "JamDette",
-        "x": 25,
-        "health": 22,
-        "z": 42,
-        "uuid": "f191035c3fb7434595c9bfea63efbebd",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 0,
+        "armor": 15,
         "name": "BerryMew",
-        "x": 9369,
+        "x": 9347,
         "health": 20,
-        "z": 7236,
+        "z": 7301,
         "uuid": "d42e3577bad84c4fa43ce3e5aeed042f",
-        "yaw": 74.10367
-    },
-    {
-        "world": "world",
-        "armor": 0,
-        "name": "Keviyto",
-        "x": 45,
-        "health": 20,
-        "z": 6,
-        "uuid": "65446935a8ca4e19be56842967085a1c",
-        "yaw": 132.08856
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "Lil__Bingus",
-        "x": 25,
-        "health": 22,
-        "z": 42,
-        "uuid": "d10ac7a327784d5db9c6b8301e7a0942",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 21,
-        "name": "CycleKing",
-        "x": 25,
-        "health": 20,
-        "z": 42,
-        "uuid": "8bee2c277dfe4790b71f68a0483d695c",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "kruvice",
-        "x": 25,
-        "health": 20,
-        "z": 42,
-        "uuid": "91b3d62333994d6d85731f2e816470ea",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "BR__MarzieMalfoy",
-        "x": -7947,
-        "health": 28,
-        "z": -8771,
-        "uuid": "0000000000000000000901f31ca78dab",
-        "yaw": 92.35004
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "LilFoxyFox",
-        "x": 25,
-        "health": 20,
-        "z": 42,
-        "uuid": "dec299847ac74ca1950fbae68e16759e",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 3,
-        "name": "GiselleMora",
-        "x": -1860,
-        "health": 20,
-        "z": -14207,
-        "uuid": "ddec8e8b6bd041cb983fdfe5d3c519bf",
-        "yaw": -178.48004
-    },
-    {
-        "world": "world",
-        "armor": 25,
-        "name": "JaxDette",
-        "x": 25,
-        "health": 35,
-        "z": 42,
-        "uuid": "158525a9e5e74628862bd836091be16f",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 0,
-        "name": "EpikEvan",
-        "x": 13301,
-        "health": 20,
-        "z": 2912,
-        "uuid": "b7bfd32a120742b2879cd1933ec3eb3f",
-        "yaw": -36.93164
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "NixTendy",
-        "x": 6164,
-        "health": 20,
-        "z": -4853,
-        "uuid": "2ed339d25dd342d29815913f5303370f",
-        "yaw": 114.00769
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "Chyckynek",
-        "x": 25,
-        "health": 21,
-        "z": 42,
-        "uuid": "89d0488f91bd4076a4b7fd87daa7f9cb",
-        "yaw": 20.18843
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "xMalvazar",
-        "x": 25,
-        "health": 20,
-        "z": 42,
-        "uuid": "e5aa8063227f4774b47d876d51e0bc51",
-        "yaw": -4.988812
-    },
-    {
-        "world": "world",
-        "armor": 8,
-        "name": "RinAyama",
-        "x": 25,
-        "health": 37,
-        "z": 42,
-        "uuid": "ffce607c6c654926b889113a7cebf814",
-        "yaw": 18.616283
+        "yaw": 1.2005005
     },
     {
         "world": "world",
         "armor": 30,
-        "name": "Kaplooshh",
+        "name": "prezm",
         "x": 25,
         "health": 52,
         "z": 42,
-        "uuid": "3c2c770d51ed41f9a330d7b811835689",
+        "uuid": "3f225798746c41cdaf079800cd0dd8c9",
         "yaw": 20.18843
     },
     {
         "world": "world",
-        "armor": 20,
-        "name": "Soccerstarx",
+        "armor": 18,
+        "name": "eric518",
         "x": 25,
-        "health": 20,
+        "health": 23,
         "z": 42,
-        "uuid": "8a266dc7f670468a84a0cbf01d2b5ed8",
+        "uuid": "e25b6f6db508437d84cb108b53d27247",
         "yaw": 20.18843
     },
     {
         "world": "world",
         "armor": 0,
-        "name": "dovegirl1122",
-        "x": -8333,
-        "health": 20,
-        "z": -8281,
-        "uuid": "7cdae50a5014490ebe99c2677325b2f7",
-        "yaw": -90.113525
-    },
-    {
-        "world": "world",
-        "armor": 0,
-        "name": "BlueFrost1000",
-        "x": -8335,
-        "health": 20,
-        "z": -8240,
-        "uuid": "8d76b035a77f4a18a379c66d1910d708",
-        "yaw": 163.94244
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "No_Refills",
-        "x": -11960,
-        "health": 20,
-        "z": -2101,
-        "uuid": "4c56d08ee8a146ccab134de708e5b814",
-        "yaw": 131.63037
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "breetherusski__",
-        "x": -10537,
-        "health": 20,
-        "z": -7170,
-        "uuid": "32e58c6db6a9489f9bb59d5a392dc870",
-        "yaw": 175.02032
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "MinnieSoda",
-        "x": 6073,
-        "health": 20,
-        "z": 1021,
-        "uuid": "7a11a68ad8f546eabae1ac74a9da0537",
-        "yaw": 165.25122
-    },
-    {
-        "world": "world",
-        "armor": 0,
-        "name": "Yettav",
-        "x": 9979,
-        "health": 20,
-        "z": -14842,
-        "uuid": "4dd8cb2fe9084ade9cbbff8ee7639d3a",
-        "yaw": 169.94775
-    },
-    {
-        "world": "world",
-        "armor": 21,
-        "name": "SimonLA_",
-        "x": 87,
-        "health": 23,
-        "z": -7687,
-        "uuid": "b69e11b4d0244b33b09f0695741a08cb",
-        "yaw": -131.72314
-    },
-    {
-        "world": "world",
-        "armor": 20,
-        "name": "GingerChamp",
-        "x": 5367,
-        "health": 20,
-        "z": 2661,
-        "uuid": "7d70d6dcaaaf4e38a5acd0bbe1415547",
-        "yaw": 166.00653
-    },
-    {
-        "world": "world",
-        "armor": 21,
-        "name": "CreepyFriend15",
+        "name": "Mason0221",
         "x": 0,
-        "health": 21,
+        "health": 20,
         "z": 0,
-        "uuid": "14013d1245b148748181b5320ef2a262",
+        "uuid": "a24cefc8287746afad94ad34e68a96fa",
         "yaw": -90
     },
     {
         "world": "world",
-        "armor": 20,
-        "name": "o_oLegit",
-        "x": 22,
-        "health": 20,
-        "z": -2,
-        "uuid": "e5ee3cbae99f4dab9274231073132f75",
-        "yaw": 177.49103
-    },
-    {
-        "world": "world",
         "armor": 14,
-        "name": "PurpleParty",
-        "x": 1179,
+        "name": "Letroy11",
+        "x": -1896,
         "health": 20,
-        "z": 4778,
-        "uuid": "1a83059fa4ad495299a7f9398cff4e8b",
-        "yaw": 27.609863
-    },
-    {
-        "world": "world",
-        "armor": 21,
-        "name": "AleksLuthor",
-        "x": 9970,
-        "health": 33,
-        "z": 3071,
-        "uuid": "61f71f0a98a54b148c46a64091a0c93e",
-        "yaw": -80.548836
+        "z": 558,
+        "uuid": "a91343750ee5443f9903dd9ee1cf2466",
+        "yaw": -81.86972
     },
     {
         "world": "world",
         "armor": 20,
-        "name": "ThymeHands",
-        "x": -9396,
-        "health": 20,
-        "z": 5875,
-        "uuid": "7be9cff966ee4c98a9616c2ef8856725",
-        "yaw": 159.16373
+        "name": "mrblockus",
+        "x": 4974,
+        "health": 21,
+        "z": -4935,
+        "uuid": "b80c3afa0671447b88e5c01440fca130",
+        "yaw": -50.402893
     },
     {
         "world": "world",
         "armor": 20,
-        "name": "CreepersGraves",
-        "x": -6152,
+        "name": "StivenPink",
+        "x": -4988,
         "health": 20,
-        "z": -14983,
-        "uuid": "99f51e20b6e44f0fb409b997eb0d6336",
-        "yaw": 2.4667358
+        "z": 6167,
+        "uuid": "2849cbe5ff544949882ba4c20e003014",
+        "yaw": -97.31363
     },
     {
-        "world": "resource",
+        "world": "world",
+        "armor": 9,
+        "name": "imCoffee_",
+        "x": 5,
+        "health": 20,
+        "z": 0,
+        "uuid": "0acf450b2bf54a6f9cfc44d54fdf3c18",
+        "yaw": -93.15003
+    },
+    {
+        "world": "world_nether",
         "armor": 20,
-        "name": "Starkittycat",
-        "x": 1107,
+        "name": "JaxDette",
+        "x": -4289,
+        "health": 35,
+        "z": -1228,
+        "uuid": "158525a9e5e74628862bd836091be16f",
+        "yaw": -22.071167
+    },
+    {
+        "world": "resource",
+        "armor": 17,
+        "name": "TailsTheFox74",
+        "x": 521,
         "health": 20,
-        "z": 1812,
-        "uuid": "02d0b17d232f4546ac3473c553a94437",
-        "yaw": 145.60657
+        "z": -1089,
+        "uuid": "3caae5098de34b749dde436d91910c98",
+        "yaw": -94.820465
     },
     {
-        "world": "resource",
-        "armor": 2,
-        "name": "DjDogz416",
-        "x": 1647,
-        "health": 13,
-        "z": 2295,
-        "uuid": "bdc29a850f844489aed5f442e4e1a006",
-        "yaw": 60.000427
+        "world": "earth",
+        "armor": 12,
+        "name": "_Walex",
+        "x": -1000,
+        "health": 20,
+        "z": -1239,
+        "uuid": "9bfa834037f0411582f49ee2f50ca854",
+        "yaw": 35.015137
     },
     {
-        "world": "resource",
-        "armor": 19,
-        "name": "Am1y",
-        "x": 1082,
-        "health": 22,
-        "z": 1822,
-        "uuid": "9806183b075a47468e6a3a181fc4058f",
-        "yaw": -153.5103
+        "world": "earth",
+        "armor": 17,
+        "name": "NinoBino",
+        "x": 6005,
+        "health": 20,
+        "z": 1618,
+        "uuid": "75b4c14c7bf144d39e73e5e626a9aec0",
+        "yaw": -1.1005859
     },
     {
         "world": "earth",
         "armor": 20,
-        "name": "SpareTangerine",
-        "x": -975,
+        "name": "MinnieSoda",
+        "x": -11772,
         "health": 20,
-        "z": -1179,
-        "uuid": "0e14c87153a64dcaa84a4cd848fb677c",
-        "yaw": -76.50196
+        "z": -4298,
+        "uuid": "7a11a68ad8f546eabae1ac74a9da0537",
+        "yaw": -131.74265
     },
     {
         "world": "earth",
         "armor": 7,
-        "name": "onur070707",
-        "x": 4001,
+        "name": "Sprotikus",
+        "x": 1000,
         "health": 20,
-        "z": -4512,
-        "uuid": "7f30611d7842406090900b7f309516d9",
-        "yaw": -3.474275
+        "z": -4907,
+        "uuid": "87d5d41ed9da496ba3f752aa92c3a55f",
+        "yaw": -50.702236
     },
     {
         "world": "earth",
         "armor": 20,
-        "name": "Nutdealer__",
-        "x": 2024,
+        "name": "LiveLeader95050",
+        "x": -4912,
         "health": 20,
-        "z": 1823,
-        "uuid": "b49607b7c3304bafb43547dfa1a3f968",
-        "yaw": -144.24756
+        "z": 2346,
+        "uuid": "9c409ef72f51429eba04ec76d62f97ad",
+        "yaw": 127.19696
     },
     {
         "world": "earth",
-        "armor": 10,
-        "name": "54M44R",
-        "x": 5927,
-        "health": 32,
-        "z": 1542,
-        "uuid": "030e2964713b4e60ae4704f8fd31c6d9",
-        "yaw": 179.70294
+        "armor": 20,
+        "name": "multiplyred",
+        "x": 17992,
+        "health": 20,
+        "z": 4188,
+        "uuid": "5603b38ebe494c7dacc7f2e34e7c71ac",
+        "yaw": 179.81506
+    },
+    {
+        "world": "earth",
+        "armor": 20,
+        "name": "BR__MarzieMalfoy",
+        "x": 5934,
+        "health": 28,
+        "z": 1581,
+        "uuid": "0000000000000000000901f31ca78dab",
+        "yaw": 103.61206
+    },
+    {
+        "world": "extras",
+        "armor": 29,
+        "name": "Dzierganka",
+        "x": -1666,
+        "health": 34,
+        "z": -709,
+        "uuid": "27c8c39b140b4d1da986ba4f128275f3",
+        "yaw": -151.76788
+    },
+    {
+        "world": "extras",
+        "armor": 8,
+        "name": "RinAyama",
+        "x": -1687,
+        "health": 37,
+        "z": -730,
+        "uuid": "ffce607c6c654926b889113a7cebf814",
+        "yaw": -160.27687
+    },
+    {
+        "world": "extras",
+        "armor": 23,
+        "name": "Jambas18",
+        "x": -1707,
+        "health": 23,
+        "z": -709,
+        "uuid": "2c79289782ad4e6ca682aef9bcb0bfc6",
+        "yaw": -164.67004
     }
 ]

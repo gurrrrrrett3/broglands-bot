@@ -14,7 +14,7 @@ export interface MarkerGroup {
 export interface Marker {
   color?: string;
   tooltip: string;
-  type: string;
+  type: "icon" | "polygon";
   points?: Point[][][];
   fillColor?: string;
   popup?: string;
@@ -41,6 +41,19 @@ export interface Point {
   x: number;
 }
 
+export interface PolygonMarker {
+  fillColor: string;
+  popup: string;
+  color: string;
+  tooltip: string;
+  type: "polygon";
+  points: Point[][][];
+}
+
 export function isIconMarker(marker: Marker): marker is IconMarker {
   return marker.type === "icon";
+}
+
+export function isPolygonMarker(marker: Marker): marker is PolygonMarker {
+  return marker.type === "polygon"
 }

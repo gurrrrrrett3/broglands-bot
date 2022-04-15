@@ -1,3 +1,4 @@
+import Polygon, { PolygonData } from "./polygon";
 import { Coords, WorldLocation } from "./types";
 
 export interface TownData {
@@ -9,6 +10,7 @@ export interface TownData {
   assistants: string[];
   capital: boolean;
   outpost: boolean;
+  polygon: PolygonData[] | undefined;
   coords: {
     x: number;
     z: number;
@@ -28,8 +30,9 @@ export default class Town {
     public pvp: boolean;
     public residents: string[];
     public assistants: string[];
-    capital: boolean;
-    outpost: boolean;
+    public capital: boolean;
+    public outpost: boolean;
+    public polygon: Polygon[] | undefined;
     public coords: {
         x: number;
         z: number;
@@ -46,8 +49,12 @@ export default class Town {
         this.capital = data.capital;
         this.outpost = data.outpost;
         this.coords = data.coords;
+        
+        if (data.polygon) {
+            this.polygon = data.polygon.map((d) => new Polygon(d.points))
+        }
 
-        if (this.assistants == ["None"]) {
+        if (this.assistants == ["None"]) {4
             this.assistants = [];
         }
     }

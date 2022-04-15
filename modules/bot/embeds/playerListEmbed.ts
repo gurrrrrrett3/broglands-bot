@@ -7,9 +7,14 @@ import MapInterface from "../../map/mapInterface";
 import { EmbedClass } from "../../resources/types";
 import Util from "../util";
 
-export default class PlayerListEmbed implements EmbedClass {
+const cb = Util.cb
+
+export default class PlayerListEmbed {
   public channel: Discord.TextChannel;
-  public message: Discord.Message | null = null;
+  public playerListMessage: Discord.Message | null = null;
+  public playerAFKMessage: Discord.Message | null = null;
+  public dataMessage: Discord.Message | null = null;
+  public preformanceMessage: Discord.Message | null = null;
   public timer: NodeJS.Timer = setTimeout(() => {
     this.resend();
     //10 minutes
@@ -21,22 +26,47 @@ export default class PlayerListEmbed implements EmbedClass {
   }
 
   public async update(): Promise<void> {
-    if (this.message) {
-      this.message.edit({ embeds: [await this.getEmbed()] });
+    if (this.playerListMessage && this.playerAFKMessage && this.dataMessage && this.preformanceMessage) {
+      const content = await this.getMessage();
+      this.playerListMessage.edit(content[0]);
+      this.playerAFKMessage.edit(content[1]);
+      this.dataMessage.edit(content[2]);
+      this.preformanceMessage.edit(content[3]);
     } else {
       this.resend();
     }
   }
   public async resend(): Promise<void> {
     Util.purgeChannel(this.channel, 100).then(async () => {
-      this.channel.send({ embeds: [await this.getEmbed()] }).then((msg) => {
-        this.message = msg;
-      });
+      this.channel
+        .send({ content: (await this.getMessage()).at(0) })
+        .then((msg) => {
+          this.playerListMessage = msg;
+        })
+        .then(async () => {
+          this.channel
+            .send({ content: (await this.getMessage()).at(1) })
+            .then((msg) => {
+              this.playerAFKMessage = msg;
+            })
+            .then(async () => {
+              this.channel
+                .send({ content: (await this.getMessage()).at(2) })
+                .then((msg) => {
+                  this.dataMessage = msg;
+                })
+                .then(async () => {
+                  this.channel.send({ content: (await this.getMessage()).at(3) }).then((msg) => {
+                    this.preformanceMessage = msg;
+                  });
+                });
+            });
+        });
     });
   }
 
-  public async getEmbed(): Promise<Discord.MessageEmbed> {
-    const embed = await MapInterface.getPlayers().then((players) => {
+  public async getMessage(): Promise<string[]> {
+    return await MapInterface.getPlayers().then((players) => {
       players.sort((a, b) => {
         let score = Util.getWorldLevel(a.world) - Util.getWorldLevel(b.world);
         score += a.name.toLowerCase().localeCompare(b.name.toLowerCase());
@@ -50,57 +80,62 @@ export default class PlayerListEmbed implements EmbedClass {
 
       //Format each line of the player list embed
 
+      const firstLine = `ONLINE LIST\n   ${Util.padAfter("World", 16)} | ${Util.padAfter("Username", 20)}| ${Util.padAfter(
+        "Current Location",
+        19
+      )}`;
+
       const playerList = nonAfkPlayers.map(
         (p) =>
-          `**${p.world.replace(/_/, "\\_")}** ${p.getName()} ${ getPresence(p.getLocation())
-          } | ${PlayerLoginManager.getFormattedPlaytime(p.name)}`
+          `${Util.getNationStatusSymbol(p)} ${Util.padAfter(p.world, 16)} | ${Util.padAfter(
+            p.name,
+            20
+          )}${Util.formatPresence(p)}`
       );
 
       const afkList = afkPlayers.map(
-        (p) => `${p.getName()} | ${PlayerLoginManager.getFormattedPlaytime(p.name)}`
+        (p) => `${Util.getNationStatusSymbol(p)} ${Util.padAfter(p.name, 20)} | ${PlayerLoginManager.getFormattedPlaytime(p.name)}`
       );
-      
-        //formatted list of all players
-      const allPlayers = playerList.concat(afkList)
+
+      //formatted list of all players
+      const allPlayers = playerList.concat(afkList);
 
       //percentage of players in Broglands Nation
       const broglandsPercent = (Util.getPlayersInBroglands().length / players.length) * 100;
 
-      //Formatted embed description
-      const des = playerList.join("\n");
-      
-      const embed = new Discord.MessageEmbed()
-        .setTitle("Online Players")
-        .setDescription(des)
-        .addField("AFK", afkList.join("\n"))
-        .addField(
+      //Player list
+      const livePlayerList = firstLine + "\n\n" + playerList.join("\n");
 
-          //Complete mess, this is just all the info at the bottom of the embed
+      //afk
+      const liveAFKList = `AFK LIST\n\n` + afkList.join("\n");
 
-          "Data",
-          `Total: ${allPlayers.length} players\nNon AFK: ${nonAfkPlayers.length}\nAFK: ${afkList.length}\nAFK Percentage: ${(
-            (afkPlayers.length / allPlayers.length) *
-            100
-          ).toFixed(2)}%\nOnline in Nation: ${
-            Util.getPlayersInBroglands().length
-          }\nNation Percentage: ${broglandsPercent.toFixed(
-            2
-          )}%\nNation Size: ${Util.getBroglandsResidentCount()} Players\nPlayers in database: ${Util.getPlayersInDatabase()} Players\n\n Last updated: <t:${Math.floor(
-            Date.now() / 1000
-          )}>`
-        )
-        .addField(
-          "Preformance",
-          `Embed limit: ${((des.length / 4096) * 100).toFixed(2)}% (${des.length} / 4096) 
-          RAM: ${Math.round(process.memoryUsage().rss / 1000000)}MB \n CPU: ${Math.round(
-            process.cpuUsage().user / 1000000
-          )}% \n Uptime: ${Util.formatTime(process.uptime() * 1000)} \n Node version: ${process.version}`
-        )
-        .setColor("#0099ff")
-        .setFooter({ text: "Last updated" })
-        .setTimestamp();
-      return embed;
+      //data
+      let data = [
+        `Total: ${allPlayers.length} players`,
+        `Non AFK: ${nonAfkPlayers.length}`,
+        `AFK: ${afkList.length}`,
+        `AFK Percentage: ${((afkPlayers.length / allPlayers.length) * 100).toFixed(2)}%`,
+        `Online in Nation: ${Util.getPlayersInBroglands().length}`,
+        `Nation Percentage: ${broglandsPercent.toFixed(2)}%`,
+        `Nation Size: ${Util.getBroglandsResidentCount()} Players`,
+        `Players in database: ${Util.getPlayersInDatabase()} Players`,
+      ].join("\n");
+
+      //preformance
+      const preformance = [
+        `Last updated: <t:${Math.floor(Date.now() / 1000)}>`,
+        `Embed limit: ${((livePlayerList.length / 4096) * 100).toFixed(2)}% (${
+          livePlayerList.length
+        } / 4096)`,
+        `RAM: ${Math.round(process.memoryUsage().rss / 1000000)}MB`,
+        `Uptime: ${Util.formatTime(process.uptime() * 1000)}`,
+        `Node version: ${process.version}`,
+      ].join("\n");
+
+      let out = [cb(livePlayerList), cb(liveAFKList), cb(data), preformance]
+
+      return out;
     });
-    return embed;
   }
 }
+

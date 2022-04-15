@@ -4,7 +4,7 @@ import ProxGroup from "../resources/proxGroup";
 import ProxMember from "../resources/proxMember";
 import config from "../../config.json";
 
-
+//Nowhere near ready yet, not even going to work on this for a while
 
 export default class ProxManager {
   public static readonly PROX_CATEGORY: string = "960759625421045841";

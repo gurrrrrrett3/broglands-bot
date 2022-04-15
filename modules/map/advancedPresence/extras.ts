@@ -90,7 +90,7 @@ export default function ExtrasAdvancedPresence(loc: WorldLocation) {
   });
 
   if (group) {
-      return ` | ** ${group.name}**`;
+      return `| ${group.name}`;
   } else {
     return "";
   }
