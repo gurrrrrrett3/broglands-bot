@@ -4,7 +4,7 @@ This is a discord bot used by the netizens of broglands on the minecraft server 
 
 ## Planned Upcoming Features
 - [ ] Discord Proximity Chat
-- [ ] Teleportation Logging
+- [X] Teleportation Logging
 - [ ] Web version of all commands
 - [ ] Web linking
 - [ ] Web user pages
