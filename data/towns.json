@@ -183,8 +183,7 @@
             "BR__AirJames_225",
             "Skelcy123",
             "AuroraMidnight",
-            "Jambas18",
-            "BR__Pancaketim3"
+            "Jambas18"
         ],
         "assistants": [
             "BR__AirJames_225",
@@ -467,45 +466,6 @@
                     {
                         "x": 1328,
                         "z": -12321
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "world",
-        "name": "Money_Century",
-        "mayor": "OBgameslayer",
-        "pvp": false,
-        "residents": [
-            "OBgameslayer",
-            "FroggyVal"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -5416,
-            "z": -1704
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": -5393,
-                        "z": -1697
-                    },
-                    {
-                        "x": -5393,
-                        "z": -1728
-                    },
-                    {
-                        "x": -5440,
-                        "z": -1728
-                    },
-                    {
-                        "x": -5440,
-                        "z": -1697
                     }
                 ]
             }
@@ -1092,68 +1052,6 @@
     },
     {
         "world": "world",
-        "name": "PallyPlace",
-        "mayor": "PaladinSupremecy",
-        "pvp": false,
-        "residents": [
-            "PaladinSupremecy"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 14984,
-            "z": -14968
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": 15007,
-                        "z": -14945
-                    },
-                    {
-                        "x": 15007,
-                        "z": -14992
-                    },
-                    {
-                        "x": 14976,
-                        "z": -14992
-                    },
-                    {
-                        "x": 14976,
-                        "z": -14960
-                    },
-                    {
-                        "x": 14960,
-                        "z": -14960
-                    },
-                    {
-                        "x": 14960,
-                        "z": -14945
-                    },
-                    {
-                        "x": 14976,
-                        "z": -14945
-                    },
-                    {
-                        "x": 14976,
-                        "z": -14929
-                    },
-                    {
-                        "x": 14991,
-                        "z": -14929
-                    },
-                    {
-                        "x": 14991,
-                        "z": -14945
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "world",
         "name": "Fantasia",
         "mayor": "TheMusicMan250",
         "pvp": false,
@@ -1247,7 +1145,6 @@
         "pvp": false,
         "residents": [
             "hampies",
-            "Feerrugm",
             "LIONsaysROAR",
             "Ataraxia_",
             "BR__Feerrugem",
@@ -1966,10 +1863,7 @@
             "IAMAMUFFINHEAD",
             "OctoYeti",
             "GunnerZeke",
-            "BananaBoyTen",
             "Ajhavok",
-            "loudadino",
-            "plaidchicken",
             "BR__CardDread961"
         ],
         "assistants": [],
@@ -3147,76 +3041,6 @@
     },
     {
         "world": "world",
-        "name": "FairyDew",
-        "mayor": "Twilight_Scarlet",
-        "pvp": false,
-        "residents": [
-            "Twilight_Scarlet"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -7656,
-            "z": -8008
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": -7617,
-                        "z": -7969
-                    },
-                    {
-                        "x": -7617,
-                        "z": -8000
-                    },
-                    {
-                        "x": -7649,
-                        "z": -8000
-                    },
-                    {
-                        "x": -7649,
-                        "z": -8032
-                    },
-                    {
-                        "x": -7680,
-                        "z": -8032
-                    },
-                    {
-                        "x": -7680,
-                        "z": -7984
-                    },
-                    {
-                        "x": -7696,
-                        "z": -7984
-                    },
-                    {
-                        "x": -7696,
-                        "z": -7937
-                    },
-                    {
-                        "x": -7681,
-                        "z": -7937
-                    },
-                    {
-                        "x": -7681,
-                        "z": -7953
-                    },
-                    {
-                        "x": -7649,
-                        "z": -7953
-                    },
-                    {
-                        "x": -7649,
-                        "z": -7969
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "world",
         "name": "CottageCave",
         "mayor": "TheDevil9000",
         "pvp": false,
@@ -4176,20 +4000,20 @@
             {
                 "points": [
                     {
-                        "x": 6783,
-                        "z": 8639
+                        "x": 6799,
+                        "z": 8655
                     },
                     {
-                        "x": 6783,
-                        "z": 8624
+                        "x": 6799,
+                        "z": 8592
                     },
                     {
-                        "x": 6768,
-                        "z": 8624
+                        "x": 6752,
+                        "z": 8592
                     },
                     {
-                        "x": 6768,
-                        "z": 8639
+                        "x": 6752,
+                        "z": 8655
                     }
                 ]
             }
@@ -4415,11 +4239,11 @@
                         "z": 8959
                     },
                     {
-                        "x": 9680,
+                        "x": 9664,
                         "z": 8959
                     },
                     {
-                        "x": 9680,
+                        "x": 9664,
                         "z": 8975
                     },
                     {
@@ -4621,7 +4445,6 @@
             "CROUTON_JESUS",
             "iShockMC",
             "BillyBroPlayz",
-            "King_Elderado",
             "gamerxellie",
             "TrevGeb",
             "Mqcckk",
@@ -4632,7 +4455,8 @@
             "MerNoire55",
             "Aero0206",
             "AgBack",
-            "LilBrzoz"
+            "LilBrzoz",
+            "MrKlinkOG"
         ],
         "assistants": [
             "SuoxenZ"
@@ -5200,12 +5024,10 @@
         "name": "amsterdam",
         "nation": "Harmonia",
         "mayor": "morriemoor21",
-        "pvp": true,
+        "pvp": false,
         "residents": [
             "morriemoor21",
-            "Mason0221",
-            "DecTr07",
-            "reversedPoland"
+            "Mason0221"
         ],
         "assistants": [
             "Mason0221"
@@ -5220,8 +5042,16 @@
             {
                 "points": [
                     {
+                        "x": 8431,
+                        "z": -6401
+                    },
+                    {
+                        "x": 8431,
+                        "z": -6432
+                    },
+                    {
                         "x": 8415,
-                        "z": -6385
+                        "z": -6432
                     },
                     {
                         "x": 8415,
@@ -5314,6 +5144,14 @@
                     {
                         "x": 8399,
                         "z": -6385
+                    },
+                    {
+                        "x": 8415,
+                        "z": -6385
+                    },
+                    {
+                        "x": 8415,
+                        "z": -6401
                     }
                 ]
             }
@@ -7020,8 +6858,6 @@
             "Nutdealer__",
             "Clasherz",
             "Lothargaming",
-            "Jay_Pog21",
-            "AnDarachCrann",
             "Big_Flops"
         ],
         "assistants": [],
@@ -8735,7 +8571,9 @@
             "Max_PLord",
             "Devo199",
             "elxaa_",
-            "AM7999"
+            "LiveLeader95050",
+            "lonelyskate12",
+            "Jay_Pog21"
         ],
         "assistants": [],
         "capital": false,
@@ -10264,7 +10102,10 @@
             "Killswitch_1",
             "MineKingW",
             "SeaBIaze",
-            "oeako"
+            "oeako",
+            "BR__charmingloop",
+            "maybelucid",
+            "MrMosley"
         ],
         "assistants": [
             "maddiem18",
@@ -12856,45 +12697,6 @@
     },
     {
         "world": "world",
-        "name": "Broglands",
-        "nation": "Broglands",
-        "mayor": "Broglands",
-        "pvp": false,
-        "residents": [
-            "Broglands"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 344,
-            "z": -120
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": 351,
-                        "z": -113
-                    },
-                    {
-                        "x": 351,
-                        "z": -128
-                    },
-                    {
-                        "x": 336,
-                        "z": -128
-                    },
-                    {
-                        "x": 336,
-                        "z": -113
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "world",
         "name": "Catboy_Maidland",
         "nation": "Cat_Boy_Nation",
         "mayor": "BaldMaidboy",
@@ -13096,6 +12898,83 @@
                     {
                         "x": 5760,
                         "z": 2271
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "world",
+        "name": "Broglands",
+        "nation": "Broglands",
+        "mayor": "Broglands",
+        "pvp": false,
+        "residents": [
+            "Broglands"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 344,
+            "z": -120
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": 351,
+                        "z": -113
+                    },
+                    {
+                        "x": 351,
+                        "z": -128
+                    },
+                    {
+                        "x": 336,
+                        "z": -128
+                    },
+                    {
+                        "x": 336,
+                        "z": -113
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "world",
+        "name": "Brotherhood_of_Steel",
+        "mayor": "BabuskaWithRPG",
+        "pvp": false,
+        "residents": [
+            "BabuskaWithRPG"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 6536,
+            "z": -1048
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": 6543,
+                        "z": -1041
+                    },
+                    {
+                        "x": 6543,
+                        "z": -1056
+                    },
+                    {
+                        "x": 6528,
+                        "z": -1056
+                    },
+                    {
+                        "x": 6528,
+                        "z": -1041
                     }
                 ]
             }
@@ -14502,11 +14381,19 @@
                     },
                     {
                         "x": 9984,
-                        "z": -14881
+                        "z": -14865
+                    },
+                    {
+                        "x": 10032,
+                        "z": -14865
+                    },
+                    {
+                        "x": 10032,
+                        "z": -14849
                     },
                     {
                         "x": 10047,
-                        "z": -14881
+                        "z": -14849
                     },
                     {
                         "x": 10047,
@@ -14718,16 +14605,24 @@
             {
                 "points": [
                     {
-                        "x": 8111,
+                        "x": 8127,
                         "z": -6817
                     },
                     {
+                        "x": 8127,
+                        "z": -6848
+                    },
+                    {
                         "x": 8111,
                         "z": -6848
                     },
                     {
+                        "x": 8111,
+                        "z": -6864
+                    },
+                    {
                         "x": 8080,
-                        "z": -6848
+                        "z": -6864
                     },
                     {
                         "x": 8080,
@@ -14748,8 +14643,10 @@
             "Nightcore_Ally",
             "Kname",
             "Rmodz",
-            "meeep2",
-            "moodyexperience"
+            "moodyexperience",
+            "parispaul",
+            "DxxdyDxrk_",
+            "EpicNoah1000"
         ],
         "assistants": [],
         "capital": false,
@@ -14896,8 +14793,16 @@
             {
                 "points": [
                     {
-                        "x": 2111,
+                        "x": 2143,
                         "z": 11375
+                    },
+                    {
+                        "x": 2143,
+                        "z": 11344
+                    },
+                    {
+                        "x": 2111,
+                        "z": 11344
                     },
                     {
                         "x": 2111,
@@ -14960,11 +14865,11 @@
                         "z": 11391
                     },
                     {
-                        "x": 2095,
+                        "x": 2127,
                         "z": 11391
                     },
                     {
-                        "x": 2095,
+                        "x": 2127,
                         "z": 11375
                     }
                 ]
@@ -16660,8 +16565,7 @@
         "mayor": "PurpleParty",
         "pvp": false,
         "residents": [
-            "PurpleParty",
-            "DjDogz416"
+            "PurpleParty"
         ],
         "assistants": [],
         "capital": false,
@@ -16823,68 +16727,6 @@
                     {
                         "x": -4160,
                         "z": 3087
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "world",
-        "name": "Vinocaye",
-        "mayor": "ChromeGoggles",
-        "pvp": false,
-        "residents": [
-            "ChromeGoggles"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 14376,
-            "z": 13928
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": 14447,
-                        "z": 13967
-                    },
-                    {
-                        "x": 14447,
-                        "z": 13920
-                    },
-                    {
-                        "x": 14415,
-                        "z": 13920
-                    },
-                    {
-                        "x": 14415,
-                        "z": 13904
-                    },
-                    {
-                        "x": 14400,
-                        "z": 13904
-                    },
-                    {
-                        "x": 14400,
-                        "z": 13920
-                    },
-                    {
-                        "x": 14368,
-                        "z": 13920
-                    },
-                    {
-                        "x": 14368,
-                        "z": 13951
-                    },
-                    {
-                        "x": 14384,
-                        "z": 13951
-                    },
-                    {
-                        "x": 14384,
-                        "z": 13967
                     }
                 ]
             }
@@ -17332,24 +17174,8 @@
                         "z": 11824
                     },
                     {
-                        "x": 11168,
-                        "z": 11824
-                    },
-                    {
-                        "x": 11168,
-                        "z": 11856
-                    },
-                    {
-                        "x": 11151,
-                        "z": 11856
-                    },
-                    {
-                        "x": 11151,
-                        "z": 11840
-                    },
-                    {
                         "x": 11119,
-                        "z": 11840
+                        "z": 11824
                     },
                     {
                         "x": 11119,
@@ -17610,17 +17436,21 @@
     {
         "world": "world",
         "name": "fruityville",
+        "nation": "Republic",
         "mayor": "Wubzz",
         "pvp": false,
         "residents": [
-            "Wubzz"
+            "Wubzz",
+            "DjDogz416",
+            "1StellarMoon1",
+            "bogmarble"
         ],
         "assistants": [],
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 8280,
-            "z": 9624
+            "x": 8264,
+            "z": 9656
         },
         "polygon": [
             {
@@ -17631,14 +17461,70 @@
                     },
                     {
                         "x": 8287,
-                        "z": 9616
+                        "z": 9600
+                    },
+                    {
+                        "x": 8272,
+                        "z": 9600
                     },
                     {
                         "x": 8272,
                         "z": 9616
                     },
                     {
-                        "x": 8272,
+                        "x": 8224,
+                        "z": 9616
+                    },
+                    {
+                        "x": 8224,
+                        "z": 9648
+                    },
+                    {
+                        "x": 8208,
+                        "z": 9648
+                    },
+                    {
+                        "x": 8208,
+                        "z": 9680
+                    },
+                    {
+                        "x": 8192,
+                        "z": 9680
+                    },
+                    {
+                        "x": 8192,
+                        "z": 9711
+                    },
+                    {
+                        "x": 8208,
+                        "z": 9711
+                    },
+                    {
+                        "x": 8208,
+                        "z": 9743
+                    },
+                    {
+                        "x": 8239,
+                        "z": 9743
+                    },
+                    {
+                        "x": 8239,
+                        "z": 9727
+                    },
+                    {
+                        "x": 8255,
+                        "z": 9727
+                    },
+                    {
+                        "x": 8255,
+                        "z": 9711
+                    },
+                    {
+                        "x": 8271,
+                        "z": 9711
+                    },
+                    {
+                        "x": 8271,
                         "z": 9647
                     }
                 ]
@@ -18568,6 +18454,7 @@
     {
         "world": "world",
         "name": "Booba",
+        "nation": "Nyth",
         "mayor": "kxmishiro",
         "pvp": false,
         "residents": [
@@ -21139,30 +21026,30 @@
                     },
                     {
                         "x": -2433,
-                        "z": -4352
+                        "z": -4353
                     },
                     {
-                        "x": -2497,
-                        "z": -4352
+                        "x": -2385,
+                        "z": -4353
                     },
                     {
-                        "x": -2497,
-                        "z": -4401
+                        "x": -2385,
+                        "z": -4369
                     },
                     {
-                        "x": -2417,
-                        "z": -4401
+                        "x": -2369,
+                        "z": -4369
                     },
                     {
-                        "x": -2417,
-                        "z": -4417
+                        "x": -2369,
+                        "z": -4385
                     },
                     {
-                        "x": -2352,
-                        "z": -4417
+                        "x": -2337,
+                        "z": -4385
                     },
                     {
-                        "x": -2352,
+                        "x": -2337,
                         "z": -4401
                     }
                 ]
@@ -23873,19 +23760,43 @@
                         "z": 2783
                     },
                     {
-                        "x": 5344,
+                        "x": 5296,
                         "z": 2783
                     },
                     {
-                        "x": 5344,
-                        "z": 2847
+                        "x": 5296,
+                        "z": 2800
                     },
                     {
-                        "x": 5360,
-                        "z": 2847
+                        "x": 5264,
+                        "z": 2800
                     },
                     {
-                        "x": 5360,
+                        "x": 5264,
+                        "z": 2816
+                    },
+                    {
+                        "x": 5232,
+                        "z": 2816
+                    },
+                    {
+                        "x": 5232,
+                        "z": 2863
+                    },
+                    {
+                        "x": 5248,
+                        "z": 2863
+                    },
+                    {
+                        "x": 5248,
+                        "z": 2879
+                    },
+                    {
+                        "x": 5279,
+                        "z": 2879
+                    },
+                    {
+                        "x": 5279,
                         "z": 2863
                     },
                     {
@@ -24537,6 +24448,44 @@
                     {
                         "x": -5329,
                         "z": -3681
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "world",
+        "name": "hellowiajmd",
+        "mayor": "im35",
+        "pvp": false,
+        "residents": [
+            "im35"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 2056,
+            "z": -4056
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": 2063,
+                        "z": -4049
+                    },
+                    {
+                        "x": 2063,
+                        "z": -4064
+                    },
+                    {
+                        "x": 2048,
+                        "z": -4064
+                    },
+                    {
+                        "x": 2048,
+                        "z": -4049
                     }
                 ]
             }
@@ -25447,44 +25396,6 @@
                     {
                         "x": 6176,
                         "z": 1823
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "world",
-        "name": "Ascatan",
-        "mayor": "Hrabia_Baan",
-        "pvp": false,
-        "residents": [
-            "Hrabia_Baan"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 8904,
-            "z": 2840
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": 8927,
-                        "z": 2879
-                    },
-                    {
-                        "x": 8927,
-                        "z": 2816
-                    },
-                    {
-                        "x": 8880,
-                        "z": 2816
-                    },
-                    {
-                        "x": 8880,
-                        "z": 2879
                     }
                 ]
             }
@@ -26486,6 +26397,68 @@
     },
     {
         "world": "world",
+        "name": "cool_people",
+        "mayor": "ClassicKingWing",
+        "pvp": false,
+        "residents": [
+            "ClassicKingWing"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 7992,
+            "z": 5032
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": 8015,
+                        "z": 5039
+                    },
+                    {
+                        "x": 8015,
+                        "z": 5008
+                    },
+                    {
+                        "x": 8000,
+                        "z": 5008
+                    },
+                    {
+                        "x": 8000,
+                        "z": 5024
+                    },
+                    {
+                        "x": 7983,
+                        "z": 5024
+                    },
+                    {
+                        "x": 7983,
+                        "z": 4992
+                    },
+                    {
+                        "x": 7952,
+                        "z": 4992
+                    },
+                    {
+                        "x": 7952,
+                        "z": 5023
+                    },
+                    {
+                        "x": 7968,
+                        "z": 5023
+                    },
+                    {
+                        "x": 7968,
+                        "z": 5039
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "world",
         "name": "COZYVILLAGE",
         "mayor": "Millelang",
         "pvp": false,
@@ -26884,30 +26857,6 @@
                     },
                     {
                         "x": -2049,
-                        "z": 432
-                    },
-                    {
-                        "x": -2064,
-                        "z": 432
-                    },
-                    {
-                        "x": -2064,
-                        "z": 512
-                    },
-                    {
-                        "x": -2145,
-                        "z": 512
-                    },
-                    {
-                        "x": -2145,
-                        "z": 431
-                    },
-                    {
-                        "x": -2065,
-                        "z": 431
-                    },
-                    {
-                        "x": -2065,
                         "z": 416
                     },
                     {
@@ -27005,32 +26954,32 @@
             {
                 "points": [
                     {
-                        "x": -7745,
-                        "z": -8769
+                        "x": -7617,
+                        "z": -8897
+                    },
+                    {
+                        "x": -7617,
+                        "z": -9024
                     },
                     {
                         "x": -7745,
-                        "z": -8896
+                        "z": -9024
                     },
                     {
-                        "x": -7905,
-                        "z": -8896
+                        "x": -7745,
+                        "z": -9152
                     },
                     {
-                        "x": -7905,
-                        "z": -8912
+                        "x": -7872,
+                        "z": -9152
                     },
                     {
-                        "x": -7920,
-                        "z": -8912
-                    },
-                    {
-                        "x": -7920,
-                        "z": -8896
+                        "x": -7872,
+                        "z": -9024
                     },
                     {
                         "x": -8000,
-                        "z": -8896
+                        "z": -9024
                     },
                     {
                         "x": -8000,
@@ -27075,6 +27024,46 @@
                     {
                         "x": -7873,
                         "z": -8769
+                    },
+                    {
+                        "x": -7649,
+                        "z": -8769
+                    },
+                    {
+                        "x": -7649,
+                        "z": -8784
+                    },
+                    {
+                        "x": -7665,
+                        "z": -8784
+                    },
+                    {
+                        "x": -7665,
+                        "z": -8833
+                    },
+                    {
+                        "x": -7633,
+                        "z": -8833
+                    },
+                    {
+                        "x": -7633,
+                        "z": -8848
+                    },
+                    {
+                        "x": -7649,
+                        "z": -8848
+                    },
+                    {
+                        "x": -7649,
+                        "z": -8880
+                    },
+                    {
+                        "x": -7665,
+                        "z": -8880
+                    },
+                    {
+                        "x": -7665,
+                        "z": -8897
                     }
                 ]
             },
@@ -27298,7 +27287,6 @@
         "residents": [
             "EpikEvan",
             "OzzyTheCat",
-            "totallywoman",
             "EpikGoat8878"
         ],
         "assistants": [],
@@ -28768,7 +28756,7 @@
         "world": "world",
         "name": "New_Blue",
         "mayor": "ImTheMrBlue",
-        "pvp": false,
+        "pvp": true,
         "residents": [
             "ImTheMrBlue",
             "coolboydrakey"
@@ -28830,6 +28818,69 @@
                     {
                         "x": -5505,
                         "z": 6639
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "world",
+        "name": "Last_Anarchy",
+        "mayor": "ForgottenBladeYT",
+        "pvp": false,
+        "residents": [
+            "ForgottenBladeYT",
+            "TimeLinetheory"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 1464,
+            "z": -6472
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": 1503,
+                        "z": -6481
+                    },
+                    {
+                        "x": 1503,
+                        "z": -6512
+                    },
+                    {
+                        "x": 1456,
+                        "z": -6512
+                    },
+                    {
+                        "x": 1456,
+                        "z": -6480
+                    },
+                    {
+                        "x": 1440,
+                        "z": -6480
+                    },
+                    {
+                        "x": 1440,
+                        "z": -6449
+                    },
+                    {
+                        "x": 1471,
+                        "z": -6449
+                    },
+                    {
+                        "x": 1471,
+                        "z": -6465
+                    },
+                    {
+                        "x": 1487,
+                        "z": -6465
+                    },
+                    {
+                        "x": 1487,
+                        "z": -6481
                     }
                 ]
             }
@@ -29262,6 +29313,44 @@
     },
     {
         "world": "world",
+        "name": "coffy",
+        "mayor": "imCoffee_",
+        "pvp": false,
+        "residents": [
+            "imCoffee_"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": -1048,
+            "z": -9256
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": -1041,
+                        "z": -9233
+                    },
+                    {
+                        "x": -1041,
+                        "z": -9264
+                    },
+                    {
+                        "x": -1072,
+                        "z": -9264
+                    },
+                    {
+                        "x": -1072,
+                        "z": -9233
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "world",
         "name": "Porte_Stef",
         "nation": "Harmonia",
         "mayor": "Wolf_Stef",
@@ -29275,7 +29364,6 @@
             "FreeLester",
             "JimBijvoetXD",
             "Pizzafan_Java",
-            "MathieuIsOnline",
             "Legoarduino",
             "TedstormDev",
             "IndeedRik",
@@ -29477,6 +29565,44 @@
                     {
                         "x": -5441,
                         "z": 7151
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "world",
+        "name": "Falcorland",
+        "mayor": "Falcor71",
+        "pvp": false,
+        "residents": [
+            "Falcor71"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": -5800,
+            "z": -10120
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": -5793,
+                        "z": -10113
+                    },
+                    {
+                        "x": -5793,
+                        "z": -10128
+                    },
+                    {
+                        "x": -5808,
+                        "z": -10128
+                    },
+                    {
+                        "x": -5808,
+                        "z": -10113
                     }
                 ]
             }
@@ -30381,7 +30507,8 @@
             "StivenPink",
             "chamottt",
             "BR__RoughJo",
-            "Vencentius"
+            "Vencentius",
+            "Teaine"
         ],
         "assistants": [],
         "capital": false,
@@ -30636,60 +30763,6 @@
                     {
                         "x": 9888,
                         "z": -10929
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "world",
-        "name": "PanMendia",
-        "mayor": "PricedMender935",
-        "pvp": false,
-        "residents": [
-            "PricedMender935"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": -3064,
-            "z": -3224
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": -3041,
-                        "z": -3217
-                    },
-                    {
-                        "x": -3041,
-                        "z": -3232
-                    },
-                    {
-                        "x": -3057,
-                        "z": -3232
-                    },
-                    {
-                        "x": -3057,
-                        "z": -3248
-                    },
-                    {
-                        "x": -3088,
-                        "z": -3248
-                    },
-                    {
-                        "x": -3088,
-                        "z": -3201
-                    },
-                    {
-                        "x": -3057,
-                        "z": -3201
-                    },
-                    {
-                        "x": -3057,
-                        "z": -3217
                     }
                 ]
             }
@@ -31557,18 +31630,10 @@
                         "z": 288
                     },
                     {
-                        "x": -2849,
+                        "x": -2817,
                         "z": 288
                     },
                     {
-                        "x": -2849,
-                        "z": 239
-                    },
-                    {
-                        "x": -2817,
-                        "z": 239
-                    },
-                    {
                         "x": -2817,
                         "z": 224
                     },
@@ -31594,35 +31659,19 @@
                     },
                     {
                         "x": -2912,
-                        "z": 255
-                    },
-                    {
-                        "x": -2896,
-                        "z": 255
-                    },
-                    {
-                        "x": -2896,
-                        "z": 271
-                    },
-                    {
-                        "x": -2880,
-                        "z": 271
-                    },
-                    {
-                        "x": -2880,
-                        "z": 287
-                    },
-                    {
-                        "x": -2864,
-                        "z": 287
-                    },
-                    {
-                        "x": -2864,
                         "z": 319
+                    },
+                    {
+                        "x": -2896,
+                        "z": 319
+                    },
+                    {
+                        "x": -2896,
+                        "z": 335
                     },
                     {
                         "x": -2848,
-                        "z": 319
+                        "z": 335
                     },
                     {
                         "x": -2848,
@@ -32087,6 +32136,68 @@
     },
     {
         "world": "world",
+        "name": "Fem",
+        "mayor": "Saidano",
+        "pvp": false,
+        "residents": [
+            "Saidano"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 7896,
+            "z": 2088
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": 7919,
+                        "z": 2095
+                    },
+                    {
+                        "x": 7919,
+                        "z": 2064
+                    },
+                    {
+                        "x": 7903,
+                        "z": 2064
+                    },
+                    {
+                        "x": 7903,
+                        "z": 2048
+                    },
+                    {
+                        "x": 7888,
+                        "z": 2048
+                    },
+                    {
+                        "x": 7888,
+                        "z": 2064
+                    },
+                    {
+                        "x": 7856,
+                        "z": 2064
+                    },
+                    {
+                        "x": 7856,
+                        "z": 2079
+                    },
+                    {
+                        "x": 7872,
+                        "z": 2079
+                    },
+                    {
+                        "x": 7872,
+                        "z": 2095
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "world",
         "name": "Hot_Boy_Nation",
         "nation": "Hot_Boy_Nation",
         "mayor": "pandacat666",
@@ -32110,7 +32221,9 @@
             "Kunujan",
             "Kir0washere",
             "dirtdoritos",
-            "BR__CLOWNSJ0K3R7"
+            "BR__CLOWNSJ0K3R7",
+            "RockBud",
+            "BR__pandacat7773"
         ],
         "assistants": [
             "FlyingDxlphin",
@@ -35066,44 +35179,6 @@
     },
     {
         "world": "earth",
-        "name": "BPN",
-        "mayor": "GG_Bryan94",
-        "pvp": false,
-        "residents": [
-            "GG_Bryan94"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 15096,
-            "z": -7288
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": 15103,
-                        "z": -7265
-                    },
-                    {
-                        "x": 15103,
-                        "z": -7296
-                    },
-                    {
-                        "x": 15072,
-                        "z": -7296
-                    },
-                    {
-                        "x": 15072,
-                        "z": -7265
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "earth",
         "name": "BunLand",
         "mayor": "Bunnda",
         "pvp": false,
@@ -35172,7 +35247,6 @@
         "pvp": false,
         "residents": [
             "andrewapple",
-            "stev13265",
             "Foodyummy4714"
         ],
         "assistants": [],
@@ -35200,78 +35274,6 @@
                     {
                         "x": -7376,
                         "z": 9183
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "earth",
-        "name": "Crimson_Cove",
-        "mayor": "PandaCoffee",
-        "pvp": false,
-        "residents": [
-            "PandaCoffee",
-            "Rosaliee",
-            "SuperKaitlyn"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 6024,
-            "z": 1896
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": 6063,
-                        "z": 1887
-                    },
-                    {
-                        "x": 6063,
-                        "z": 1824
-                    },
-                    {
-                        "x": 6047,
-                        "z": 1824
-                    },
-                    {
-                        "x": 6047,
-                        "z": 1808
-                    },
-                    {
-                        "x": 6032,
-                        "z": 1808
-                    },
-                    {
-                        "x": 6032,
-                        "z": 1856
-                    },
-                    {
-                        "x": 6016,
-                        "z": 1856
-                    },
-                    {
-                        "x": 6016,
-                        "z": 1888
-                    },
-                    {
-                        "x": 6000,
-                        "z": 1888
-                    },
-                    {
-                        "x": 6000,
-                        "z": 1935
-                    },
-                    {
-                        "x": 6047,
-                        "z": 1935
-                    },
-                    {
-                        "x": 6047,
-                        "z": 1887
                     }
                 ]
             }
@@ -35310,44 +35312,6 @@
                     {
                         "x": 11472,
                         "z": -2609
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "world": "earth",
-        "name": "ICY",
-        "mayor": "ICY_UR_MOM",
-        "pvp": false,
-        "residents": [
-            "ICY_UR_MOM"
-        ],
-        "assistants": [],
-        "capital": false,
-        "outpost": false,
-        "coords": {
-            "x": 2344,
-            "z": -1032
-        },
-        "polygon": [
-            {
-                "points": [
-                    {
-                        "x": 2351,
-                        "z": -1025
-                    },
-                    {
-                        "x": 2351,
-                        "z": -1040
-                    },
-                    {
-                        "x": 2336,
-                        "z": -1040
-                    },
-                    {
-                        "x": 2336,
-                        "z": -1025
                     }
                 ]
             }
@@ -35412,11 +35376,27 @@
                     },
                     {
                         "x": 10431,
-                        "z": -2528
+                        "z": -2544
+                    },
+                    {
+                        "x": 10415,
+                        "z": -2544
+                    },
+                    {
+                        "x": 10415,
+                        "z": -2576
+                    },
+                    {
+                        "x": 10400,
+                        "z": -2576
+                    },
+                    {
+                        "x": 10400,
+                        "z": -2560
                     },
                     {
                         "x": 10383,
-                        "z": -2528
+                        "z": -2560
                     },
                     {
                         "x": 10383,
@@ -36222,7 +36202,8 @@
         "residents": [
             "Xiuhcoutl",
             "Keviyto",
-            "HiATiS"
+            "HiATiS",
+            "Archrow"
         ],
         "assistants": [],
         "capital": false,
@@ -36280,14 +36261,14 @@
                     },
                     {
                         "x": 14112,
-                        "z": -752
+                        "z": -800
                     },
                     {
-                        "x": 14095,
-                        "z": -752
+                        "x": 14096,
+                        "z": -800
                     },
                     {
-                        "x": 14095,
+                        "x": 14096,
                         "z": -784
                     },
                     {
@@ -37721,19 +37702,19 @@
                 "points": [
                     {
                         "x": 7455,
-                        "z": -9105
+                        "z": -9073
                     },
                     {
                         "x": 7455,
-                        "z": -9120
+                        "z": -9152
                     },
                     {
                         "x": 7440,
-                        "z": -9120
+                        "z": -9152
                     },
                     {
                         "x": 7440,
-                        "z": -9105
+                        "z": -9073
                     }
                 ]
             }
@@ -37772,6 +37753,44 @@
                     {
                         "x": -13648,
                         "z": -7217
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "earth",
+        "name": "ZCON",
+        "mayor": "JojHurrson",
+        "pvp": false,
+        "residents": [
+            "JojHurrson"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 9608,
+            "z": -1000
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": 9631,
+                        "z": -993
+                    },
+                    {
+                        "x": 9631,
+                        "z": -1024
+                    },
+                    {
+                        "x": 9600,
+                        "z": -1024
+                    },
+                    {
+                        "x": 9600,
+                        "z": -993
                     }
                 ]
             }
@@ -38141,7 +38160,6 @@
     {
         "world": "earth",
         "name": "Bergen",
-        "nation": "Hot_Boy_Nation",
         "mayor": "DMC111",
         "pvp": false,
         "residents": [
@@ -38154,15 +38172,16 @@
             "tarakonaa",
             "Abduplayz",
             "Lady_Chiroptera",
-            "nitefoal05",
             "Romeyn_V",
-            "Cactussgod",
             "cargo133",
             "_Spiceeyy",
             "Waroxic",
             "ToSauced",
             "PlagueScript",
-            "ItsAkra"
+            "ItsAkra",
+            "rawadgamesonyt",
+            "skyfrez",
+            "malloryplays"
         ],
         "assistants": [
             "Coffee__good"
@@ -38177,6 +38196,70 @@
             {
                 "points": [
                     {
+                        "x": 719,
+                        "z": -9809
+                    },
+                    {
+                        "x": 719,
+                        "z": -9856
+                    },
+                    {
+                        "x": 688,
+                        "z": -9856
+                    },
+                    {
+                        "x": 688,
+                        "z": -9809
+                    }
+                ]
+            },
+            {
+                "points": [
+                    {
+                        "x": -14737,
+                        "z": -4593
+                    },
+                    {
+                        "x": -14737,
+                        "z": -4608
+                    },
+                    {
+                        "x": -14753,
+                        "z": -4608
+                    },
+                    {
+                        "x": -14753,
+                        "z": -4640
+                    },
+                    {
+                        "x": -14784,
+                        "z": -4640
+                    },
+                    {
+                        "x": -14784,
+                        "z": -4592
+                    },
+                    {
+                        "x": -14800,
+                        "z": -4592
+                    },
+                    {
+                        "x": -14800,
+                        "z": -4577
+                    },
+                    {
+                        "x": -14753,
+                        "z": -4577
+                    },
+                    {
+                        "x": -14753,
+                        "z": -4593
+                    }
+                ]
+            },
+            {
+                "points": [
+                    {
                         "x": -417,
                         "z": -5761
                     },
@@ -38239,62 +38322,6 @@
                     {
                         "x": -464,
                         "z": -5761
-                    }
-                ]
-            },
-            {
-                "points": [
-                    {
-                        "x": 719,
-                        "z": -9809
-                    },
-                    {
-                        "x": 719,
-                        "z": -9856
-                    },
-                    {
-                        "x": 688,
-                        "z": -9856
-                    },
-                    {
-                        "x": 688,
-                        "z": -9809
-                    }
-                ]
-            },
-            {
-                "points": [
-                    {
-                        "x": -14737,
-                        "z": -4593
-                    },
-                    {
-                        "x": -14737,
-                        "z": -4608
-                    },
-                    {
-                        "x": -14784,
-                        "z": -4608
-                    },
-                    {
-                        "x": -14784,
-                        "z": -4592
-                    },
-                    {
-                        "x": -14800,
-                        "z": -4592
-                    },
-                    {
-                        "x": -14800,
-                        "z": -4577
-                    },
-                    {
-                        "x": -14753,
-                        "z": -4577
-                    },
-                    {
-                        "x": -14753,
-                        "z": -4593
                     }
                 ]
             },
@@ -38309,6 +38336,22 @@
                         "z": -7488
                     },
                     {
+                        "x": 799,
+                        "z": -7488
+                    },
+                    {
+                        "x": 799,
+                        "z": -7504
+                    },
+                    {
+                        "x": 784,
+                        "z": -7504
+                    },
+                    {
+                        "x": 784,
+                        "z": -7488
+                    },
+                    {
                         "x": 767,
                         "z": -7488
                     },
@@ -38443,26 +38486,10 @@
                     {
                         "x": 592,
                         "z": -7185
-                    },
-                    {
-                        "x": 623,
-                        "z": -7185
-                    },
-                    {
-                        "x": 623,
-                        "z": -7217
-                    },
-                    {
-                        "x": 640,
-                        "z": -7217
-                    },
-                    {
-                        "x": 640,
-                        "z": -7201
                     },
                     {
                         "x": 671,
-                        "z": -7201
+                        "z": -7185
                     },
                     {
                         "x": 671,
@@ -38829,6 +38856,44 @@
                     {
                         "x": -11840,
                         "z": -4209
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "earth",
+        "name": "Niger",
+        "mayor": "CuriousFriend",
+        "pvp": false,
+        "residents": [
+            "CuriousFriend"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 1000,
+            "z": -1992
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": 1007,
+                        "z": -1985
+                    },
+                    {
+                        "x": 1007,
+                        "z": -2000
+                    },
+                    {
+                        "x": 992,
+                        "z": -2000
+                    },
+                    {
+                        "x": 992,
+                        "z": -1985
                     }
                 ]
             }
@@ -39688,7 +39753,6 @@
             "SpareTangerine",
             "Tatherva",
             "_Walex",
-            "italain_vinny",
             "blobsom_lol",
             "NinjaGirl_98",
             "CheapBassoon377",
@@ -39718,7 +39782,6 @@
             "Servachuels",
             "karlimi",
             "MrPhilipBones",
-            "Pookstir",
             "GryffindorBean",
             "shmack31",
             "Ryqq",
@@ -39729,12 +39792,13 @@
             "BR__Beamboy5990",
             "BR__WondergirlSo",
             "BR__MinimalPenny",
-            "HacksoreRO",
             "Urascrubb",
             "BR__Shiftly9749",
             "Whippey07",
             "Invegeroth",
-            "Parallel_Revers"
+            "Parallel_Revers",
+            "SummeBuilder",
+            "Oschkar25"
         ],
         "assistants": [
             "Rekiso102"
@@ -40680,11 +40744,11 @@
             "Ashley_01",
             "omgarisgozirra",
             "ImPhoenixx",
-            "BR__Golden_Fox31",
             "C_Devil_",
             "Spookyz4",
             "hermonir",
-            "M1ghtyMafia"
+            "M1ghtyMafia",
+            "BR__hannahboo162"
         ],
         "assistants": [
             "TheTwistedKitty",
@@ -41400,8 +41464,7 @@
         "pvp": false,
         "residents": [
             "oRevert51",
-            "Pinkwaffles01",
-            "Lachrox"
+            "Pinkwaffles01"
         ],
         "assistants": [],
         "capital": false,
@@ -41626,8 +41689,7 @@
             "Hephaestusxxxx",
             "moonriver27",
             "cashtaken",
-            "shyguy75",
-            "craftbedrock"
+            "shyguy75"
         ],
         "assistants": [],
         "capital": false,
@@ -44733,8 +44795,7 @@
         "residents": [
             "BR__HA_Gravity",
             "Viaktree",
-            "SharaLynn",
-            "LiveLeader95050"
+            "SharaLynn"
         ],
         "assistants": [],
         "capital": false,
@@ -45576,7 +45637,8 @@
             "Gucci_Garrett",
             "Pogeye",
             "dog_mann",
-            "FlavoredKoolaid"
+            "FlavoredKoolaid",
+            "Feerrugm"
         ],
         "assistants": [
             "Pogeye"
@@ -46071,13 +46133,45 @@
         "capital": false,
         "outpost": false,
         "coords": {
-            "x": 1000,
+            "x": 1016,
             "z": -4888
         },
         "polygon": [
             {
                 "points": [
                     {
+                        "x": 1135,
+                        "z": -4801
+                    },
+                    {
+                        "x": 1135,
+                        "z": -4816
+                    },
+                    {
+                        "x": 1071,
+                        "z": -4816
+                    },
+                    {
+                        "x": 1071,
+                        "z": -4832
+                    },
+                    {
+                        "x": 1055,
+                        "z": -4832
+                    },
+                    {
+                        "x": 1055,
+                        "z": -4848
+                    },
+                    {
+                        "x": 1023,
+                        "z": -4848
+                    },
+                    {
+                        "x": 1023,
+                        "z": -4865
+                    },
+                    {
                         "x": 1071,
                         "z": -4865
                     },
@@ -46118,12 +46212,60 @@
                         "z": -4849
                     },
                     {
-                        "x": 1007,
+                        "x": 1008,
                         "z": -4849
                     },
                     {
-                        "x": 1007,
-                        "z": -4865
+                        "x": 1008,
+                        "z": -4785
+                    },
+                    {
+                        "x": 1024,
+                        "z": -4785
+                    },
+                    {
+                        "x": 1024,
+                        "z": -4753
+                    },
+                    {
+                        "x": 1040,
+                        "z": -4753
+                    },
+                    {
+                        "x": 1040,
+                        "z": -4720
+                    },
+                    {
+                        "x": 1008,
+                        "z": -4720
+                    },
+                    {
+                        "x": 1008,
+                        "z": -4689
+                    },
+                    {
+                        "x": 1055,
+                        "z": -4689
+                    },
+                    {
+                        "x": 1055,
+                        "z": -4705
+                    },
+                    {
+                        "x": 1087,
+                        "z": -4705
+                    },
+                    {
+                        "x": 1087,
+                        "z": -4752
+                    },
+                    {
+                        "x": 1071,
+                        "z": -4752
+                    },
+                    {
+                        "x": 1071,
+                        "z": -4801
                     }
                 ]
             }
@@ -46601,8 +46743,7 @@
         "mayor": "onur070707",
         "pvp": false,
         "residents": [
-            "onur070707",
-            "Spike_Lord13"
+            "onur070707"
         ],
         "assistants": [],
         "capital": false,
@@ -47743,6 +47884,44 @@
     },
     {
         "world": "earth",
+        "name": "GetskiBerg",
+        "mayor": "StoffCastle420",
+        "pvp": false,
+        "residents": [
+            "StoffCastle420"
+        ],
+        "assistants": [],
+        "capital": false,
+        "outpost": false,
+        "coords": {
+            "x": 1592,
+            "z": -6680
+        },
+        "polygon": [
+            {
+                "points": [
+                    {
+                        "x": 1599,
+                        "z": -6673
+                    },
+                    {
+                        "x": 1599,
+                        "z": -6688
+                    },
+                    {
+                        "x": 1584,
+                        "z": -6688
+                    },
+                    {
+                        "x": 1584,
+                        "z": -6673
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "world": "earth",
         "name": "Guccigang",
         "mayor": "_ElChapo_Man",
         "pvp": false,
@@ -48515,6 +48694,14 @@
                     },
                     {
                         "x": 17984,
+                        "z": 4207
+                    },
+                    {
+                        "x": 17999,
+                        "z": 4207
+                    },
+                    {
+                        "x": 17999,
                         "z": 4191
                     }
                 ]

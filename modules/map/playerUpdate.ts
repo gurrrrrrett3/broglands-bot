@@ -3,6 +3,7 @@ import { bot } from "../..";
 import PlayerLoginManager from "../data/playerLoginManager";
 import PlayerSessionManager from "../data/player/playerSessionManager";
 import UUIDManager from "../data/player/uuidManager";
+import PlayerTeleportManager from "../data/player/playerTeleportManager";
 
 export default class playerUpdate {
   public players: Player[] = [];
@@ -36,6 +37,9 @@ export default class playerUpdate {
         PlayerSessionManager.onPlayerLogout(op);
       }
     });
+
+    PlayerTeleportManager.handleTeleports(this.oldPlayers, this.players)
+
     this.oldPlayers = this.players;
   }
 }

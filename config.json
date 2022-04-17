@@ -6,6 +6,9 @@
     },
     "ROLES": {
         "SERVER_STAFF": "953524666994143272"
+    },
+    "TELEPORT": {
+        "DISTANCE": 250
     }
     
 }

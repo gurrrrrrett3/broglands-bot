@@ -16,12 +16,13 @@ export default class PlayerDataManager {
       return JSON.parse(fs.readFileSync(filePath, "utf8"));
     }
   }
-
+  public static savePlayerData(uuid: string, type: "session", data: PlayerSessionData): void
+  public static savePlayerData(uuid: string, type: "teleport", data: PlayerTeleportData): void
   public static savePlayerData(
     uuid: string,
     type: PlayerDataTypes,
     data: PlayerTeleportData | PlayerSessionData
-  ) {
+): void {
     this.makeFolders(uuid);
     const filePath = path.join(PlayerDataManager.FOLDER_PATH, uuid, `${type}.json`);
     fs.writeFileSync(filePath, JSON.stringify(data, null, 4));

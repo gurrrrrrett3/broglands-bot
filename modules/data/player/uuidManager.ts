@@ -15,13 +15,22 @@ export default class UUIDManager {
   }
 
   public static saveFile(uuid: UUID[]) {
-    fs.writeFileSync(UUIDManager.UUID_FILE_LOCATION, JSON.stringify(uuid, null, 4));
+
+    let uuids:UUID[] = [] 
+
+    uuid.forEach((item) => {
+      if (!uuids.find((e) => item.UUID == e.UUID)) {
+        uuids.push(item)
+      }
+    })
+
+    fs.writeFileSync(UUIDManager.UUID_FILE_LOCATION, JSON.stringify(uuids, null, 4));
   }
 
   public static update(p: Player) {
     const d = this.openFile();
     const u = d.find((u) => u.UUID === p.uuid);
-    if (u && u.username !== p.name) {
+    if (u) {
       u.username = p.name;
     } else {
       d.push({

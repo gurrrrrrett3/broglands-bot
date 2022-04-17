@@ -7,13 +7,15 @@ import KickManager from "./kickmanager";
 import LinkManager from "./linkManager";
 import UpdateEmbed from "./updateEmbed";
 import playerUpdate from "../map/playerUpdate";
-import Web from "../web/index"
+import Web from "../web/index";
 import Util from "./util";
 import ButtonHandler from "./buttonHandler";
+import TimerManager from "./timerManager";
+import MapInterface from "../map/mapInterface";
 
 let channels = new Map<string, Dicord.TextChannel>();
 
-//A container for all the submodules. 
+//A container for all the submodules.
 export default class Bot {
   public Client: Dicord.Client;
   public CommandHandler: CommandHandler;
@@ -27,13 +29,8 @@ export default class Bot {
   public linkManager: LinkManager;
   public playerUpdate: playerUpdate;
   public buttonHandler: ButtonHandler;
+  public timerManager: TimerManager;
   //public web: Web;
-
-  public updateInterval = setInterval(() => {
-    this.embedManager.updateEmbeds();
-    this.playerUpdate.update(Util.getPlayerFile());
-    this.setStatus();
-  }, 5000);
 
   constructor(client: Dicord.Client) {
     this.Client = client;
@@ -43,8 +40,18 @@ export default class Bot {
     this.mapUpdate = new MapUpdate();
     this.linkManager = new LinkManager(client);
     this.playerUpdate = new playerUpdate();
-    this.buttonHandler = new ButtonHandler(client)
+    this.buttonHandler = new ButtonHandler(client);
+    this.timerManager = new TimerManager();
     //this.web = new Web();
+
+    this.timerManager.on("5", () => {
+      this.embedManager.updateEmbeds();
+      this.setStatus();
+    });
+
+    this.timerManager.on("1", async () => {
+      this.playerUpdate.update(await MapInterface.getPlayers());
+    })
 
     this.Client.on("ready", () => {
       console.log(`Logged in as ${this.Client.user?.tag}`);
@@ -86,17 +93,28 @@ export default class Bot {
       } else if (os.channel && ns.channel) {
         const channel = channels.get("voiceLog");
         if (channel) {
-          
           if (ns.selfDeaf != os.selfDeaf) {
-            channel.send(`${ns.member.displayName} has ${ns.selfDeaf ? "deafened" : "undeafened"} in ${ns.channel.name}`);
+            channel.send(
+              `${ns.member.displayName} has ${ns.selfDeaf ? "deafened" : "undeafened"} in ${ns.channel.name}`
+            );
           } else if (ns.selfMute != os.selfMute) {
-            channel.send(`${ns.member.displayName} has ${ns.selfMute ? "muted" : "unmuted"} in ${ns.channel.name}`);
+            channel.send(
+              `${ns.member.displayName} has ${ns.selfMute ? "muted" : "unmuted"} in ${ns.channel.name}`
+            );
           } else if (ns.serverDeaf != os.serverMute) {
-            channel.send(`${ns.member.displayName} has been ${ns.deaf ? "deafened" : "undeafened"} in ${ns.channel.name}`);
+            channel.send(
+              `${ns.member.displayName} has been ${ns.deaf ? "deafened" : "undeafened"} in ${ns.channel.name}`
+            );
           } else if (ns.serverMute != os.serverMute) {
-            channel.send(`${ns.member.displayName} has been ${ns.mute ? "muted" : "unmuted"} in ${ns.channel.name}`);
+            channel.send(
+              `${ns.member.displayName} has been ${ns.mute ? "muted" : "unmuted"} in ${ns.channel.name}`
+            );
           } else if (ns.streaming != os.streaming) {
-            channel.send(`${ns.member.displayName} has ${ns.streaming ? "started streaming" : "stopped streaming"} in ${ns.channel.name}`);
+            channel.send(
+              `${ns.member.displayName} has ${ns.streaming ? "started streaming" : "stopped streaming"} in ${
+                ns.channel.name
+              }`
+            );
           } else if (ns.channel.name != os.channel.name) {
             channel.send(`${ns.member.displayName} has moved from ${os.channel.name} to ${ns.channel.name}`);
           }
@@ -112,7 +130,7 @@ export default class Bot {
         .setDescription(
           `Welcome to the server, ${member.displayName}!\n\nIf you have any questions, feel free to ask!`
         )
-        .setThumbnail(member.user.displayAvatarURL({ dynamic: true }))
+        .setThumbnail(member.user.displayAvatarURL({ dynamic: true }));
 
       const channel = channels.get("welcome");
       channel?.send({ embeds: [embed] });
@@ -122,24 +140,31 @@ export default class Bot {
 
     this.Client.on("messageReactionAdd", (reaction, user) => {
       if (user.id == "206653000855322624") reaction.remove();
-    })
+    });
 
     this.Client.on("messageCreate", (message) => {
       if (message.mentions.members && message.mentions.members.get("232510731067588608")) {
-        const d = new Date()
-        console.log(d.getHours())
+        const d = new Date();
+        console.log(d.getHours());
         if (d.getHours() >= 2 && d.getHours() < 9) {
-          message.reply("Hey, I'm most likely asleep right now, and won't see your message until the morning when I wake up. Sorry about that!")
+          message.reply(
+            "Hey, I'm most likely asleep right now, and won't see your message until the morning when I wake up. Sorry about that!"
+          );
         }
       }
-    })
+    });
   }
 
   /**
    * Update bot status
    */
   public setStatus() {
-    const players = Util.getPlayerFile()
-    this.Client.user?.setActivity(`on CYT, ${Util.getBroglandsResidentCount()} Broglanders, ${Util.getPlayersInBroglands().length} Online (${(Util.getPlayersInBroglands().length / players.length * 100).toFixed(2)}%)`, { type: "PLAYING" });
+    const players = Util.getPlayerFile();
+    this.Client.user?.setActivity(
+      `on CYT, ${Util.getBroglandsResidentCount()} Broglanders, ${
+        Util.getPlayersInBroglands().length
+      } Online (${((Util.getPlayersInBroglands().length / players.length) * 100).toFixed(2)}%)`,
+      { type: "PLAYING" }
+    );
   }
 }
