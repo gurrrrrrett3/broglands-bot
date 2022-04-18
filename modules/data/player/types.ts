@@ -33,3 +33,13 @@ export interface UUID {
     UUID: string;
     username: string;
 }
+
+export interface TeleportRank {
+  name: string;
+  count: number;
+  players: string[];
+  x: number;
+  z: number;
+  world: string;
+  lastUsed: number
+}

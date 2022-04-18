@@ -59,12 +59,13 @@ export default class Bot {
       this.updateEmbedManager = new UpdateEmbed(client);
 
       //Register Embeds
-      Promise.all([this.embedManager.registerEmbed("playerlist", "953652154579681380", "playerlist")]).then(
+      /* Promise.all([this.embedManager.registerEmbed("playerlist", "953652154579681380", "playerlist")]).then(
         () => {
           this.embedManager.updateEmbeds();
-          this.townDataManager = new TownDataManager();
+          
         }
-      );
+      ); */
+      this.townDataManager = new TownDataManager();
 
       //Register Channels
       Promise.all([

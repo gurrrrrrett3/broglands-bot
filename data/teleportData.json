@@ -1,0 +1,281 @@
+[
+    {
+        "name": "world|-9559|5991",
+        "count": 1,
+        "players": [
+            "b69e11b4d0244b33b09f0695741a08cb"
+        ],
+        "world": "world",
+        "x": -9559,
+        "z": 5991,
+        "lastUsed": 1650238162728
+    },
+    {
+        "name": "world|11268|11861",
+        "count": 1,
+        "players": [
+            "d127ccff3b30432791406c6a54e3da66"
+        ],
+        "world": "world",
+        "x": 11268,
+        "z": 11861,
+        "lastUsed": 1650238162729
+    },
+    {
+        "name": "world|10598|4498",
+        "count": 1,
+        "players": [
+            "80446ef3a2284d81bfdd35500d80606d"
+        ],
+        "world": "world",
+        "x": 10598,
+        "z": 4498,
+        "lastUsed": 1650238162730
+    },
+    {
+        "name": "extras|-827|387",
+        "count": 1,
+        "players": [
+            "61f71f0a98a54b148c46a64091a0c93e"
+        ],
+        "world": "extras",
+        "x": -827,
+        "z": 387,
+        "lastUsed": 1650238162731
+    },
+    {
+        "name": "earth|3592|-6823",
+        "count": 1,
+        "players": [
+            "1aecfa3d205540cc94383cc4f2a34225"
+        ],
+        "world": "earth",
+        "x": 3592,
+        "z": -6823,
+        "lastUsed": 1650238162732
+    },
+    {
+        "name": "world|-6105|8053",
+        "count": 1,
+        "players": [
+            "5535b27d33ca48bca14ccf984af44491"
+        ],
+        "world": "world",
+        "x": -6105,
+        "z": 8053,
+        "lastUsed": 1650238162733
+    },
+    {
+        "name": "world_nether|-4320|-1235",
+        "count": 1,
+        "players": [
+            "158525a9e5e74628862bd836091be16f"
+        ],
+        "world": "world_nether",
+        "x": -4320,
+        "z": -1235,
+        "lastUsed": 1650238162735
+    },
+    {
+        "name": "world|35|6",
+        "count": 1,
+        "players": [
+            "a45c982323394ff7bfd6f827a1002bf3"
+        ],
+        "world": "world",
+        "x": 35,
+        "z": 6,
+        "lastUsed": 1650238162735
+    },
+    {
+        "name": "hotels|38|5",
+        "count": 1,
+        "players": [
+            "8e1934c2147a4e908a794bf35f551f89"
+        ],
+        "world": "hotels",
+        "x": 38,
+        "z": 5,
+        "lastUsed": 1650238162736
+    },
+    {
+        "name": "earth|-6640|3969",
+        "count": 1,
+        "players": [
+            "0000000000000000000901f6fd7d535f"
+        ],
+        "world": "earth",
+        "x": -6640,
+        "z": 3969,
+        "lastUsed": 1650238162737
+    },
+    {
+        "name": "world|25|42",
+        "count": 2,
+        "players": [
+            "59fdbab0afbe4e999c0eee195b605d15",
+            "0000000000000000000901f6b753ed57"
+        ],
+        "world": "world",
+        "x": 25,
+        "z": 42,
+        "lastUsed": 1650238162740
+    },
+    {
+        "name": "earth|14046|-771",
+        "count": 1,
+        "players": [
+            "7c5923eeb80c4fc6a8f0328c1bf0506b"
+        ],
+        "world": "earth",
+        "x": 14046,
+        "z": -771,
+        "lastUsed": 1650238162747
+    },
+    {
+        "name": "world_the_end|-8396|-4276",
+        "count": 4,
+        "players": [
+            "00f9a2e33f2d441294e2bf2fc5f7dd50",
+            "0000000000000000000901f6fd7d535f"
+        ],
+        "world": "world_the_end",
+        "x": -8396,
+        "z": -4276,
+        "lastUsed": 1650238162749
+    },
+    {
+        "name": "world_nether|-4285|-1258",
+        "count": 1,
+        "players": [
+            "030e2964713b4e60ae4704f8fd31c6d9"
+        ],
+        "world": "world_nether",
+        "x": -4285,
+        "z": -1258,
+        "lastUsed": 1650238162753
+    },
+    {
+        "name": "world|-967|8527",
+        "count": 1,
+        "players": [
+            "0000000000000000000901f90756cd1b"
+        ],
+        "world": "world",
+        "x": -967,
+        "z": 8527,
+        "lastUsed": 1650238162755
+    },
+    {
+        "name": "world|-1858|-14219",
+        "count": 1,
+        "players": [
+            "ddec8e8b6bd041cb983fdfe5d3c519bf"
+        ],
+        "world": "world",
+        "x": -1858,
+        "z": -14219,
+        "lastUsed": 1650238162756
+    },
+    {
+        "name": "world_nether|-4278|-1243",
+        "count": 1,
+        "players": [
+            "012bec90c27b42f2a8f2b4c6c0da887a"
+        ],
+        "world": "world_nether",
+        "x": -4278,
+        "z": -1243,
+        "lastUsed": 1650238166796
+    },
+    {
+        "name": "earth|5941|1558",
+        "count": 1,
+        "players": [
+            "030e2964713b4e60ae4704f8fd31c6d9"
+        ],
+        "world": "earth",
+        "x": 5941,
+        "z": 1558,
+        "lastUsed": 1650238187947
+    },
+    {
+        "name": "extras|251|171",
+        "count": 1,
+        "players": [
+            "ddec8e8b6bd041cb983fdfe5d3c519bf"
+        ],
+        "world": "extras",
+        "x": 251,
+        "z": 171,
+        "lastUsed": 1650238196761
+    },
+    {
+        "name": "earth|2039|1865",
+        "count": 1,
+        "players": [
+            "7c5923eeb80c4fc6a8f0328c1bf0506b"
+        ],
+        "world": "earth",
+        "x": 2039,
+        "z": 1865,
+        "lastUsed": 1650238196763
+    },
+    {
+        "name": "world|0|0",
+        "count": 3,
+        "players": [
+            "0000000000000000000901f6fd7d535f",
+            "ddec8e8b6bd041cb983fdfe5d3c519bf",
+            "99ac15ca25934e1787ca5fa977ec9743"
+        ],
+        "world": "world",
+        "x": 0,
+        "z": 0,
+        "lastUsed": 1650238201672
+    },
+    {
+        "name": "earth|-7200|3381",
+        "count": 1,
+        "players": [
+            "0000000000000000000901f90756cd1b"
+        ],
+        "world": "earth",
+        "x": -7200,
+        "z": 3381,
+        "lastUsed": 1650238221776
+    },
+    {
+        "name": "earth|2038|1837",
+        "count": 1,
+        "players": [
+            "00f9a2e33f2d441294e2bf2fc5f7dd50"
+        ],
+        "world": "earth",
+        "x": 2038,
+        "z": 1837,
+        "lastUsed": 1650238236874
+    },
+    {
+        "name": "earth|14012|-837",
+        "count": 1,
+        "players": [
+            "7c5923eeb80c4fc6a8f0328c1bf0506b"
+        ],
+        "world": "earth",
+        "x": 14012,
+        "z": -837,
+        "lastUsed": 1650238241593
+    },
+    {
+        "name": "world|-1855|-14214",
+        "count": 1,
+        "players": [
+            "ddec8e8b6bd041cb983fdfe5d3c519bf"
+        ],
+        "world": "world",
+        "x": -1855,
+        "z": -14214,
+        "lastUsed": 1650238272941
+    }
+]

@@ -38,7 +38,7 @@ export default class PlayerSessionManager {
       return 0;
     });
 
-    const slicedSessions = sortedSessions.slice(0, options.amount);
+    const slicedSessions = sortedSessions.slice(0, options.amount == 0 ? sortedSessions.length : options.amount); 
 
     return slicedSessions;
   }

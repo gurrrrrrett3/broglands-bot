@@ -197,7 +197,7 @@ export default class Util {
     const seconds = Math.floor((time % 60000) / 1000);
     const milliseconds = Math.floor(time % 1000);
 
-    return [
+    const out = [
       days > 0 ? `${days}d` : "",
       hours > 0 ? `${hours}h` : "",
       minutes > 0 ? `${minutes}m` : "",
@@ -205,6 +205,8 @@ export default class Util {
     ]
       .filter((t) => t !== "")
       .join(" ");
+
+    return out === "" ? "0s" : out;
   }
 
   /**
@@ -314,5 +316,51 @@ export default class Util {
     }
 
     return "🔴"
+  }
+
+  public static timeSearch(time: string) {
+    const timeMatch = time.match(/^(\d+)([hdwmy]|hour|day|week|month|year)$/);
+        if (!timeMatch) {
+            return null;
+        }
+
+      let timeFrame = 0;
+
+        const timeAmount = parseInt(timeMatch[1]);
+        const timeUnit = timeMatch[2];
+        let formattedUnit = "";
+
+        switch (timeUnit) {
+            case "h":
+            case "hour":
+                timeFrame = timeAmount * 3600000;
+                formattedUnit = "hour";
+                break;
+            case "d":
+            case "day":
+                timeFrame = timeAmount * 86400000;
+                formattedUnit = "day";
+                break;
+            case "w":
+            case "week":
+                timeFrame = timeAmount * 604800000;
+                formattedUnit = "week";
+                break;
+            case "m":
+            case "month":
+                timeFrame = timeAmount * 2592000000;
+                formattedUnit = "month";
+                break;
+            case "y":
+            case "year":
+                timeFrame = timeAmount * 31536000000;
+                formattedUnit = "year";
+                break;
+        }     
+
+        return {
+            d: timeFrame,
+            f: `${timeAmount} ${formattedUnit}${timeAmount > 1 ? "s" : ""}`
+        }
   }
 }
