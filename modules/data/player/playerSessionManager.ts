@@ -82,10 +82,20 @@ export default class PlayerSessionManager {
     PlayerDataManager.savePlayerData(player.uuid, "session", sessions);
   }
 
-  public static getPlayerSessionsByPage(uuid: string, page: number) {
-    const sessions = PlayerDataManager.openPlayerData(uuid, "session")
+  public static getPlayerSessionsByPage(page: number, options: GetPlayerSessionOptions) {
+    const sessions = PlayerDataManager.openPlayerData(options.uuid, "session")
 
-    const sortedSessions = sessions.sort((a, b) => {
+    const filteredSessions = sessions.filter((session) => {
+      if (options.after && session.login.time < options.after) {
+        return false;
+      }
+      if (options.before && session.logout.time > options.before) {
+        return false;
+      }
+      return true;
+    });
+
+    const sortedSessions = filteredSessions.sort((a, b) => {
       if (a.login.time > b.login.time) {
         return -1;
       }
@@ -130,5 +140,24 @@ export default class PlayerSessionManager {
     const sessions = PlayerDataManager.openPlayerData(uuid, "session");
 
     return sessions.length;
+  }
+
+  public static getTimedSessionCount(uuid: string, after?: number, before?: number) {
+    const sessions = PlayerDataManager.openPlayerData(uuid, "session");
+
+    const a = after || 0;
+    const b = before || Date.now();
+
+    const filteredSessions = sessions.filter((session) => {
+      if (session.login.time < a ?? 0) {
+        return false;
+      }
+      if (session.logout.time > b) {
+        return false;
+      }
+      return true;
+    });
+
+    return filteredSessions.length;
   }
 }

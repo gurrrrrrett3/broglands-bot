@@ -30,7 +30,7 @@ export default class Bot {
   public playerUpdate: playerUpdate;
   public buttonHandler: ButtonHandler;
   public timerManager: TimerManager;
-  //public web: Web;
+  public web: Web;
 
   constructor(client: Dicord.Client) {
     this.Client = client;
@@ -42,7 +42,7 @@ export default class Bot {
     this.playerUpdate = new playerUpdate();
     this.buttonHandler = new ButtonHandler(client);
     this.timerManager = new TimerManager();
-    //this.web = new Web();
+    this.web = new Web();
 
     this.timerManager.on("5", () => {
       this.embedManager.updateEmbeds();

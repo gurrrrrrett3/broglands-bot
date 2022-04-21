@@ -2,6 +2,7 @@
  import http from "http"
  import https from "https"
  import authRouter from "./auth/auth"
+ import apiRouter from "./routers/api"
  import ews from "express-ws"
  import fs from "fs"
  import path from "path" 
@@ -21,9 +22,17 @@ const creds = {key, cert}
         ews(this.app)
         //Register routers
         this.app.use("/auth", authRouter)
-
+        this.app.use("/api", apiRouter)
         //Static
         this.app.use("/assets", express.static(path.resolve("./modules/web/public/")))
+
+        this.app.get("/", (req, res) => {
+            res.sendFile(path.resolve("./modules/web/public/pages/index.html"))
+        })
+        
+        this.app.get("/join", (req, res) => {
+            res.redirect("https://discord.gg/6zgUqwk4pD")
+        })
 
         this.httpServer = http.createServer(this.app)
         this.httpsServer = https.createServer(creds, this.app)

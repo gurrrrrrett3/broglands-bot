@@ -11,9 +11,15 @@ const Command = {
         .setName("player")
         .setRequired(true)
         .setDescription("The player to get the sessions of")
+    )
+    .addStringOption(
+      new SlashCommandStringOption().setName("time").setDescription("How far back to look for sessions")
     ),
-  async execute(interaction: Discord.CommandInteraction, ...args: any[]) {  
-    interaction.reply(SessionsViewer.displayOnCommandInteraction(interaction));
+  async execute(interaction: Discord.CommandInteraction, ...args: any[]) {
+    const o = SessionsViewer.displayOnCommandInteraction(interaction);
+    if (o) {
+      interaction.reply(o);
+    }
   },
 };
 module.exports = Command;

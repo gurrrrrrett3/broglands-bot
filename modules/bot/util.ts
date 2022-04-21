@@ -170,6 +170,17 @@ export default class Util {
     return playercount;
   }
 
+  public static getBroglandsTownCount() {
+    let towncount = 0;
+    const towns = Util.getTownFile();
+    towns.forEach((town) => {
+      if (town.nation === "Broglands") {
+        towncount++;
+      }
+    });
+    return towncount;
+  }
+
   /**
    * Get total count of residents in the database
    */
