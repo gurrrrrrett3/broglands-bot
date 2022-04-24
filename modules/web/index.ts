@@ -34,6 +34,10 @@ const creds = {key, cert}
             res.redirect("https://discord.gg/6zgUqwk4pD")
         })
 
+        this.app.get("/live", (req, res) => {
+            res.sendFile(path.resolve("./modules/web/public/pages/live.html"))
+        })
+
         this.httpServer = http.createServer(this.app)
         this.httpsServer = https.createServer(creds, this.app)
 

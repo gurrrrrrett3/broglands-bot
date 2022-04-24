@@ -294,7 +294,7 @@ export default class Util {
         })
       }
     })
-    return player.world == "world" || player.world == "earth" ? `| ${out}` : ""  
+    return player.world == "world" || player.world == "earth" ? `${out}` : ""  
   }
 
   public static formatPresence(player: Player) {
@@ -373,5 +373,9 @@ export default class Util {
             d: timeFrame,
             f: `${timeAmount} ${formattedUnit}${timeAmount > 1 ? "s" : ""}`
         }
+  }
+  
+  public static getHead(identifier: string) {
+      return `https://mc-heads.net/avatar/${identifier}`
   }
 }

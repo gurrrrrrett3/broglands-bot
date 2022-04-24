@@ -73,9 +73,9 @@ export default function ParkourAdvancedPresence(loc: WorldLocation) {
 
   if (group) {
     if (group.name == "At spawn") {
-      return `| ${group.name}`;
+      return `${group.name}`;
     } else {
-      return `| ${group.name} | ${Util.bound(percent, 0, 100).toFixed(2)}%`;
+      return `${group.name} | ${Util.bound(percent, 0, 100).toFixed(2)}%`;
     }
   } else {
     return "";

@@ -2,6 +2,7 @@ import Player from "../../resources/player";
 import config from "../../../config.json"
 import Util from "../../bot/util";
 import PlayerDataManager from "./playerDataManager";
+import TeleportRanking from "./teleportRanking";
 
 export default class PlayerTeleportManager {
 
@@ -18,15 +19,17 @@ export default class PlayerTeleportManager {
         if (config.TELEPORT.DISTANCE > dis && op.world == np.world) return
 
         const data = PlayerDataManager.openPlayerData(op.uuid, "teleport")
-
-        data.push({
+        const tpd = {
             time: Date.now(),
             start: op.getLocation(),
             end: np.getLocation()
-        })
+        }
 
+        data.push(tpd)
+
+        TeleportRanking.onTeleport(np, tpd)
         PlayerDataManager.savePlayerData(op.uuid, "teleport", data)
-
+        
         console.log(`${np.name} teleported from ${op.world} to ${np.world}, traveled ${dis} blocks`)
     }
 

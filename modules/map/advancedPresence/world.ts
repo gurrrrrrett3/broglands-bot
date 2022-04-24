@@ -64,7 +64,7 @@ export default function WorldAdvancedPresence(loc: WorldLocation) {
   });
 
   if (group) {
-      return `| ${group.name}`;
+      return `${group.name}`;
   } else {
     return "";
   }

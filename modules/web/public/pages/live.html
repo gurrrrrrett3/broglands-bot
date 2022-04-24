@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-    <title>Broglands Nation | Home</title>
+    <title>Broglands Nation | Live</title>
   </head>
   <body>
     <!--Nav-->
@@ -29,16 +29,14 @@
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#"
-                >Home
-                <span class="visually-hidden">(current)</span>
-              </a>
+              <a class="nav-link" href="/">Home </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/join">Join</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/live">live</a>
+              <a class="nav-link active" href="#">Live</a>
+              <span class="visually-hidden">(current)</span>
             </li>
           </ul>
           <div>
@@ -54,21 +52,38 @@
     <!--Ticker-->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+      <div class="container-fluid">
+        <span id="ticker">Loading...</span>
 
-            <span id="ticker">Loading...</span>
-            
-          <div class="collapse navbar-collapse" id="navbarColor02">
-          </div>
-        </div>
-      </nav>
+        <div class="collapse navbar-collapse" id="navbarColor02"></div>
+      </div>
+    </nav>
 
     <div class="container">
-      <h1>Broglands Nation</h1>
-      <h2>NOTE: This website is in BETA and is nowhere close to being finished!</h2>
+        <h1>
+            Live Info
+        </h1>
+
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Player</th>
+                <th scope="col">World</th>
+                <th scope="col">Coords</th>
+                <th scope="col">Location</th>
+              </tr>
+            </thead>
+            <tbody id="table">
+                <!--Insert Table Data here-->
+                <tr class="table-warning">
+                    <td>Loading...</td>
+                </tr>
+            </tbody>
+          </table>
     </div>
   </body>
   <script src="/assets/js/ticker.js"></script>
+  <script src="/assets/js/live.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
