@@ -36,10 +36,15 @@ export interface UUID {
 
 export interface TeleportRank {
   name: string;
+  owner: string | undefined;
+  description: string | undefined;
+  tags: string[] | undefined;
+  editedBy: string | undefined;
   count: number;
   players: string[];
   x: number;
   z: number;
   world: string;
-  lastUsed: number
+  lastUsed: number;
+  firstUsed: number;
 }

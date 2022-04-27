@@ -1,12 +1,12 @@
 import Discord, { InteractionReplyOptions } from "discord.js";
-import PlayerSessionManager from "../data/player/playerSessionManager";
-import UUIDManager from "../data/player/uuidManager";
-import SessionPagedEmbed from "../resources/sessionPagedEmbed";
-import Util from "./util";
+import PlayerTeleportManager from "../../data/player/playerTeleportManager";
+import UUIDManager from "../../data/player/uuidManager";
+import TeleportPagedEmbed from "../../resources/pagedEmbed/teleportPagedEmbed";
+import Util from "../util";
 
-//Handles generating the session embeds
+//Handles generating the teleport embeds
 
-export default class SessionsViewer {
+export default class TeleportViewer {
   
   /**
    * Generates an embed set on page 0 for player sessions
@@ -47,27 +47,26 @@ export default class SessionsViewer {
  * @returns options to generate a new message
  */
   public static generateOptions(player: string, page: number = 0, date: string = "", time: number = 0): InteractionReplyOptions {
-    const pagedEmbed = new SessionPagedEmbed(player);
-    const totalPageCount = Math.ceil(PlayerSessionManager.getTimedSessionCount(UUIDManager.getUUID(player) ?? "", time) / 10)
-    console.log(totalPageCount)
+    const pagedEmbed = new TeleportPagedEmbed(player);
+    const totalPageCount = Math.ceil(PlayerTeleportManager.getTimedTeleportCount(UUIDManager.getUUID(player) ?? "", time) / 10)
     const row = new Discord.MessageActionRow().addComponents(
       new Discord.MessageButton()
-        .setCustomId(`sessions-${player}-0-${date}-${time}-start`)
+        .setCustomId(`teleport-${player}-0-${date}-${time}-start`)
         .setEmoji("⏪")
         .setDisabled(page == 0)
         .setStyle("SUCCESS"),
       new Discord.MessageButton()
-        .setCustomId(`sessions-${player}-${page - 1}-${date}-${time}`)
+        .setCustomId(`teleport-${player}-${page - 1}-${date}-${time}`)
         .setEmoji("⬅")
         .setDisabled(page == 0)
         .setStyle("PRIMARY"),
       new Discord.MessageButton()
-        .setCustomId(`sessions-${player}-${page + 1}-${date}-${time}`)
+        .setCustomId(`teleport-${player}-${page + 1}-${date}-${time}`)
         .setEmoji("➡")
         .setDisabled(totalPageCount == page + 1)
         .setStyle("PRIMARY"),
         new Discord.MessageButton()
-        .setCustomId(`sessions-${player}-${totalPageCount - 1}-${date}-${time}-end`)
+        .setCustomId(`teleport-${player}-${totalPageCount - 1}-${date}-${time}-end`)
         .setEmoji("⏩")
         .setDisabled(page == totalPageCount - 1)
         .setStyle("SUCCESS"),

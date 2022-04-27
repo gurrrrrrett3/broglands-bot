@@ -25,6 +25,7 @@
     "express-ws": "^5.0.2",
     "node-html-parser": "^5.3.3",
     "point-in-polygon": "^1.1.0",
+    "snoowrap": "^1.23.0",
     "ws": "^8.5.0"
   },
   "devDependencies": {

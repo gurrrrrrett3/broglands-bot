@@ -1,8 +1,8 @@
 import Discord from "discord.js";
-import UUIDManager from "../data/player/uuidManager";
-import PlayerSessionManager from "../data/player/playerSessionManager";
-import Util from "../bot/util";
-import PlayerLoginManager from "../data/playerLoginManager";
+import UUIDManager from "../../data/player/uuidManager";
+import PlayerSessionManager from "../../data/player/playerSessionManager";
+import Util from "../../bot/util";
+import PlayerLoginManager from "../../data/playerLoginManager";
 export default class SessionPagedEmbed {
   public username: string;
   public uuid: string;

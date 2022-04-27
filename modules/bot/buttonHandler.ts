@@ -1,5 +1,7 @@
 import { ButtonInteraction, Client } from "discord.js";
-import SessionsViewer from "./sessionsViewer";
+import SessionsViewer from "./viewers/sessionsViewer";
+import TeleportViewer from "./viewers/teleportViewer";
+import TeleportRankViewer from "./viewers/trankViewer";
 
 export default class ButtonHandler {
   public client: Client;
@@ -24,6 +26,10 @@ export default class ButtonHandler {
       case "sessions":
         SessionsViewer.editOnButtonInteraction(interaction, interaction.customId);
         break;
+      case "teleport":
+        TeleportViewer.editOnButtonInteraction(interaction, interaction.customId)
+      case "trank":
+        TeleportRankViewer.editOnButtonInteraction(interaction, interaction.customId)
       default:
         break;
     }

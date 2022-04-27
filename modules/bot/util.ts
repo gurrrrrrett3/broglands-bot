@@ -3,7 +3,7 @@ import fs from "fs";
 import { getPresence } from "../map/advancedPresence/presenceManager";
 import Player, { PlayerOptions } from "../resources/player";
 import Town, { TownData } from "../resources/town";
-import { Coords, TownDataFile } from "../resources/types";
+import { Coords, TownDataFile, WorldLocation } from "../resources/types";
 
 //An absoulute fuck ton of util functions that I use a lot (I move them here if they get used more than once, but don't need a whole class)
 
@@ -140,7 +140,8 @@ export default class Util {
   /**
    * Gets the distance between 2 coordnates
    */
-  public static getDistance(a: Coords, b: Coords) {
+  public static getDistance(a: Coords, b: Coords): number 
+  public static getDistance(a: WorldLocation, b: WorldLocation): number {
     return Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.z - b.z, 2));
   }
 
@@ -377,5 +378,14 @@ export default class Util {
   
   public static getHead(identifier: string) {
       return `https://mc-heads.net/avatar/${identifier}`
+  }
+
+  public static areCoordsInArea(coords: Coords, corner1: Coords, corner2: Coords) {
+    return (
+      (coords.x >= corner1.x && coords.x <= corner2.x && coords.z >= corner1.z && coords.z <= corner2.z) ||
+      (coords.x <= corner1.x && coords.x >= corner2.x && coords.z <= corner1.z && coords.z >= corner2.z) ||
+      (coords.x >= corner1.x && coords.x <= corner2.x && coords.z <= corner1.z && coords.z >= corner2.z) ||
+      (coords.x <= corner1.x && coords.x >= corner2.x && coords.z >= corner1.z && coords.z <= corner2.z)
+    );
   }
 }
