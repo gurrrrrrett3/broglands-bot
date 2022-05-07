@@ -1,0 +1,16 @@
+{
+  "shopId": "S12",
+  "owner": "Unknown",
+  "location": {
+    "world": "earth",
+    "a": {
+      "x": 5839,
+      "z": 1631
+    },
+    "b": {
+      "x": 5824,
+      "z": 1616
+    }
+  },
+  "shopName": "Unknown"
+}

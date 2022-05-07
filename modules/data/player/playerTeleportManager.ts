@@ -33,7 +33,6 @@ export default class PlayerTeleportManager {
     TeleportRanking.onTeleport(np, tpd);
     PlayerDataManager.savePlayerData(op.uuid, "teleport", data);
 
-    console.log(`${np.name} teleported from ${op.world} to ${np.world}, traveled ${dis} blocks`);
   }
 
   public static getTimedTeleportCount(uuid: string, after?: number, before?: number) {

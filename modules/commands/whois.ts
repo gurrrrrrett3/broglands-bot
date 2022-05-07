@@ -25,10 +25,14 @@ const Command = {
         .setDescription(`
         Created: <t:${Math.floor(user.createdAt.getTime() / 1000)}> (<t:${Math.floor(user.createdAt.getTime() / 1000)}:R>)
         Joined:  <t:${Math.floor((member.joinedAt.getTime()  ) / 1000)}> (<t:${Math.floor(member.joinedAt.getTime() / 1000)}:R>)
-        
+
         Linked: ${Linking.getLinkByID(user.id) ? `Linked to ${Linking.getLinkByID(user.id)?.ign}` : "Not Linked"}
         Rank: <@&${member.roles.highest.id}>
         `)
+
+      interaction.reply({
+        embeds: [embed]
+      })
   },
 };
 module.exports = Command;

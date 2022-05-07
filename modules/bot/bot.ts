@@ -12,6 +12,9 @@ import Util from "./util";
 import ButtonHandler from "./buttonHandler";
 import TimerManager from "./timerManager";
 import MapInterface from "../map/mapInterface";
+import ShopManager from "../shop/shopManager";
+import MusicManager from "../music/musicManager";
+import SelectMenuHandler from "./selectMenuHandler";
 
 let channels = new Map<string, Dicord.TextChannel>();
 
@@ -29,7 +32,10 @@ export default class Bot {
   public linkManager: LinkManager;
   public playerUpdate: playerUpdate;
   public buttonHandler: ButtonHandler;
+  public selectMenuHendler: SelectMenuHandler
   public timerManager: TimerManager;
+  public shopManager: ShopManager;
+  public music: MusicManager
   public web: Web;
 
   constructor(client: Dicord.Client) {
@@ -41,8 +47,12 @@ export default class Bot {
     this.linkManager = new LinkManager(client);
     this.playerUpdate = new playerUpdate();
     this.buttonHandler = new ButtonHandler(client);
+    this.selectMenuHendler = new SelectMenuHandler(client)
     this.timerManager = new TimerManager();
+    this.shopManager = new ShopManager();
+    this.music = new MusicManager(client)
     this.web = new Web();
+    
 
     this.timerManager.on("5", () => {
       this.embedManager.updateEmbeds();
@@ -144,7 +154,7 @@ export default class Bot {
     });
 
     this.Client.on("messageCreate", (message) => {
-      if (message.mentions.members && message.mentions.members.get("232510731067588608")) {
+      /* if (message.mentions.members && message.mentions.members.get("232510731067588608")) {
         const d = new Date();
         console.log(d.getHours());
         if (d.getHours() >= 2 && d.getHours() < 9) {
@@ -152,7 +162,8 @@ export default class Bot {
             "Hey, I'm most likely asleep right now, and won't see your message until the morning when I wake up. Sorry about that!"
           );
         }
-      }
+      } */
+
     });
   }
 

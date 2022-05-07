@@ -122,6 +122,26 @@ export default class TeleportRanking {
     return sorted.slice(0, 25);
   }
 
+  public static getDataSummary() {
+    const tele = this.openTeleportDataFile();
+
+    let players: string[] = [];
+
+    tele.forEach((r) => {
+      r.players.forEach((p) => {
+        if (!players.includes(p)) players.push(p);
+      }
+      );
+    });
+
+    return {
+      total: tele.length,
+      uses: tele.reduce((a, b) => a + b.count, 0),
+      players: tele.reduce((a, b) => a + b.players.length, 0),
+      unique: players.length,
+    }
+  }
+
   public static openTeleportDataFile() {
     return JSON.parse(fs.readFileSync(this.TELEPORT_DATA_FILE, "utf-8")) as TeleportRank[];
   }

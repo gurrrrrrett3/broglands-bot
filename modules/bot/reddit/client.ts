@@ -10,7 +10,7 @@ export default class RedditClient {
     const random = Math.floor(Math.random() * posts.length);
     const post = posts[random];
 
-    if (post.selftext.length > 4096 || (post.over_18 && !nsfw)) {
+    if (post.selftext.length > 4096 || (post.over_18 != nsfw)) {
         //@ts-ignore
       return this.getRandomPost(subreddit);
     } else {
@@ -26,7 +26,7 @@ export default class RedditClient {
     const random = Math.floor(Math.random() * posts.length);
     const post = posts[random];
 
-    if (post.selftext.length > 4096 || (post.over_18 && !nsfw)) {
+    if (post.selftext.length > 4096 || (post.over_18 != nsfw)) {
         //@ts-ignore
       return this.getRandomPost(subreddit);
     } else {

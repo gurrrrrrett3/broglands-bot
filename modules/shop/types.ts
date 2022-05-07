@@ -17,6 +17,7 @@ export interface ShopOwner {
 export interface ShopArea {
     world: string;
     a: Coords
+    b: Coords
 }
 
 export interface ShopSession {

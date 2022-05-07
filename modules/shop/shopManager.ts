@@ -1,19 +1,17 @@
 import Player from "../resources/player"
 import Shop from "./shop"
+import ShopRegionManager from "./shopRegionManager"
 import { ShopSession } from "./types"
 
 export default class ShopManager {
 
-        public currentSessions: ShopSession[]
-        public static shops: Shop[]
 
         constructor() {
-            this.currentSessions = []
+            ShopRegionManager.loadShops()
         }
 
         public onUpdate(playerList: Player[]) {
 
-            //Iterate through player list
 
         }
 
