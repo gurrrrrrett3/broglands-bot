@@ -1,7 +1,11 @@
 import { Router } from "express";
 import Util from "../../bot/util";
 import MapInterface from "../../map/mapInterface";
+import dataRouter from "./dataApi"
+
 const router = Router();
+
+router.use("/data", dataRouter)
 
 router.get("/ticker", (req, res) => {
   let tickerContent = [

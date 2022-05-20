@@ -18,6 +18,14 @@ export type LoginLogoutData = {
 
 export type PlayerTeleportData = TeleportData[]
 
+export interface RankedTeleportData extends TeleportData {
+  count: number;
+}
+
+export interface RankedTeleportEndData extends WorldLocation {
+  count: number;
+}
+
 export interface TeleportData {
   time: number;
   start: WorldLocation;

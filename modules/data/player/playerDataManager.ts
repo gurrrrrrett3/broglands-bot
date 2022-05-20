@@ -25,7 +25,7 @@ export default class PlayerDataManager {
 ): void {
     this.makeFolders(uuid);
     const filePath = path.join(PlayerDataManager.FOLDER_PATH, uuid, `${type}.json`);
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 4));
+    fs.writeFileSync(filePath, JSON.stringify(data));
   }
 
   private static makeFolders(uuid: string) {
@@ -37,12 +37,12 @@ export default class PlayerDataManager {
 
     const teleportPath = path.join(folderPath, "teleport.json");
     if (!fs.existsSync(teleportPath)) {
-      fs.writeFileSync(teleportPath, JSON.stringify([], null, 4));
+      fs.writeFileSync(teleportPath, JSON.stringify([]));
     }
 
     const sessionPath = path.join(folderPath, "session.json");
     if (!fs.existsSync(sessionPath)) {
-      fs.writeFileSync(sessionPath, JSON.stringify([], null, 4));
+      fs.writeFileSync(sessionPath, JSON.stringify([]));
     }
   }
 }

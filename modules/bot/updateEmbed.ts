@@ -26,7 +26,7 @@ export default class UpdateEmbed {
         const embed = new Discord.MessageEmbed()
             .setColor("#00ff00")
             .setTitle("New Town")
-            .setDescription(`${town.name} has been founded by ${Util.formatPlayer(town.mayor)}\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`)
+            .setDescription(`${town.name} has been founded by ${Util.formatPlayer(town.mayor)}`)
             .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`, true)
             .setTimestamp();
 

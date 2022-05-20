@@ -1,11 +1,10 @@
-import ws from "ws"
+import ws from "ws";
 
 export default class SocketMessageParser {
+  public static parse(socket: ws, message: string) {
+    let options = message.split("\n");
 
-    public static parse(socket: ws, message: string) {
-       let options = message.split("\n")
-       
-        /* MESSAGE TYPES
+    /* MESSAGE TYPES
 
         <title>
         Date.now()
@@ -13,7 +12,7 @@ export default class SocketMessageParser {
         <OTHER DATA>
 
         --Conection message
-        CONNECTION
+        CONNECT
         Date
         Username
         null
@@ -26,5 +25,23 @@ export default class SocketMessageParser {
 
         */
 
+    let date = new Date(options[1]);
+    let username = options[2];
+
+    switch (options[0]) {
+      case "CONNECT":
+        return {
+          type: "CONNECT",
+          date: date,
+          username: username,
+        };
+      case "MESSAGE":
+        return {
+          type: "MESSAGE",
+          date: date,
+          username: username,
+          message: options[3],
+        };
     }
+  }
 }

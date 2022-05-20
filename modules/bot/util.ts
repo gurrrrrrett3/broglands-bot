@@ -1,5 +1,6 @@
 import Discord from "discord.js";
 import fs from "fs";
+import { RankedTeleportEndData } from "../data/player/types";
 import { getPresence } from "../map/advancedPresence/presenceManager";
 import Player, { PlayerOptions } from "../resources/player";
 import Town, { TownData } from "../resources/town";
@@ -387,5 +388,9 @@ export default class Util {
       (coords.x >= corner1.x && coords.x <= corner2.x && coords.z <= corner1.z && coords.z >= corner2.z) ||
       (coords.x <= corner1.x && coords.x >= corner2.x && coords.z >= corner1.z && coords.z <= corner2.z)
     );
+  }
+
+  public static matchTeleportLocations(a: WorldLocation | RankedTeleportEndData, b: WorldLocation | RankedTeleportEndData) {
+    return a.world == b.world && a.x == b.x && a.z == b.z
   }
 }

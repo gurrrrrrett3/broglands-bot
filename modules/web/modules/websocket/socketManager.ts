@@ -1,5 +1,6 @@
 import ws from "ws";
 import SocketMessageParser from "./socketMessageParser";
+import SocketSessionManager from "./socketSessionManager";
 export default class SocketManager {
   constructor(public server: ws.Server) {
     server.on("connection", (socket , req) => {
@@ -16,7 +17,7 @@ export default class SocketManager {
   }
 
   public onConnection(socket: ws.WebSocket) {
-    console.log("Socket connected");
+    SocketSessionManager
   }
 
   public onDisconnect(socket: ws.WebSocket, code: number, reason: string) {

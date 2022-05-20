@@ -47,3 +47,8 @@ export interface TownDataFile {
   polygon: Polygon[] | undefined
 }
 
+export interface PlayerSelfSessionOptions {
+  amount: number,
+  before?: number,
+  after?: number
+}

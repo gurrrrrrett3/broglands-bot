@@ -46,7 +46,7 @@ export default class TeleportViewer {
  * @param page page to get
  * @returns options to generate a new message
  */
-  public static generateOptions(player: string, page: number = 0, date: string = "", time: number = 0): InteractionReplyOptions {
+  public static generateOptions(player: string, page: number = 0, date: string = "", time: number = 0) {
     const pagedEmbed = new TeleportPagedEmbed(player);
     const totalPageCount = Math.ceil(PlayerTeleportManager.getTimedTeleportCount(UUIDManager.getUUID(player) ?? "", time) / 10)
     const row = new Discord.MessageActionRow().addComponents(

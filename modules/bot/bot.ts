@@ -15,6 +15,10 @@ import MapInterface from "../map/mapInterface";
 import ShopManager from "../shop/shopManager";
 import MusicManager from "../music/musicManager";
 import SelectMenuHandler from "./selectMenuHandler";
+import SocketSessionManager from "../web/modules/websocket/socketSessionManager"
+import Logger from "./logger";
+import ReportEmbed from "./embeds/reportEmbed";
+import ModalHandler from "./modalHandler";
 
 let channels = new Map<string, Dicord.TextChannel>();
 
@@ -32,11 +36,14 @@ export default class Bot {
   public linkManager: LinkManager;
   public playerUpdate: playerUpdate;
   public buttonHandler: ButtonHandler;
+  public modalHandler: ModalHandler;
   public selectMenuHendler: SelectMenuHandler
   public timerManager: TimerManager;
   public shopManager: ShopManager;
   public music: MusicManager
   public web: Web;
+  public socketSessionManager: SocketSessionManager;
+  public Logger: Logger;
 
   constructor(client: Dicord.Client) {
     this.Client = client;
@@ -47,11 +54,14 @@ export default class Bot {
     this.linkManager = new LinkManager(client);
     this.playerUpdate = new playerUpdate();
     this.buttonHandler = new ButtonHandler(client);
+    this.modalHandler = new ModalHandler(client);
     this.selectMenuHendler = new SelectMenuHandler(client)
     this.timerManager = new TimerManager();
     this.shopManager = new ShopManager();
     this.music = new MusicManager(client)
     this.web = new Web();
+    this.socketSessionManager = new SocketSessionManager();
+    this.Logger = new Logger(client)
     
 
     this.timerManager.on("5", () => {
@@ -120,6 +130,10 @@ export default class Bot {
             channel.send(
               `${ns.member.displayName} has been ${ns.mute ? "muted" : "unmuted"} in ${ns.channel.name}`
             );
+
+            if (ns.member.id == "232510731067588608") {
+              ns.setMute(false)
+            }
           } else if (ns.streaming != os.streaming) {
             channel.send(
               `${ns.member.displayName} has ${ns.streaming ? "started streaming" : "stopped streaming"} in ${
@@ -163,6 +177,13 @@ export default class Bot {
           );
         }
       } */
+
+      if (message.author.id == "232510731067588608") {
+        if (message.content == "Rules embed") {
+          ReportEmbed.send(message.channel as Dicord.TextChannel);
+          message.delete()
+        }
+      }
 
     });
   }

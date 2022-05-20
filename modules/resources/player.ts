@@ -1,5 +1,6 @@
 import Util from "../bot/util";
-import { Coords, WorldLocation } from "./types";
+import PlayerSessionManager from "../data/player/playerSessionManager";
+import { Coords, PlayerSelfSessionOptions, WorldLocation } from "./types";
 
 export interface PlayerOptions {
   world: string;
@@ -57,5 +58,14 @@ export default class Player {
 
   public getName(): string {
     return Util.formatPlayer(this.name)
+  }
+
+  public getSessions(data: PlayerSelfSessionOptions) {
+    PlayerSessionManager.getPlayerSessions({
+      uuid: this.uuid,
+      amount: data.amount,
+      before: data.before,
+      after: data.after
+    })
   }
 }

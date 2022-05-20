@@ -14,14 +14,13 @@ export default class TeleportRanking {
     // If the teleport is in the same place as a previous teleport, increment the count
     if (td) {
       if (td.world.includes("resource")) return;
-      td.count++; 
+      td.count++;
       if (!td.firstUsed) td.firstUsed = td.lastUsed;
       td.lastUsed = Date.now();
       if (!td.players.includes(player.uuid)) {
         td.players.push(player.uuid);
       }
 
-     
       //sort player list to put uuid at top
       td.players.sort((a, b) => {
         if (a == player.uuid) return -1;
@@ -75,7 +74,20 @@ export default class TeleportRanking {
   }
 
   public static getTeleportDataByCoords(x: number, z: number, world: string) {
-    return this.openTeleportDataFile().find((r) => r.x == x && r.z == z && r.world == world);
+    return this.openTeleportDataFile().find(
+      (r) =>
+        r.world == world &&
+        Util.getDistance(
+          {
+            x: r.x,
+            z: r.z,
+          },
+          {
+            x,
+            z,
+          }
+        ) < 5
+    );
   }
 
   public static editTeleportData(
@@ -130,8 +142,7 @@ export default class TeleportRanking {
     tele.forEach((r) => {
       r.players.forEach((p) => {
         if (!players.includes(p)) players.push(p);
-      }
-      );
+      });
     });
 
     return {
@@ -139,7 +150,7 @@ export default class TeleportRanking {
       uses: tele.reduce((a, b) => a + b.count, 0),
       players: tele.reduce((a, b) => a + b.players.length, 0),
       unique: players.length,
-    }
+    };
   }
 
   public static openTeleportDataFile() {
@@ -150,9 +161,7 @@ export default class TeleportRanking {
     fs.writeFileSync(
       this.TELEPORT_DATA_FILE,
       JSON.stringify(
-        data.sort((a, b) => b.count - a.count),
-        null,
-        4
+        data.sort((a, b) => b.count - a.count)
       )
     );
   }

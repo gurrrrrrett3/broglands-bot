@@ -4,6 +4,7 @@ import Util from "../../bot/util";
 import PlayerDataManager from "./playerDataManager";
 import TeleportRanking from "./teleportRanking";
 import { GetPlayerSessionOptions } from "./playerSessionManager";
+import { WorldLocation } from "../../resources/types";
 
 export default class PlayerTeleportManager {
   public static handleTeleports(ops: Player[], nps: Player[]): void {
@@ -33,6 +34,7 @@ export default class PlayerTeleportManager {
     TeleportRanking.onTeleport(np, tpd);
     PlayerDataManager.savePlayerData(op.uuid, "teleport", data);
 
+    console.log(`${np.name} teleported from ${op.world} to ${np.world}, traveled ${dis} blocks`);
   }
 
   public static getTimedTeleportCount(uuid: string, after?: number, before?: number) {
@@ -80,5 +82,49 @@ export default class PlayerTeleportManager {
     const slicedTeleports = sortedteleports.slice(page * 10, (page + 1) * 10);
 
     return slicedTeleports;
+  }
+
+  public static getPlayerTeleports(options: GetPlayerSessionOptions) {
+    const teleports = PlayerDataManager.openPlayerData(options.uuid, "teleport");
+
+    const filteredteleports = teleports.filter((teleport) => {
+      if (options.after && teleport.time < options.after) {
+        return false;
+      }
+      if (options.before && teleport.time > options.before) {
+        return false;
+      }
+      return true;
+    });
+
+    const sortedteleports = filteredteleports.sort((a, b) => {
+      if (a.time > b.time) {
+        return -1;
+      }
+      if (a.time < b.time) {
+        return 1;
+      }
+      return 0;
+    });
+
+    if (options.amount != -1) {
+      return sortedteleports.slice(0, options.amount);
+    } else {
+      return sortedteleports;
+    }
+  }
+
+  public static getPlayerEndTeleportCount(uuid: string, location: WorldLocation) {
+    const teleports = PlayerDataManager.openPlayerData(uuid, "teleport");
+
+    let count = 0
+
+    teleports.forEach((t => {
+        if (Util.getDistance(t.end, location) < 5) {
+          count ++
+        }
+    }))
+
+    return count
   }
 }

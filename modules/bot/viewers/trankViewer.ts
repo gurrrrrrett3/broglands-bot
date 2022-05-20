@@ -31,7 +31,7 @@ export default class TeleportRankViewer {
  * @param page page to get
  * @returns options to generate a new message
  */
-  public static generateOptions(type: string, page: number = 0): InteractionReplyOptions {
+  public static generateOptions(type: string, page: number = 0) {
     const pagedEmbed = new TeleportRankPagedEmbed(type);
     const totalPageCount = Math.ceil(TeleportRanking.openTeleportDataFile().length / 25)
     const row = new Discord.MessageActionRow().addComponents(

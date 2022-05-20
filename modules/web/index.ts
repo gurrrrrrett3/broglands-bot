@@ -5,6 +5,7 @@
  import { parse } from "url"
  import authRouter from "./auth/auth"
  import apiRouter from "./routers/api"
+ import playerRouter from "./routers/player"
  import fs from "fs"
  import path from "path" 
 import SocketServer from "./modules/websocket/socketServer"
@@ -25,6 +26,7 @@ const creds = {key, cert}
         //Register routers
         this.app.use("/auth", authRouter)
         this.app.use("/api", apiRouter)
+        this.app.use("/player", playerRouter)
         //Static
         this.app.use("/assets", express.static(path.resolve("./modules/web/public/")))
 

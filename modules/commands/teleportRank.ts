@@ -8,6 +8,7 @@ import {
 import Discord from "discord.js";
 import Util from "../bot/util";
 import TeleportRankViewer from "../bot/viewers/trankViewer";
+import PlayerTeleportManager from "../data/player/playerTeleportManager";
 import TeleportRanking from "../data/player/teleportRanking";
 import { TeleportRank } from "../data/player/types";
 import UUIDManager from "../data/player/uuidManager";
@@ -154,10 +155,7 @@ const Command = {
                 .setRequired(true)
             )
             .addStringOption(
-              new SlashCommandStringOption()
-                .setName("new")
-                .setDescription("New Owner")
-                .setRequired(true)
+              new SlashCommandStringOption().setName("new").setDescription("New Owner").setRequired(true)
             )
         )
     ),
@@ -173,25 +171,27 @@ const Command = {
     const name = options.getString("name");
     const newValue = options.getString("new");
 
+    await interaction.deferReply()
+
     if (group === "leaderboard") {
-      interaction.reply(TeleportRankViewer.displayOnCommandInteraction(interaction, subcommand));
+      interaction.editReply(TeleportRankViewer.displayOnCommandInteraction(interaction, subcommand));
     } else if (group === "view") {
       if (subcommand === "coords") {
         const data = TeleportRanking.getTeleportDataByCoords(x, z, world ?? "world");
         if (!data) {
-          interaction.reply("No teleport rank with those coordinates exists.");
+          interaction.editReply("No teleport rank with those coordinates exists.");
           return;
         }
 
-        interaction.reply({ embeds: [genEmbed(data)] });
+        interaction.editReply({ embeds: [genEmbed(data)] });
       } else if (subcommand === "name") {
         const data = TeleportRanking.getTeleportDataByName(name ?? "");
         if (!data) {
-          interaction.reply("No teleport rank with that name exists.");
+          interaction.editReply("No teleport rank with that name exists.");
           return;
         }
 
-        interaction.reply({ embeds: [genEmbed(data)] });
+        interaction.editReply({ embeds: [genEmbed(data)] });
       }
     } else if (group === "edit") {
       if (subcommand === "name") {
@@ -199,25 +199,25 @@ const Command = {
           name: newValue ?? "",
           editedBy: interaction.user.username,
         });
-        interaction.reply(d);
+        interaction.editReply(d);
       } else if (subcommand === "description") {
         const d = TeleportRanking.editTeleportData(name ?? "", {
           description: newValue ?? "",
           editedBy: interaction.user.username,
         });
-        interaction.reply(d);
+        interaction.editReply(d);
       } else if (subcommand === "tags") {
         const d = TeleportRanking.editTeleportData(name ?? "", {
           tags: newValue?.split(",").map((v) => v.trim()),
           editedBy: interaction.user.username,
         });
-        interaction.reply(d);
+        interaction.editReply(d);
       } else if (subcommand === "owner") {
         const d = TeleportRanking.editTeleportData(name ?? "", {
           owner: newValue ?? "",
           editedBy: interaction.user.username,
         });
-        interaction.reply(d);
+        interaction.editReply(d);
       }
     }
   },
@@ -241,19 +241,63 @@ function genEmbed(data: TeleportRank) {
         "relative"
       )})`
     )
-    .addField("First Used", data.firstUsed ? `${Util.formatDiscordTime(data.firstUsed, "longDateTime")} (${Util.formatDiscordTime(
-      data.firstUsed,
-      "relative"
-    )})` : "No Data")
+    .addField(
+      "First Used",
+      data.firstUsed
+        ? `${Util.formatDiscordTime(data.firstUsed, "longDateTime")} (${Util.formatDiscordTime(
+            data.firstUsed,
+            "relative"
+          )})`
+        : "No Data"
+    )
     .addField(
       "Last 10 Users",
       data.players
         .slice(0, 10)
-        .map((u) => Util.formatPlayer(UUIDManager.getUsername(u) ?? ""))
+        .map(
+          (u) =>
+            `${Util.formatPlayer(
+              UUIDManager.getUsername(u) ?? ""
+            )} [\`${PlayerTeleportManager.getPlayerEndTeleportCount(u, {
+              world: data.world,
+              x: data.x,
+              z: data.z,
+            })}\`]`
+        )
         .join("\n"),
       true
     )
-    
+    .addField(
+      "Top 10 Users",
+      data.players
+      .sort((a, b) => {
+       return PlayerTeleportManager.getPlayerEndTeleportCount(b, {
+          world: data.world,
+          x: data.x,
+          z: data.z,
+        })
+        -
+        PlayerTeleportManager.getPlayerEndTeleportCount(a, {
+          world: data.world,
+          x: data.x,
+          z: data.z,
+        })
+      })
+        .slice(0, 10)
+        .map(
+          (u) =>
+            `${Util.formatPlayer(
+              UUIDManager.getUsername(u) ?? ""
+            )} [\`${PlayerTeleportManager.getPlayerEndTeleportCount(u, {
+              world: data.world,
+              x: data.x,
+              z: data.z,
+            })}\`]`
+        )
+        .join("\n"),
+      true
+    )
+
     .setURL(
       MapInterface.generateMapLink(
         {

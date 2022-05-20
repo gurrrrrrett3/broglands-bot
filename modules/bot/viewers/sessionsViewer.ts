@@ -46,7 +46,7 @@ export default class SessionsViewer {
  * @param page page to get
  * @returns options to generate a new message
  */
-  public static generateOptions(player: string, page: number = 0, date: string = "", time: number = 0): InteractionReplyOptions {
+  public static generateOptions(player: string, page: number = 0, date: string = "", time: number = 0) {
     const pagedEmbed = new SessionPagedEmbed(player);
     const totalPageCount = Math.ceil(PlayerSessionManager.getTimedSessionCount(UUIDManager.getUUID(player) ?? "", time) / 10)
     const row = new Discord.MessageActionRow().addComponents(
