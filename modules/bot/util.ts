@@ -141,8 +141,7 @@ export default class Util {
   /**
    * Gets the distance between 2 coordnates
    */
-  public static getDistance(a: Coords, b: Coords): number 
-  public static getDistance(a: WorldLocation, b: WorldLocation): number {
+  public static getDistance(a: WorldLocation | Coords, b: WorldLocation | Coords): number {
     return Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.z - b.z, 2));
   }
 

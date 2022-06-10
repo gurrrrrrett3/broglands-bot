@@ -1,5 +1,4 @@
 import { SelectMenuInteraction, Client } from "discord.js";
-import SearchEmbed from "../music/resources/searchEmbed";
 import SessionsViewer from "./viewers/sessionsViewer";
 import TeleportViewer from "./viewers/teleportViewer";
 import TeleportRankViewer from "./viewers/trankViewer";
@@ -24,8 +23,6 @@ export default class SelectMenuHandler {
     console.log(options)
 
     switch (comm) {
-      case "search":
-        SearchEmbed.select(interaction, interaction.customId)
       default:
         break;
     }

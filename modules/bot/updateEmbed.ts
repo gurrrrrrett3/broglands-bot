@@ -5,79 +5,117 @@ import Town from "../resources/town";
 import Util from "./util";
 
 export default class UpdateEmbed {
+  public static readonly townInfoChannelId = "953652115094519898";
+  public static readonly nationInfoChannelId = "958108424913174528";
+  public static readonly joinLeaveChannelId = "958761308453474304";
 
-    public static readonly townInfoChannelId = "953652115094519898";
-    public static readonly nationInfoChannelId = "958108424913174528";
-    public static readonly joinLeaveChannelId = "958761308453474304";
+  public static readonly ENABLED = false;
 
-    public townInfoChannel: Discord.TextChannel;
-    public nationInfoChannel: Discord.TextChannel;
-    public joinLeaveChannel: Discord.TextChannel;
+  //@ts-ignore
+  public townInfoChannel: Discord.TextChannel;
+  //@ts-ignore
+  public nationInfoChannel: Discord.TextChannel;
+  //@ts-ignore
+  public joinLeaveChannel: Discord.TextChannel;
 
-    constructor (public client: Discord.Client) {
-
-        this.townInfoChannel = this.client.channels.cache.get(UpdateEmbed.townInfoChannelId) as Discord.TextChannel;
-        this.nationInfoChannel = this.client.channels.cache.get(UpdateEmbed.nationInfoChannelId) as Discord.TextChannel;
-        this.joinLeaveChannel = this.client.channels.cache.get(UpdateEmbed.joinLeaveChannelId) as Discord.TextChannel;
-
+  constructor(public client: Discord.Client) {
+    if (UpdateEmbed.ENABLED) {
+      this.townInfoChannel = this.client.channels.cache.get(
+        UpdateEmbed.townInfoChannelId
+      ) as Discord.TextChannel;
+      this.nationInfoChannel = this.client.channels.cache.get(
+        UpdateEmbed.nationInfoChannelId
+      ) as Discord.TextChannel;
+      this.joinLeaveChannel = this.client.channels.cache.get(
+        UpdateEmbed.joinLeaveChannelId
+      ) as Discord.TextChannel;
     }
+  }
 
-    public newTown(town: Town): void {
-        const embed = new Discord.MessageEmbed()
-            .setColor("#00ff00")
-            .setTitle("New Town")
-            .setDescription(`${town.name} has been founded by ${Util.formatPlayer(town.mayor)}`)
-            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`, true)
-            .setTimestamp();
+  public newTown(town: Town): void {
+    const embed = new Discord.MessageEmbed()
+      .setColor("#00ff00")
+      .setTitle("New Town")
+      .setDescription(`${town.name} has been founded by ${Util.formatPlayer(town.mayor)}`)
+      .addField(
+        "Location",
+        `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${
+          town.world
+        }\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`,
+        true
+      )
+      .setTimestamp();
 
-        this.townInfoChannel.send({embeds: [embed]});
+    if (UpdateEmbed.ENABLED) this.townInfoChannel.send({ embeds: [embed] });
+  }
 
-    }
+  public updateTown(town: Town, title: string, desc: string): void {
+    const embed = new Discord.MessageEmbed()
+      .setColor("#ffff00")
+      .setTitle(title)
+      .setDescription(desc)
+      .addField(
+        "Location",
+        `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${
+          town.world
+        }\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`,
+        true
+      )
+      .setTimestamp();
 
-    public updateTown(town: Town, title: string, desc: string): void {
-        const embed = new Discord.MessageEmbed()
-            .setColor("#ffff00")
-            .setTitle(title)
-            .setDescription(desc)
-            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\`\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`, true)
-            .setTimestamp();
+    if (UpdateEmbed.ENABLED) this.townInfoChannel.send({ embeds: [embed] });
+  }
 
-        this.townInfoChannel.send({embeds: [embed]});
-    }
+  public removeTown(town: Town): void {
+    const embed = new Discord.MessageEmbed()
+      .setColor("#ff0000")
+      .setTitle("Town Removed")
+      .setDescription(
+        `${town.name} has been removed\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`
+      )
+      .addField(
+        "Location",
+        `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\``,
+        true
+      )
+      .setTimestamp();
 
-    public removeTown(town: Town): void {
-        const embed = new Discord.MessageEmbed()
-            .setColor("#ff0000")
-            .setTitle("Town Removed")
-            .setDescription(`${town.name} has been removed\n[View on map](${MapInterface.generateMapLink(town.getLocation(), 3)})`)
-            .addField("Location", `x: \`${town.coords.x}\`\nz: \`${town.coords.z}\`\nWorld: \`${town.world}\``, true)
-            .setTimestamp();
+    if (UpdateEmbed.ENABLED) this.townInfoChannel.send({ embeds: [embed] });
+  }
 
-        this.townInfoChannel.send({embeds: [embed]});
-    }
+  public playerJoin(player: Player): void {
+    const embed = new Discord.MessageEmbed()
+      .setColor("#00ff00")
+      .setTitle("Player Joined")
+      .setDescription(`${player.getName()} has joined the server`)
+      .setThumbnail(`https://mc-heads.net/head/${player.name}`)
+      .addField(
+        "Location",
+        `x: \`${player.x}\`\nz: \`${player.z}\`\nWorld: \`${
+          player.world
+        }\`\n[View on map](${MapInterface.generateMapLink(player.getLocation(), 3)})`,
+        true
+      )
+      .setTimestamp();
 
-    public playerJoin(player: Player): void {
-        const embed = new Discord.MessageEmbed()
-            .setColor("#00ff00")
-            .setTitle("Player Joined")
-            .setDescription(`${player.getName()} has joined the server`)
-            .setThumbnail(`https://mc-heads.net/head/${player.name}`)
-            .addField("Location", `x: \`${player.x}\`\nz: \`${player.z}\`\nWorld: \`${player.world}\`\n[View on map](${MapInterface.generateMapLink(player.getLocation(), 3)})`, true)
-            .setTimestamp();
+    if (UpdateEmbed.ENABLED) this.joinLeaveChannel.send({ embeds: [embed] });
+  }
 
-        this.joinLeaveChannel.send({embeds: [embed]});
-    }
+  public playerLeave(player: Player): void {
+    const embed = new Discord.MessageEmbed()
+      .setColor("#ff0000")
+      .setTitle("Player Left")
+      .setDescription(`${player.getName()} has left the server`)
+      .setThumbnail(`https://mc-heads.net/head/${player.name}`)
+      .addField(
+        "Location",
+        `x: \`${player.x}\`\nz: \`${player.z}\`\nWorld: \`${
+          player.world
+        }\`\n[View on map](${MapInterface.generateMapLink(player.getLocation(), 3)})`,
+        true
+      )
+      .setTimestamp();
 
-    public playerLeave(player: Player): void {
-        const embed = new Discord.MessageEmbed()
-            .setColor("#ff0000")
-            .setTitle("Player Left")
-            .setDescription(`${player.getName()} has left the server`)
-            .setThumbnail(`https://mc-heads.net/head/${player.name}`)
-            .addField("Location", `x: \`${player.x}\`\nz: \`${player.z}\`\nWorld: \`${player.world}\`\n[View on map](${MapInterface.generateMapLink(player.getLocation(), 3)})`, true)
-            .setTimestamp();
-
-        this.joinLeaveChannel.send({embeds: [embed]});
-    }
-
+    if (UpdateEmbed.ENABLED) this.joinLeaveChannel.send({ embeds: [embed] });
+  }
 }

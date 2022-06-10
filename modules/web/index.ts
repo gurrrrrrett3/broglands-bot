@@ -45,8 +45,8 @@ const creds = {key, cert}
         this.httpServer = http.createServer(this.app)
         this.httpsServer = https.createServer(creds, this.app)
 
-        this.httpServer.listen(3001)
-        this.httpsServer.listen(3000)
+        this.httpServer.listen(3990)
+        this.httpsServer.listen(3991)
 
         //Websocket server
 

@@ -1,5 +1,4 @@
 import { ButtonInteraction, Client } from "discord.js";
-import SearchEmbed from "../music/resources/searchEmbed";
 import ReportEmbed from "./embeds/reportEmbed";
 import SessionsViewer from "./viewers/sessionsViewer";
 import TeleportViewer from "./viewers/teleportViewer";
@@ -33,9 +32,6 @@ export default class ButtonHandler {
         break;
       case "trank":
         TeleportRankViewer.editOnButtonInteraction(interaction, interaction.customId)
-        break;
-      case "search":
-        SearchEmbed.editOnButtonInteraction(interaction, interaction.customId)
         break;
       case "report":
         ReportEmbed.openModal(interaction)

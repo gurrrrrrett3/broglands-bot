@@ -31,8 +31,6 @@
     "point-in-polygon": "^1.1.0",
     "snoowrap": "^1.23.0",
     "ws": "^8.6.0",
-    "youtube-dl-exec": "^2.0.11",
-    "ytdl-core": "^4.11.0",
     "ytsr": "^3.8.0"
   },
   "devDependencies": {

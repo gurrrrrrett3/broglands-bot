@@ -13,7 +13,6 @@ import ButtonHandler from "./buttonHandler";
 import TimerManager from "./timerManager";
 import MapInterface from "../map/mapInterface";
 import ShopManager from "../shop/shopManager";
-import MusicManager from "../music/musicManager";
 import SelectMenuHandler from "./selectMenuHandler";
 import SocketSessionManager from "../web/modules/websocket/socketSessionManager"
 import Logger from "./logger";
@@ -40,7 +39,6 @@ export default class Bot {
   public selectMenuHendler: SelectMenuHandler
   public timerManager: TimerManager;
   public shopManager: ShopManager;
-  public music: MusicManager
   public web: Web;
   public socketSessionManager: SocketSessionManager;
   public Logger: Logger;
@@ -58,7 +56,6 @@ export default class Bot {
     this.selectMenuHendler = new SelectMenuHandler(client)
     this.timerManager = new TimerManager();
     this.shopManager = new ShopManager();
-    this.music = new MusicManager(client)
     this.web = new Web();
     this.socketSessionManager = new SocketSessionManager();
     this.Logger = new Logger(client)
@@ -194,9 +191,7 @@ export default class Bot {
   public setStatus() {
     const players = Util.getPlayerFile();
     this.Client.user?.setActivity(
-      `on CYT, ${Util.getBroglandsResidentCount()} Broglanders, ${
-        Util.getPlayersInBroglands().length
-      } Online (${((Util.getPlayersInBroglands().length / players.length) * 100).toFixed(2)}%)`,
+      `on CYT, ${players.length} players, ${Util.getAfkPlayers().length} afk`,
       { type: "PLAYING" }
     );
   }

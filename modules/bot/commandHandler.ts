@@ -43,7 +43,7 @@ export default class CommandHandler {
 
       //Push to Discord
       rest
-        .put(Routes.applicationGuildCommands(applicationId, "953522718215655425"), {
+        .put(Routes.applicationGuildCommands(applicationId, "976960742454603877"), {
           body: commandsToDeploy,
         })
         .then(() => {

@@ -13,6 +13,7 @@ import TeleportRanking from "../data/player/teleportRanking";
 import { TeleportRank } from "../data/player/types";
 import UUIDManager from "../data/player/uuidManager";
 import MapInterface from "../map/mapInterface";
+import { Coords } from "../resources/types";
 
 const Command = {
   data: new SlashCommandBuilder()
@@ -80,6 +81,25 @@ const Command = {
               new SlashCommandStringOption()
                 .setName("name")
                 .setDescription("The name of the teleport rank, not case sensitive")
+                .setRequired(true)
+            )
+        )
+        .addSubcommand(
+          new SlashCommandSubcommandBuilder()
+            .setName("time")
+            .setDescription("Get teleport rank data from a time period using TimeSearch")
+            .addStringOption(
+              new SlashCommandStringOption()
+                .setName("name")
+                .setDescription("The name of the teleport rank, not case sensitive")
+                .setRequired(true)
+            )
+            .addStringOption(
+              new SlashCommandStringOption()
+                .setName("time")
+                .setDescription(
+                  "The time period to search for. | Example: '1d' for 1 day, '1w' for 1 week... etc"
+                )
                 .setRequired(true)
             )
         )
@@ -170,8 +190,9 @@ const Command = {
     const z = parseInt(options.getString("z") || "0");
     const name = options.getString("name");
     const newValue = options.getString("new");
+    const time = options.getString("time");
 
-    await interaction.deferReply()
+    await interaction.deferReply();
 
     if (group === "leaderboard") {
       interaction.editReply(TeleportRankViewer.displayOnCommandInteraction(interaction, subcommand));
@@ -192,6 +213,27 @@ const Command = {
         }
 
         interaction.editReply({ embeds: [genEmbed(data)] });
+      } else if (subcommand === "time") {
+       await interaction.editReply("This will take a while, please wait...");
+
+        const data = getRelTrankData(name, time);
+        if (!data) {
+          interaction.editReply("Either the name or time period is invalid.");
+          return;
+        }
+
+        const embed = new Discord.MessageEmbed()
+          .setTitle(`${data.name}'s teleport rank in the last ${data.time?.f}`)
+          .setDescription(
+            [
+              `${data.players.length} players have teleported to ${data.name} in the last ${data.time?.f}`,
+              `**${data.count}** times in total.`,
+              `The top ${data.players.length} players are shown.\n`,
+              data.players.map((p, i) => `**${i + 1}** ${Util.formatPlayer(p.userame)} [\`${p.count}\`]`).join("\n"),
+            ].join("\n")
+          );
+
+        interaction.editReply({ embeds: [embed], content: null });
       }
     } else if (group === "edit") {
       if (subcommand === "name") {
@@ -270,19 +312,20 @@ function genEmbed(data: TeleportRank) {
     .addField(
       "Top 10 Users",
       data.players
-      .sort((a, b) => {
-       return PlayerTeleportManager.getPlayerEndTeleportCount(b, {
-          world: data.world,
-          x: data.x,
-          z: data.z,
+        .sort((a, b) => {
+          return (
+            PlayerTeleportManager.getPlayerEndTeleportCount(b, {
+              world: data.world,
+              x: data.x,
+              z: data.z,
+            }) -
+            PlayerTeleportManager.getPlayerEndTeleportCount(a, {
+              world: data.world,
+              x: data.x,
+              z: data.z,
+            })
+          );
         })
-        -
-        PlayerTeleportManager.getPlayerEndTeleportCount(a, {
-          world: data.world,
-          x: data.x,
-          z: data.z,
-        })
-      })
         .slice(0, 10)
         .map(
           (u) =>
@@ -338,4 +381,70 @@ function genLb(data: TeleportRank[], type: "unique" | "uses" | "ratio") {
     });
 
   return embed;
+}
+
+function getRelTrankData(name: string | null, timeSearch: string | null) {
+  if (!name || !timeSearch) return null;
+
+  let time = Util.timeSearch(timeSearch);
+  let after = Date.now() - (time?.d || 0);
+  if (!after) {
+    return;
+  }
+
+  // Get the data
+
+  let trank = TeleportRanking.getTeleportDataByName(name);
+  if (!trank) return;
+
+  let coords: Coords = {
+    x: trank.x,
+    z: trank.z,
+  };
+
+  let uuids = UUIDManager.openFile();
+
+  let count: {
+    userame: string;
+    count: number;
+  }[] = [];
+
+  let totalCount = 0;
+
+  uuids.forEach(async (uuid) => {
+    let data = PlayerTeleportManager.getPlayerTeleports({
+      uuid: uuid.UUID,
+      amount: -1,
+      after: after,
+    });
+
+    data.forEach(async (d) => {
+      if (d.end.world != trank?.world) return;
+      let dis = Util.getDistance(coords, d.end);
+      if (dis < 5) {
+        totalCount++;
+        let p = count.find((c) => c.userame == uuid.username);
+        if (p) {
+          p.count++;
+        } else {
+          count.push({
+            userame: uuid.username,
+            count: 1,
+          });
+        }
+      }
+    });
+  });
+
+  let outPlayers = count.sort((a, b) => b.count - a.count).slice(0, 25);
+
+  return {
+    name: trank.name,
+    count: totalCount,
+    players: outPlayers,
+    world: trank.world,
+    x: trank.x,
+    z: trank.z,
+    time,
+  };
 }
