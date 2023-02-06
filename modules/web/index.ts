@@ -1,72 +1,65 @@
- import express from "express"
- import http from "http"
- import https from "https"
- import ws from "ws"
- import { parse } from "url"
- import authRouter from "./auth/auth"
- import apiRouter from "./routers/api"
- import playerRouter from "./routers/player"
- import fs from "fs"
- import path from "path" 
-import SocketServer from "./modules/websocket/socketServer"
+import { bot } from "../../core";
+import Module from "../../core/base/module";
+import express from "express";
+import path from "path";
+import fetch from "node-fetch";
+import PlayerFile from "./playerFile";
+import MarkerFile from "./markerFile";
+import MapTileCache from "./mapTileCache";
 
-const key = fs.readFileSync(path.resolve("./selfsigned.key"))
-const cert = fs.readFileSync(path.resolve("./selfsigned.crt"))
+export default class WebModule extends Module {
+  name = "web";
+  description = "manages website";
 
-const creds = {key, cert}
+  public app = express();
 
- export default class Web {
+  override async onLoad(): Promise<boolean> {
+    // disable cors
+    this.app.use((req, res, next) => {
+      res.header("Access-Control-Allow-Origin", "*");
+      res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+      next();
+    });
 
-    public app = express()
-    public httpServer: http.Server
-    public httpsServer: https.Server
-    public wsServer: SocketServer;
+    this.app.use("/", express.static(path.resolve("modules/web/assets")));
 
-    constructor() {
-        //Register routers
-        this.app.use("/auth", authRouter)
-        this.app.use("/api", apiRouter)
-        this.app.use("/player", playerRouter)
-        //Static
-        this.app.use("/assets", express.static(path.resolve("./modules/web/public/")))
+    this.app.get("/tiles/settings.json", (req, res) => {
+      res.sendFile(path.resolve("modules/web/data/settings.json"));
+    });
 
-        this.app.get("/", (req, res) => {
-            res.sendFile(path.resolve("./modules/web/public/pages/index.html"))
-        })
-        
-        this.app.get("/join", (req, res) => {
-            res.redirect("https://discord.gg/6zgUqwk4pD")
-        })
+    this.app.get("/tiles/:world/settings.json", (req, res) => {
+      const world = req.params.world;
 
-        this.app.get("/live", (req, res) => {
-            res.sendFile(path.resolve("./modules/web/public/pages/live.html"))
-        })
+      res.sendFile(path.resolve(`modules/web/data/world.settings.json`));
+    });
 
-        this.httpServer = http.createServer(this.app)
-        this.httpsServer = https.createServer(creds, this.app)
+    this.app.get("/tiles/:world/:zoom/:coords.png", async (req, res) => {
+      const world = req.params.world;
+      const zoom = req.params.zoom;
+      const coords = req.params.coords;
 
-        this.httpServer.listen(3990)
-        this.httpsServer.listen(3991)
+      const img = await MapTileCache.getTile(coords, world, Number(zoom));
+        res.setHeader("Content-Type", "image/png");
+        res.send(img);
+    });
 
-        //Websocket server
+    this.app.get("/tiles/players.json", (req, res) => {
+        res.json(PlayerFile.get());
+    });
 
-        this.wsServer = new SocketServer();
+    this.app.get("/tiles/:world/markers.json", async (req, res) => {
 
-        this.httpsServer.on("upgrade", (req, socket, head) => {
-            if (!req.url) return
-            const { pathname } = parse(req.url)
-            
-            if (pathname == "/ws") {
-                    this.wsServer.get().handleUpgrade(req, socket, head, (websocket) => {
-                        this.wsServer.get().emit('connection', websocket, req)
-                    })
-                    
-            } else {
-                socket.destroy()
-            }
-        })
+        res.json(await MarkerFile.get(req.params.world));
+    })
 
-        console.log(`Opened Servers:\n http: 80\n https: 443`)
+    this.app.listen(3000, () => {
+      console.log("Server is running on port 3000");
+    });
 
-    }
- }
+    return true;
+  }
+
+  public static getWebModule(): WebModule {
+    return bot.moduleLoader.getModule("web") as WebModule;
+  }
+}

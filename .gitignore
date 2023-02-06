@@ -126,12 +126,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-auth.json
+temp
+data/tiles/*/*
 
-*.crt
-*.key
-data/tokens.json
-data/states.json
-data/users/
-data/players/
-dev-auth.json

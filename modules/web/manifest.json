@@ -1,0 +1,10 @@
+{
+    "name": "Web",
+    "description": "manages website",
+    "version": "1.0.0",
+
+    "intents": [
+        "Guilds",
+        "GuildMessages"
+    ]
+}

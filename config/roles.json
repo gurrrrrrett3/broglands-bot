@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1071573754674692096",
+        "name": "Nation Announcements",
+        "description": "Get updates on the latest Nation news and announcements.",
+        "emoji": "📣"
+    },
+    {
+        "id": "1071573877420986408",
+        "name": "Nation Events",
+        "description": "Get updates on the latest Nation events.",
+        "emoji": "⚽"
+    },
+    {
+        "id": "1071573801462149261",
+        "name": "Feed",
+        "description": "Get feed updates.",
+        "emoji": "💬"
+    },
+    {
+        "id": "1071573627658567782",
+        "name": "He/Him",
+        "description": "Get the He/Him pronoun role.",
+        "emoji": "👨"
+    },
+    {
+        "id": "1071573557122961418",
+        "name": "She/Her",
+        "description": "Get the She/Her pronoun role.",
+        "emoji": "👩"
+    },
+    {
+        "id": "1071573655907209246",
+        "name": "They/Them",
+        "description": "Get the They/Them pronoun role.",
+        "emoji": "🧑‍🤝‍🧑"
+    },
+    {
+        "id": "1071573724651864075",
+        "name": "Ask",
+        "description": " Get the Ask pronoun role.",
+        "emoji": "*️⃣"
+    },
+    {
+        "id": "1071573692594794537",
+        "name": "Any",
+        "description": "Get the Any pronoun role.",
+        "emoji": "❔"
+    }
+]
